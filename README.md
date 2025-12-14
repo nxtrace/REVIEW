@@ -20,8 +20,9 @@
 ## 现有评测
 - [Misaka.HKG.Opt](https://nxtrace.github.io/REVIEW/reviews/misaka-hkg-opt/)
 - [Misaka.TPE.Opt](https://nxtrace.github.io/REVIEW/reviews/misaka-tpe-opt/)
+- [xTom Tokyo EPYC Gen 2](https://nxtrace.github.io/REVIEW/reviews/xtom-tokyo-epyc-gen2/)
 
 ## 友情链接
 - 古博：<https://www.gubo.org>
-- LowendAFF：<https://lowendaff.com/>
+- LowendAFF：<https://lowendaff.com>
 - 咸鱼博客：<https://www.bug.cy>
