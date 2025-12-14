@@ -1,9 +1,5 @@
 # Misaka.HKG.Opt
 
-716GB 单向计费 @ 无端口限速 = 21 USD / 月。
-
-> 提示：本文中的截图来自 GitHub 附件，便于读者直接展开查看；实时监控等动态数据依旧通过官方链接获取。
-
 ## 买
 
 ### 规格对照（可展开查看）
@@ -48,12 +44,10 @@
 
 ### 购买信息
 - **官方开通入口**：<https://app.misaka.io/iaas/vm/create/hkg12/s3p2-1c1g>
-- **线路策略**：三网「尽力而为」的优化，重点改善国内回程体验。
-- **定位**：适合需要香港落地、对延迟/回国线路敏感的场景。
 
 ## 评
 
-三网回程策略的「尽力而为」在测试样本中表现稳定，香港落地对北方地区延迟控制不错，配合 716GB 单向计费和不限端口的设定，适合需要少量高质量线路的回国业务，但带宽峰值与超量费用仍需关注。
+三网有尽力而为的优化，目前的情况仅适合落地用途使用，适合预算充裕且对国际线路和机器稳定性有较高要求的客户（该商家极少发生故障停机现象，国际线路端口充足）。
 
 ## 测
 
@@ -96,7 +90,13 @@
 - **实时三网 ICMP**：<https://ping.nxtrace.org/goto/yQTjSoMvR>
 - **实时三网 TCP**：<https://ping.nxtrace.org/goto/6JCjITGvR>
 - **Looking Glass**：<https://ping.sx/mtr?p=234>
-- 北京三网延迟监控截图会补到 `assets/images/misaka-hkg-opt/latency-beijing.png`，届时同样采用折叠展示；当前可直接查看以上实时页面。
+- **北京三网延迟监控截图**：
+  <details>
+  <summary>展开查看</summary>
+  
+  ![2025-12-14 14.01.29](https://github.com/user-attachments/assets/885afb75-f39d-4b82-8efa-438e9697549a)
+
+  </details>
 
 ### 北京四网代理单线程测速
 
@@ -159,7 +159,7 @@
 ### 机器性能跑分
 
 <details>
-<summary>综合性能跑分</summary>
+<summary>综合性能跑分（YABS·GB5）</summary>
 
 ![IMAGE 2025-12-14 13:34:19](https://github.com/user-attachments/assets/2e4e78cb-102a-4cf3-b122-a76033379523)
 
@@ -174,7 +174,3 @@
 ![IMAGE 2025-12-14 13:34:31](https://github.com/user-attachments/assets/d39a069c-6bf6-4cc2-bb29-146c0a8322e7)
 
 </details>
-
-### 后续扩展
-- 新增截图时，沿用 `<details>` 模板可保持页面紧凑，并在折叠正文中补充测试时间/环境说明。
-- 如需补充多线程、UDP、节假日等场景，可继续在「测」章节增加子节，与现有结构一致。
