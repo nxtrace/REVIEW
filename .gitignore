@@ -1,0 +1,40 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor directories and files
+.idea
+.vscode
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+/tmp/
+
+# Node modules (if any)
+node_modules/
+
+# Python (if any)
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+ENV/
+
+# Build outputs (if any)
+dist/
+build/
+*.egg-info/
