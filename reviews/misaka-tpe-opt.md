@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Misaka.TPE.Opt
+redirect_from:
+  - /reviews/misaka-tpe-opt.md
+  - /REVIEW/reviews/misaka-tpe-opt.md
 ---
 
 # Misaka.TPE.Opt

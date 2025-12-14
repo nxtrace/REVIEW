@@ -8,6 +8,7 @@ permalink: pretty
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-redirect-from
 defaults:
   - scope:
       path: "reviews"
