@@ -9,7 +9,7 @@
 ### 规格对照（可展开查看）
 
 <details>
-<summary>S3N · Standard NVMe · Gen3 · AMD EPYC</summary>
+<summary>Standard NVMe (Gen3, AMD EPYC)</summary>
 
 | 套餐 | vCPU | 内存 | 本地 NVMe SSD | 流量（单向 In+Out） | 月付 |
 |---|---:|---:|---:|---:|---:|
@@ -27,7 +27,7 @@
 </details>
 
 <details>
-<summary>S3P2 · Standard NVMe · Gen3 · WAN Latency Optimized</summary>
+<summary>Standard NVMe (Gen3, WAN Latency Optimized, AMD EPYC)</summary>
 
 | 套餐 | vCPU | 内存 | 本地 NVMe SSD | 流量（单向 In+Out） | 月付 |
 |---|---:|---:|---:|---:|---:|
@@ -62,27 +62,33 @@
 <details>
 <summary>IPv4 去程</summary>
 
-![IMAGE 2025-12-14 13:27:53](https://github.com/user-attachments/assets/997f0bcf-77c8-4266-abaa-655088725eb1)
-![IMAGE 2025-12-14 13:28:52](https://github.com/user-attachments/assets/8465bed7-a350-40ab-81d8-c5188e0a52e3)
-![IMAGE 2025-12-14 13:28:47](https://github.com/user-attachments/assets/63246c11-8087-46ba-83f9-972aafb5be05)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/997f0bcf-77c8-4266-abaa-655088725eb1" alt="IPv4 去程路由 1" width="32%" />
+  <img src="https://github.com/user-attachments/assets/8465bed7-a350-40ab-81d8-c5188e0a52e3" alt="IPv4 去程路由 2" width="32%" />
+  <img src="https://github.com/user-attachments/assets/63246c11-8087-46ba-83f9-972aafb5be05" alt="IPv4 去程路由 3" width="32%" />
+</div>
 
 </details>
 
 <details>
 <summary>IPv4 回程 · ICMP</summary>
 
-![IMAGE 2025-12-14 13:29:37](https://github.com/user-attachments/assets/580671ff-19bc-4703-a60c-9a36456d9194)
-![IMAGE 2025-12-14 13:29:40](https://github.com/user-attachments/assets/7f83cd28-1fef-4355-b711-c6191873e0b3)
-![IMAGE 2025-12-14 13:29:43](https://github.com/user-attachments/assets/15a0cff6-6f7e-430e-a11f-95e7352899a8)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/580671ff-19bc-4703-a60c-9a36456d9194" alt="IPv4 回程 ICMP 1" width="32%" />
+  <img src="https://github.com/user-attachments/assets/7f83cd28-1fef-4355-b711-c6191873e0b3" alt="IPv4 回程 ICMP 2" width="32%" />
+  <img src="https://github.com/user-attachments/assets/15a0cff6-6f7e-430e-a11f-95e7352899a8" alt="IPv4 回程 ICMP 3" width="32%" />
+</div>
 
 </details>
 
 <details>
 <summary>IPv4 回程 · TCP</summary>
 
-![IMAGE 2025-12-14 13:30:12](https://github.com/user-attachments/assets/6e778222-9a33-49df-820a-20c806b3653f)
-![IMAGE 2025-12-14 13:30:15](https://github.com/user-attachments/assets/f06e99c8-d672-4b30-aa44-a0de6de3752a)
-![IMAGE 2025-12-14 13:30:17](https://github.com/user-attachments/assets/bd132f11-b4bc-4d7e-9d6d-b27a293a379e)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/6e778222-9a33-49df-820a-20c806b3653f" alt="IPv4 回程 TCP 1" width="32%" />
+  <img src="https://github.com/user-attachments/assets/f06e99c8-d672-4b30-aa44-a0de6de3752a" alt="IPv4 回程 TCP 2" width="32%" />
+  <img src="https://github.com/user-attachments/assets/bd132f11-b4bc-4d7e-9d6d-b27a293a379e" alt="IPv4 回程 TCP 3" width="32%" />
+</div>
 
 </details>
 
@@ -123,14 +129,14 @@
 </details>
 
 <details>
-<summary>北京网通 / 鹏博士晚高峰</summary>
+<summary>北京网通晚高峰</summary>
 
 ![北京网通晚高峰](https://github.com/user-attachments/assets/2d9e4efa-2107-4407-aabe-7f219bc496d4)
 
 </details>
 
 <details>
-<summary>北京网通 / 鹏博士白天</summary>
+<summary>北京网通白天</summary>
 
 ![北京网通白天](https://github.com/user-attachments/assets/bf5df076-3099-450e-8e83-b828ff8ecc6b)
 
