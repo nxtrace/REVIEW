@@ -25,8 +25,6 @@ redirect_from:
 <details markdown="1">
 <summary>xTom Tokyo EPYC Gen 2（Performance KVM VPS Gen 2）</summary>
 
-> 数据来自：<https://vps.hosting/cart/tokyo-performance-kvm-vps-gen-2/>
-
 | 套餐 | vCPU | 内存 | NVMe | 流量（单向 In+Out） | 端口 | 月付 |
 |---|---:|---:|---:|---:|---:|---:|
 | Tokyo EPYC Flash Gen 2 | 2 Cores | 4 GB | 30 GB | 1 TB | 1 Gbps | €47.95 |
@@ -38,17 +36,6 @@ redirect_from:
 
 ### 购买信息
 - **xTom 购买入口**：<https://vps.hosting/cart/tokyo-performance-kvm-vps-gen-2/>
-- **提示**：由于 V.PS 短期内不会补货，可考虑其下游（RivenCloud / GreenCloud）。
-
-<details markdown="1">
-<summary>下游参考</summary>
-
-| 商家 | 套餐（示例） | 价格 | 链接 |
-|---|---|---:|---|
-| GreenCloud | 500G @ 500Mbps | $25 / mo | <https://greencloudvps.com/billing/store/cn-premium-optimized> |
-| RivenCloud | 1T @ 1Gbps | $49 / mo | <https://portal.sa.net/store/cloud-server> |
-
-</details>
 
 ## 评
 
@@ -61,8 +48,6 @@ redirect_from:
 <details markdown="1">
 <summary>IPv4 去程</summary>
 
-> 来源：<https://t.me/nanaselog/1561>
-
 <div align="center">
   <img src="{{ '/assets/images/xtom-tokyo-epyc-gen2/IPv4去程/IMAGE 2025-12-14 16:03:14.jpg' | relative_url }}" alt="IPv4 去程路由 1" width="32%" />
   <img src="{{ '/assets/images/xtom-tokyo-epyc-gen2/IPv4去程/IMAGE 2025-12-14 16:03:18.jpg' | relative_url }}" alt="IPv4 去程路由 2" width="32%" />
@@ -73,8 +58,6 @@ redirect_from:
 
 <details markdown="1">
 <summary>IPv4 回程 · ICMP</summary>
-
-> 来源：<https://t.me/nanaselog/1555>
 
 <div align="center">
   <img src="{{ '/assets/images/xtom-tokyo-epyc-gen2/IPv4 回程 · ICMP/IMAGE 2025-12-14 16:03:46.jpg' | relative_url }}" alt="IPv4 回程 ICMP 1" width="32%" />
@@ -87,8 +70,6 @@ redirect_from:
 <details markdown="1">
 <summary>IPv4 回程 · TCP</summary>
 
-> 来源：<https://t.me/nanaselog/1558>
-
 <div align="center">
   <img src="{{ '/assets/images/xtom-tokyo-epyc-gen2/IPv4 回程 · TCP/IMAGE 2025-12-14 16:03:38.jpg' | relative_url }}" alt="IPv4 回程 TCP 1" width="32%" />
   <img src="{{ '/assets/images/xtom-tokyo-epyc-gen2/IPv4 回程 · TCP/IMAGE 2025-12-14 16:03:39.jpg' | relative_url }}" alt="IPv4 回程 TCP 2" width="32%" />
@@ -99,8 +80,6 @@ redirect_from:
 
 <details markdown="1">
 <summary>IPv6 去程</summary>
-
-> 来源：<https://t.me/nanaselog/1579>
 
 <div align="center">
   <img src="{{ '/assets/images/xtom-tokyo-epyc-gen2/IPv6去程/IMAGE 2025-12-14 16:15:39.jpg' | relative_url }}" alt="IPv6 去程路由 1" width="32%" />
@@ -113,8 +92,6 @@ redirect_from:
 <details markdown="1">
 <summary>IPv6 回程 · ICMP</summary>
 
-> 来源：<https://t.me/nanaselog/1582>
-
 <div align="center">
   <img src="{{ '/assets/images/xtom-tokyo-epyc-gen2/IPv6 回程 · ICMP/IMAGE 2025-12-14 16:16:11.jpg' | relative_url }}" alt="IPv6 回程 ICMP 1" width="32%" />
   <img src="{{ '/assets/images/xtom-tokyo-epyc-gen2/IPv6 回程 · ICMP/IMAGE 2025-12-14 16:16:12.jpg' | relative_url }}" alt="IPv6 回程 ICMP 2" width="32%" />
@@ -125,8 +102,6 @@ redirect_from:
 
 <details markdown="1">
 <summary>IPv6 回程 · TCP</summary>
-
-> 来源：<https://t.me/nanaselog/1585>
 
 <div align="center">
   <img src="{{ '/assets/images/xtom-tokyo-epyc-gen2/IPv6 回程 · TCP/IMAGE 2025-12-14 16:15:56.jpg' | relative_url }}" alt="IPv6 回程 TCP 1" width="32%" />
@@ -148,8 +123,6 @@ redirect_from:
   </details>
 
 ### 北京四网代理单线程测速
-
-> 来源：<https://t.me/nanaselog/1600>
 
 <details markdown="1">
 <summary>北京移动晚高峰</summary>
@@ -209,8 +182,6 @@ redirect_from:
 
 ### 机器性能跑分
 
-> 来源：<https://t.me/nanaselog/1617>
-
 <details markdown="1">
 <summary>综合性能跑分</summary>
 
@@ -219,8 +190,6 @@ redirect_from:
 </details>
 
 ### IP 解锁
-
-> 来源：<https://t.me/nanaselog/1613>
 
 <details markdown="1">
 <summary>流媒体 / 平台解锁记录</summary>
