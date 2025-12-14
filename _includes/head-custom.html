@@ -1,0 +1,19 @@
+<style>
+details summary {
+  position: relative;
+  padding-left: 1.25em;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+details summary::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  transition: transform 0.2s ease;
+}
+
+details[open] summary::before {
+  content: "▾";
+}
+</style>
