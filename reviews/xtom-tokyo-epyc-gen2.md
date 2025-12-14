@@ -38,8 +38,16 @@ redirect_from:
 - **xTom 购买入口**：<https://vps.hosting/cart/tokyo-performance-kvm-vps-gen-2/>
 
 ## 评
+东西确实贵，但也确实是好东西，商家也没有什么线路掺水的黑历史，富哥可以考虑一下
+**电联用户速度还是比较稳定**的可以稳定跑到 700Mbps 以上  
+**移动用户慎重选择**
 
-电信 / 移动回程走 CTG GIA（aka CN2 GIA），联通回程走 CUG VIP（aka 9929）；去程方面电信 CTG GIA、联通 CUG VIP、移动 CMI。IPv6 有三网优化但目前电信方向（163）可用性更好。
+电信 / 移动 CTG GIA(aka CN2 GIA) 回程  
+联通 CUG VIP(aka 9929) 回程  
+电信 CTG GIA 去程  
+联通 CUG VIP 去程  
+移动 CMI 去程  
+另 IPv6 有三网优化但是就电信方向能用（163）  
 
 ## 测
 
@@ -204,5 +212,3 @@ redirect_from:
 由于 V.PS 短期内不会补货，可考虑其下游（RivenCloud / GreenCloud）：
 - GreenCloud 500G@500Mbps=25USD/mo：<https://greencloudvps.com/billing/store/cn-premium-optimized>
 - RivenCloud 1T@1Gbps=49USD/mo：<https://portal.sa.net/store/cloud-server>
-
-#xTom #review
