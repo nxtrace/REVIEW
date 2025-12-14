@@ -1,3 +1,8 @@
+---
+layout: default
+title: Misaka.HKG.Opt
+---
+
 # Misaka.HKG.Opt
 
 ## 买

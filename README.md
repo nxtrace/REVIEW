@@ -1,10 +1,14 @@
 # REVIEW
 
-评测仓库，专注于云服务器（VPS）与网络表现的图文记录，帮助读者快速了解不同线路与套餐的实际体验。
+评测仓库，专注于云服务器（VPS）与网络表现的图文记录，帮助读者快速了解不同线路与套餐的实际体验。所有文章以 Markdown 形式保存，并配有完整的测速、路由与解锁截图。
+
+## 在线阅读
+- GitHub Pages：<https://nxtrace.github.io/REVIEW/>
+- 本地预览：直接在 Markdown 查看器或 VS Code 中打开 `reviews/*.md`。
 
 ## 仓库结构
 - `reviews/`：按服务提供商与方案划分的评测文档。
-- `assets/`：存放截图、拓扑图以及延迟监控等配图，建议与评测同名的子目录。
+- `assets/`：存放截图、拓扑图以及延迟监控等配图，建议与评测同名的子目录，方便 Markdown 使用相对路径引用。
 - `LICENSE`：内容授权说明。
 
 ## 写作建议
@@ -15,3 +19,4 @@
 
 ## 现有评测
 - [Misaka.HKG.Opt](reviews/misaka-hkg-opt.md)
+- [Misaka.TPE.Opt](reviews/misaka-tpe-opt.md)

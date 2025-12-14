@@ -1,0 +1,15 @@
+title: REVIEW
+description: "面向云服务器与网络表现的图文评测集合。"
+theme: jekyll-theme-cayman
+markdown: kramdown
+kramdown:
+  input: GFM
+permalink: pretty
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+defaults:
+  - scope:
+      path: "reviews"
+    values:
+      layout: default

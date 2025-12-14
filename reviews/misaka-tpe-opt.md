@@ -1,3 +1,8 @@
+---
+layout: default
+title: Misaka.TPE.Opt
+---
+
 # Misaka.TPE.Opt
 
 ## 买
