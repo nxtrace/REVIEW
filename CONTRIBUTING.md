@@ -11,7 +11,7 @@
 - 创建新的分支进行工作
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/REVIEW.git
+git clone https://github.com/<YOUR-USERNAME>/REVIEW.git
 cd REVIEW
 git checkout -b add-review-provider-name
 ```
