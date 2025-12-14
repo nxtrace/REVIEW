@@ -2,8 +2,9 @@
 layout: default
 title: Misaka.HKG.Opt
 redirect_from:
-  - /reviews/misaka-hkg-opt.md
-  - /REVIEW/reviews/misaka-hkg-opt.md
+  - /reviews/misaka-hkg-opt/
+  - /REVIEW/reviews/misaka-hkg-opt/
+permalink: /reviews/misaka-hkg-opt.md
 ---
 
 # Misaka.HKG.Opt

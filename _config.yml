@@ -1,5 +1,7 @@
 title: REVIEW
 description: "面向云服务器与网络表现的图文评测集合。"
+url: https://nxtrace.github.io
+baseurl: "/REVIEW"
 theme: jekyll-theme-cayman
 markdown: kramdown
 kramdown:
