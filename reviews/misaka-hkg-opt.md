@@ -58,24 +58,40 @@
 ## 测
 
 ### 路由表现
-- **IPv4 去程**：<https://t.me/nanaselog/602>
+- **IPv4 去程**：
+  ![IMAGE 2025-12-14 13:27:53](https://github.com/user-attachments/assets/997f0bcf-77c8-4266-abaa-655088725eb1)![IMAGE 2025-12-14 13:28:52](https://github.com/user-attachments/assets/8465bed7-a350-40ab-81d8-c5188e0a52e3)![IMAGE 2025-12-14 13:28:47](https://github.com/user-attachments/assets/63246c11-8087-46ba-83f9-972aafb5be05)
+
 - **IPv4 回程（ICMP）**：<https://t.me/nanaselog/737>
+  ![IMAGE 2025-12-14 13:29:37](https://github.com/user-attachments/assets/580671ff-19bc-4703-a60c-9a36456d9194)![IMAGE 2025-12-14 13:29:40](https://github.com/user-attachments/assets/7f83cd28-1fef-4355-b711-c6191873e0b3)
+![IMAGE 2025-12-14 13:29:43](https://github.com/user-attachments/assets/15a0cff6-6f7e-430e-a11f-95e7352899a8)
+
 - **IPv4 回程（TCP）**：<https://t.me/nanaselog/730>
+  ![IMAGE 2025-12-14 13:30:12](https://github.com/user-attachments/assets/6e778222-9a33-49df-820a-20c806b3653f)![IMAGE 2025-12-14 13:30:15](https://github.com/user-attachments/assets/f06e99c8-d672-4b30-aa44-a0de6de3752a)![IMAGE 2025-12-14 13:30:17](https://github.com/user-attachments/assets/bd132f11-b4bc-4d7e-9d6d-b27a293a379e)
 
 ### 实时监控
 - **实时三网 ICMP**：<https://ping.nxtrace.org/goto/yQTjSoMvR>
 - **实时三网 TCP**：<https://ping.nxtrace.org/goto/6JCjITGvR>
 - **Looking Glass**：<https://ping.sx/mtr?p=234>
-- 北京三网延迟监控截图稍后会补到 `assets/images/misaka-hkg-opt/`，目前可直接查看上述实时页面。
+- 北京三网延迟监控截图稍后会补到 [](assets/images/misaka-hkg-opt/)，目前可直接查看上述实时页面。
 
 ### 北京四网代理单线程测速
-- 截图：<https://t.me/nanaselog/1638>
+![北京移动晚高峰](https://github.com/user-attachments/assets/16ea14c9-4938-4829-8dd8-23b0e248217d)
+![北京移动白天](https://github.com/user-attachments/assets/75bfe783-d8e3-4852-94ca-90bb91f98d17)
+![北京网通晚高峰](https://github.com/user-attachments/assets/2d9e4efa-2107-4407-aabe-7f219bc496d4)
+![北京网通白天](https://github.com/user-attachments/assets/bf5df076-3099-450e-8e83-b828ff8ecc6b)
+![北京联通晚高峰](https://github.com/user-attachments/assets/dc104038-d5cf-4a6f-906d-55af5d0113dd)
+![北京联通白天](https://github.com/user-attachments/assets/7a1543ae-493c-4ba1-a198-52aebca1e666)
+![北京电信晚高峰](https://github.com/user-attachments/assets/cdd66c39-4925-457c-8e1e-287c293e16ad)
+![北京电信白天](https://github.com/user-attachments/assets/67b8af64-c6cc-4e30-916c-b5c0450dd1f7)
 
 ### 机器性能跑分
-- 截图：<https://t.me/nanaselog/1639>
+- 截图：<https://t.me/nanaselog/1639>![IMAGE 2025-12-14 13:34:19](https://github.com/user-attachments/assets/2e4e78cb-102a-4cf3-b122-a76033379523)
+
 
 ### IP 解锁
-- 观测截图：<https://t.me/nanaselog/1640>
+- 观测截图：<https://t.me/nanaselog/1640>![IMAGE 2025-12-14 13:34:28](https://github.com/user-attachments/assets/066e3164-5206-4025-b23f-341c214715f3)
+![IMAGE 2025-12-14 13:34:31](https://github.com/user-attachments/assets/d39a069c-6bf6-4cc2-bb29-146c0a8322e7)
+
 
 ### 后续扩展
 - 建议将测速、路由与跑分截图按章节命名后存放到 `assets/images/misaka-hkg-opt/`，并使用 `![描述](相对路径)` 引用，便于 GitHub 在线阅读。
