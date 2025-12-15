@@ -16,7 +16,7 @@
 <details open markdown="1">
 <summary>DMIT</summary>
 
-- （待补充）
+- [DMIT.TYO.Pro](https://review.nxtrace.org/reviews/dmit-tyo-pro/)
 
 </details>
 
@@ -24,6 +24,20 @@
 <summary>Saltyfish</summary>
 
 - （待补充）
+
+</details>
+
+<details open markdown="1">
+<summary>Nube</summary>
+
+- [Nube.FRA.Opt](https://review.nxtrace.org/reviews/nube-fra-opt/)
+
+</details>
+
+<details open markdown="1">
+<summary>HighEndNetwork</summary>
+
+- [HighEndNetwork.SIN.Standard](https://review.nxtrace.org/reviews/highendnetwork-sin-standard/)
 
 </details>
 
@@ -39,8 +53,6 @@
 <summary>Nube</summary>
 
 - （待补充）
-
-</details>
 
 </details>
 
