@@ -20,6 +20,21 @@ redirect_from:
 
 ## 买
 
+### 规格对照
+
+<details markdown="1">
+<summary>SIN-Standard</summary>
+
+| 套餐 | vCPU | 内存 | SSD | 流量（出站） | 端口 | 计费 |
+|---|---:|---:|---:|---:|---:|---|
+| SIN.Standard.Micro | 1 vCore | 1 GB | 10 GB | 1024 GB | 500 Mbps（shared） | $10 / 月（$1 setup） |
+| SIN.Standard.Mini | 1 vCore | 1 GB | 10 GB | 2048 GB | 1 Gbps（shared） | $20 / 月（$1 setup） |
+| SIN.Standard.Special | 1 vCore | 1 GB | 10 GB | 500 GB | 100 Mbps（shared） | $45 / 年 |
+
+</details>
+
+### 购买信息
+
 （待补充）
 
 ## 评
@@ -103,4 +118,3 @@ redirect_from:
 </details>
 
 #HighEndNetwork #review
-
