@@ -197,7 +197,7 @@ IPv6 有三网优化（163 + CMI 可用性尚可）
 ### 机器性能跑分
 
 <details markdown="1">
-<summary>综合性能跑分</summary>
+<summary>综合性能跑分（YABS·GB5）</summary>
 
 ![综合性能跑分]({{ '/assets/images/dmit-tyo-pro/综合性能跑分.png' | relative_url }})
 

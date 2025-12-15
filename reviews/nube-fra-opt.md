@@ -51,9 +51,9 @@ redirect_from:
 
 </details>
 
-### 购买信息
+### 购买链接
 
-（待补充）
+- [Nube](https://nube.sh/invite/810967136T9BYK)
 
 ## 评
 
@@ -129,25 +129,6 @@ redirect_from:
 
 </details>
 
-### 机器性能跑分
-
-<details markdown="1">
-<summary>综合性能跑分</summary>
-
-![综合性能跑分]({{ '/assets/images/nube-fra-opt/综合性能跑分.png' | relative_url }})
-
-</details>
-
-### IP 解锁
-
-<details markdown="1">
-<summary>流媒体 / 平台解锁记录</summary>
-
-![解锁情况 1]({{ '/assets/images/nube-fra-opt/解锁情况/2025-12-15 21.54.25.png' | relative_url }})
-![解锁情况 2]({{ '/assets/images/nube-fra-opt/解锁情况/2025-12-15 21.54.47.png' | relative_url }})
-
-</details>
-
 ### 北京四网代理单线程测速
 
 <details markdown="1">
@@ -178,4 +159,21 @@ redirect_from:
 
 </details>
 
-#Nube #review
+### 机器性能跑分
+
+<details markdown="1">
+<summary>综合性能跑分（YABS·GB5）</summary>
+
+![综合性能跑分]({{ '/assets/images/nube-fra-opt/综合性能跑分.png' | relative_url }})
+
+</details>
+
+### IP 解锁
+
+<details markdown="1">
+<summary>流媒体 / 平台解锁记录</summary>
+
+![解锁情况 1]({{ '/assets/images/nube-fra-opt/解锁情况/2025-12-15 21.54.25.png' | relative_url }})
+![解锁情况 2]({{ '/assets/images/nube-fra-opt/解锁情况/2025-12-15 21.54.47.png' | relative_url }})
+
+</details>

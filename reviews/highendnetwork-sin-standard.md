@@ -33,9 +33,9 @@ redirect_from:
 
 </details>
 
-### 购买信息
+### 购买链接
 
-（待补充）
+- [HighEndNetwork](https://billing.highendnetwork.com/aff.php?aff=57)
 
 ## 评
 
@@ -116,5 +116,3 @@ redirect_from:
 ![解锁情况]({{ '/assets/images/highendnetwork-sin-standard/解锁情况/2025-12-15 23.06.04.png' | relative_url }})
 
 </details>
-
-#HighEndNetwork #review
