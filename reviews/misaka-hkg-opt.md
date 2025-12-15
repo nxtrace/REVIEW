@@ -75,9 +75,9 @@ redirect_from:
 <summary>IPv4 去程</summary>
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/997f0bcf-77c8-4266-abaa-655088725eb1" alt="IPv4 去程路由 1" width="32%" />
-  <img src="https://github.com/user-attachments/assets/8465bed7-a350-40ab-81d8-c5188e0a52e3" alt="IPv4 去程路由 2" width="32%" />
-  <img src="https://github.com/user-attachments/assets/63246c11-8087-46ba-83f9-972aafb5be05" alt="IPv4 去程路由 3" width="32%" />
+  <img src="{{ '/assets/images/misaka-hkg-opt/IPv4去程/526252138-997f0bcf-77c8-4266-abaa-655088725eb1.jpg' | relative_url }}" alt="IPv4 去程路由 1" width="32%" />
+  <img src="{{ '/assets/images/misaka-hkg-opt/IPv4去程/526252184-8465bed7-a350-40ab-81d8-c5188e0a52e3.jpg' | relative_url }}" alt="IPv4 去程路由 2" width="32%" />
+  <img src="{{ '/assets/images/misaka-hkg-opt/IPv4去程/526252181-63246c11-8087-46ba-83f9-972aafb5be05.jpg' | relative_url }}" alt="IPv4 去程路由 3" width="32%" />
 </div>
 
 </details>
@@ -86,9 +86,9 @@ redirect_from:
 <summary>IPv4 回程 · ICMP</summary>
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/580671ff-19bc-4703-a60c-9a36456d9194" alt="IPv4 回程 ICMP 1" width="32%" />
-  <img src="https://github.com/user-attachments/assets/7f83cd28-1fef-4355-b711-c6191873e0b3" alt="IPv4 回程 ICMP 2" width="32%" />
-  <img src="https://github.com/user-attachments/assets/15a0cff6-6f7e-430e-a11f-95e7352899a8" alt="IPv4 回程 ICMP 3" width="32%" />
+  <img src="{{ '/assets/images/misaka-hkg-opt/IPv4 回程 · ICMP/526252214-580671ff-19bc-4703-a60c-9a36456d9194.jpg' | relative_url }}" alt="IPv4 回程 ICMP 1" width="32%" />
+  <img src="{{ '/assets/images/misaka-hkg-opt/IPv4 回程 · ICMP/526252218-7f83cd28-1fef-4355-b711-c6191873e0b3.jpg' | relative_url }}" alt="IPv4 回程 ICMP 2" width="32%" />
+  <img src="{{ '/assets/images/misaka-hkg-opt/IPv4 回程 · ICMP/526252224-15a0cff6-6f7e-430e-a11f-95e7352899a8.jpg' | relative_url }}" alt="IPv4 回程 ICMP 3" width="32%" />
 </div>
 
 </details>
@@ -97,9 +97,9 @@ redirect_from:
 <summary>IPv4 回程 · TCP</summary>
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/6e778222-9a33-49df-820a-20c806b3653f" alt="IPv4 回程 TCP 1" width="32%" />
-  <img src="https://github.com/user-attachments/assets/f06e99c8-d672-4b30-aa44-a0de6de3752a" alt="IPv4 回程 TCP 2" width="32%" />
-  <img src="https://github.com/user-attachments/assets/bd132f11-b4bc-4d7e-9d6d-b27a293a379e" alt="IPv4 回程 TCP 3" width="32%" />
+  <img src="{{ '/assets/images/misaka-hkg-opt/IPv4 回程 · TCP/526252250-6e778222-9a33-49df-820a-20c806b3653f.jpg' | relative_url }}" alt="IPv4 回程 TCP 1" width="32%" />
+  <img src="{{ '/assets/images/misaka-hkg-opt/IPv4 回程 · TCP/526252252-f06e99c8-d672-4b30-aa44-a0de6de3752a.jpg' | relative_url }}" alt="IPv4 回程 TCP 2" width="32%" />
+  <img src="{{ '/assets/images/misaka-hkg-opt/IPv4 回程 · TCP/526252258-bd132f11-b4bc-4d7e-9d6d-b27a293a379e.jpg' | relative_url }}" alt="IPv4 回程 TCP 3" width="32%" />
 </div>
 
 </details>
@@ -112,7 +112,7 @@ redirect_from:
   <details markdown="1">
   <summary>展开查看</summary>
   
-  ![2025-12-14 14.01.29](https://github.com/user-attachments/assets/885afb75-f39d-4b82-8efa-438e9697549a)
+  ![北京三网延迟监控截图]({{ '/assets/images/misaka-hkg-opt/北京三网延迟监控截图(近七天).png' | relative_url }})
 
   </details>
 
@@ -121,56 +121,56 @@ redirect_from:
 <details markdown="1">
 <summary>北京移动晚高峰</summary>
 
-![北京移动晚高峰](https://github.com/user-attachments/assets/16ea14c9-4938-4829-8dd8-23b0e248217d)
+![北京移动晚高峰]({{ '/assets/images/misaka-hkg-opt/北京四网代理单线程测速/北京移动晚高峰.jpg' | relative_url }})
 
 </details>
 
 <details markdown="1">
 <summary>北京移动白天</summary>
 
-![北京移动白天](https://github.com/user-attachments/assets/75bfe783-d8e3-4852-94ca-90bb91f98d17)
+![北京移动白天]({{ '/assets/images/misaka-hkg-opt/北京四网代理单线程测速/北京移动白天.jpg' | relative_url }})
 
 </details>
 
 <details markdown="1">
 <summary>北京联通晚高峰</summary>
 
-![北京联通晚高峰](https://github.com/user-attachments/assets/dc104038-d5cf-4a6f-906d-55af5d0113dd)
+![北京联通晚高峰]({{ '/assets/images/misaka-hkg-opt/北京四网代理单线程测速/北京联通晚高峰.jpg' | relative_url }})
 
 </details>
 
 <details markdown="1">
 <summary>北京联通白天</summary>
 
-![北京联通白天](https://github.com/user-attachments/assets/7a1543ae-493c-4ba1-a198-52aebca1e666)
+![北京联通白天]({{ '/assets/images/misaka-hkg-opt/北京四网代理单线程测速/北京联通白天.jpg' | relative_url }})
 
 </details>
 
 <details markdown="1">
 <summary>北京网通晚高峰</summary>
 
-![北京网通晚高峰](https://github.com/user-attachments/assets/2d9e4efa-2107-4407-aabe-7f219bc496d4)
+![北京网通晚高峰]({{ '/assets/images/misaka-hkg-opt/北京四网代理单线程测速/北京网通晚高峰.jpg' | relative_url }})
 
 </details>
 
 <details markdown="1">
 <summary>北京网通白天</summary>
 
-![北京网通白天](https://github.com/user-attachments/assets/bf5df076-3099-450e-8e83-b828ff8ecc6b)
+![北京网通白天]({{ '/assets/images/misaka-hkg-opt/北京四网代理单线程测速/北京网通白天.jpg' | relative_url }})
 
 </details>
 
 <details markdown="1">
 <summary>北京电信晚高峰</summary>
 
-![北京电信晚高峰](https://github.com/user-attachments/assets/cdd66c39-4925-457c-8e1e-287c293e16ad)
+![北京电信晚高峰]({{ '/assets/images/misaka-hkg-opt/北京四网代理单线程测速/北京电信晚高峰.jpg' | relative_url }})
 
 </details>
 
 <details markdown="1">
 <summary>北京电信白天</summary>
 
-![北京电信白天](https://github.com/user-attachments/assets/67b8af64-c6cc-4e30-916c-b5c0450dd1f7)
+![北京电信白天]({{ '/assets/images/misaka-hkg-opt/北京四网代理单线程测速/北京电信白天.jpg' | relative_url }})
 
 </details>
 
@@ -179,7 +179,7 @@ redirect_from:
 <details markdown="1">
 <summary>综合性能跑分（YABS·GB5）</summary>
 
-![IMAGE 2025-12-14 13:34:19](https://github.com/user-attachments/assets/2e4e78cb-102a-4cf3-b122-a76033379523)
+![综合性能跑分]({{ '/assets/images/misaka-hkg-opt/综合性能跑分.jpg' | relative_url }})
 
 </details>
 
@@ -188,7 +188,7 @@ redirect_from:
 <details markdown="1">
 <summary>流媒体 / 平台解锁记录</summary>
 
-![IMAGE 2025-12-14 13:34:28](https://github.com/user-attachments/assets/066e3164-5206-4025-b23f-341c214715f3)
-![IMAGE 2025-12-14 13:34:31](https://github.com/user-attachments/assets/d39a069c-6bf6-4cc2-bb29-146c0a8322e7)
+![解锁情况 1]({{ '/assets/images/misaka-hkg-opt/解锁情况/526252446-066e3164-5206-4025-b23f-341c214715f3.jpg' | relative_url }})
+![解锁情况 2]({{ '/assets/images/misaka-hkg-opt/解锁情况/526252448-d39a069c-6bf6-4cc2-bb29-146c0a8322e7.jpg' | relative_url }})
 
 </details>

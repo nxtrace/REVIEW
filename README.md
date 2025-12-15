@@ -49,20 +49,6 @@
 
 </details>
 
-<details open markdown="1">
-<summary>Nube</summary>
-
-- （待补充）
-
-</details>
-
-<details open markdown="1">
-<summary>HighEndNetwork</summary>
-
-- （待补充）
-
-</details>
-
 ## 友情链接
 - GayHub：[gubo.org](https://www.gubo.org)
 - LowendAFF：[lowendaff.com](https://lowendaff.com)
