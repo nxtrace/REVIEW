@@ -20,7 +20,27 @@ redirect_from:
 
 ## 买
 
-（待补充）
+### 购买信息
+- **官方购买入口**：<https://www.dmit.io/aff.php?aff=3487&pid=138>
+
+### 规格对照
+
+<details markdown="1">
+<summary>TYO.AS3.Pro（Premium Routing Profile）</summary>
+
+| 套餐 | vCPU | 内存 | SSD | 流量（双向） | 端口 | 月付 |
+|---|---:|---:|---:|---:|---:|---:|
+| TYO.AS3.Pro.TINY | 1 Core | 1 GB | 20 GB | 500 GB | 1 Gbps | $21.90 |
+| TYO.AS3.Pro.STARTER | 1 Core | 2 GB | 40 GB | 1 TB | 1 Gbps | $39.90 |
+| TYO.AS3.Pro.MINI | 2 Cores | 2 GB | 60 GB | 2 TB | 1 Gbps | $79.90 |
+| TYO.AS3.Pro.MICRO | 4 Cores | 4 GB | 80 GB | 4 TB | 1 Gbps | $159.90 |
+| TYO.AS3.Pro.MEDIUM | 4 Cores | 8 GB | 160 GB | 5 TB | 1 Gbps | $259.90 |
+| TYO.AS3.Pro.LARGE | 8 Cores | 16 GB | 320 GB | 8 TB | 1 Gbps | $429.90 |
+| TYO.AS3.Pro.GIANT | 8 Cores | 24 GB | 640 GB | 15 TB | 1 Gbps | $799.90 |
+
+> 说明：每个套餐包含 `1 IPv4` 与 `1 IPv6 /64`，支持 DDoS Protect（Standard）与自定义 RAM/SSD。
+
+</details>
 
 ## 评
 
@@ -184,6 +204,3 @@ redirect_from:
 ![解锁情况 2]({{ '/assets/images/dmit-tyo-pro/解锁情况/2025-12-15 15.36.50.png' | relative_url }})
 
 </details>
-
-#DMIT #review
-
