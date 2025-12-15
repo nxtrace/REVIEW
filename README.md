@@ -1,7 +1,7 @@
 # nanase's REVIEW
 
 这是一个专注于云服务器测评的网站，不定时更新。  
-与此同时，我还维护了一个 PING 站(ping.nxtrace.org)，提供了很多商家线路的网络历史监控数据。  
+与此同时，我还维护了一个 PING 站([ping.nxtrace.org](https://ping.nxtrace.org))，提供了很多商家线路的网络历史监控数据。  
 与我联系(意见/投稿)：[t.me/nanaselog](https://t.me/nanaselog)  
 
 ## 现有评测
