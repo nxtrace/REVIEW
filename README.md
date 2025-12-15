@@ -1,4 +1,4 @@
-# REVIEW
+# nanase's REVIEW
 
 这是一个专注于云服务器测评的网站，不定时更新。  
 与此同时，我还维护了一个 PING 站(ping.nxtrace.org)，提供了很多商家线路的网络历史监控数据。  
@@ -32,6 +32,13 @@
 
 - [xTom Tokyo EPYC Gen 2](https://review.nxtrace.org/reviews/xtom-tokyo-epyc-gen2/)
 - [xTom Singapore EPYC](https://review.nxtrace.org/reviews/xtom-singapore-epyc/)
+
+</details>
+
+<details open markdown="1">
+<summary>Nube</summary>
+
+- （待补充）
 
 </details>
 

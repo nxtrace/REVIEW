@@ -35,7 +35,7 @@ redirect_from:
 </details>
 
 ### 购买信息
-- **xTom 购买入口**：<https://vps.hosting/cart/singapore-performance-kvm-vps/>
+- **xTom 购买入口**：<https://vps.hosting/?affid=2152&oid=36>
 
 ## 评
 
