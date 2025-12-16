@@ -1,6 +1,7 @@
 ---
 layout: default
 title: DMIT.TYO.Pro
+seo_keywords: "DMIT 东京, DMIT 日本, DMIT, CN2, 东京VPS, 日本VPS, EPYC, JP"
 redirect_from:
   - /reviews/dmit-tyo-pro.md
   - /REVIEW/reviews/dmit-tyo-pro.md

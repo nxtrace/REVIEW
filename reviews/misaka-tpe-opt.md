@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Misaka.TPE.Opt
+seo_keywords: "Misaka 台湾, Misaka 台北, 台湾VPS, 台北VPS, Hinet, TW, EPYC"
 redirect_from:
   - /reviews/misaka-tpe-opt.md
   - /REVIEW/reviews/misaka-tpe-opt.md

@@ -116,6 +116,10 @@ details[open] summary::before {
   }
 }
 </style>
+{% assign _seo_keywords = page.seo_keywords | default: "" | strip %}
+{% if _seo_keywords != "" %}
+<meta name="keywords" content="{{ _seo_keywords | escape }}">
+{% endif %}
 <script>
 document.addEventListener('DOMContentLoaded', function () {
   const main = document.querySelector('.main-content');

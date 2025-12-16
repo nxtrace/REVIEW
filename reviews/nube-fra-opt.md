@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Nube.FRA.Opt
+seo_keywords: "法兰克福VPS, 牛彼云, CMIN2, 9929, 德国VPS, EPYC"
 redirect_from:
   - /reviews/nube-fra-opt.md
   - /REVIEW/reviews/nube-fra-opt.md

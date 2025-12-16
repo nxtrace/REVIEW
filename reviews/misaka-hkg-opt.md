@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Misaka.HKG.Opt
+seo_keywords: "Misaka 香港, 香港VPS, Hinet, HK, EPYC"
 redirect_from:
   - /reviews/misaka-hkg-opt.md
   - /REVIEW/reviews/misaka-hkg-opt.md

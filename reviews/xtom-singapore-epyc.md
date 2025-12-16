@@ -1,6 +1,7 @@
 ---
 layout: default
 title: xTom Singapore EPYC
+seo_keywords: "V.PS Singapore Performance KVM VPS, V.PS Singapore EPYC Explorer, xtom, sa.net, Riven Cloud, CN2, 新加坡VPS, EPYC, SG"
 redirect_from:
   - /reviews/xtom-singapore-epyc.md
   - /REVIEW/reviews/xtom-singapore-epyc.md

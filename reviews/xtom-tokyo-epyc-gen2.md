@@ -1,6 +1,7 @@
 ---
 layout: default
 title: xTom Tokyo EPYC Gen 2
+seo_keywords: "V.PS Tokyo Performance KVM VPS Gen 2, V.PS Tokyo EPYC Gen 2 Explorer, xtom, sa.net, Riven Cloud, GreenCloud, 绿云, CN2, 9929, 东京VPS, 日本VPS, EPYC, JP"
 redirect_from:
   - /reviews/xtom-tokyo-epyc-gen2.md
   - /REVIEW/reviews/xtom-tokyo-epyc-gen2.md

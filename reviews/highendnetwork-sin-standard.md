@@ -1,6 +1,7 @@
 ---
 layout: default
 title: HighEndNetwork.SIN.Standard
+seo_keywords: "HighEndNetwork 新加坡, 新加坡VPS, SG, Singtel, Stacks"
 redirect_from:
   - /reviews/highendnetwork-sin-standard.md
   - /REVIEW/reviews/highendnetwork-sin-standard.md
