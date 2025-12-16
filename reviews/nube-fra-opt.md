@@ -115,23 +115,23 @@ redirect_from:
 </details>
 
 <details markdown="1">
-<summary>IPv6 回程 · TCP</summary>
-
-<div align="center">
-  <img src="{{ '/assets/images/nube-fra-opt/IPv6 回程 · TCP/2025-12-15 22.06.07.png' | relative_url }}" alt="IPv6 回程 TCP 1" width="32%" />
-  <img src="{{ '/assets/images/nube-fra-opt/IPv6 回程 · TCP/2025-12-15 22.06.08.png' | relative_url }}" alt="IPv6 回程 TCP 2" width="32%" />
-  <img src="{{ '/assets/images/nube-fra-opt/IPv6 回程 · TCP/2025-12-15 22.09.20.png' | relative_url }}" alt="IPv6 回程 TCP 3" width="32%" />
-</div>
-
-</details>
-
-<details markdown="1">
 <summary>IPv6 回程 · ICMP</summary>
 
 <div align="center">
   <img src="{{ '/assets/images/nube-fra-opt/IPv6 回程 · ICMP/2025-12-15 22.01.59.png' | relative_url }}" alt="IPv6 回程 ICMP 1" width="32%" />
   <img src="{{ '/assets/images/nube-fra-opt/IPv6 回程 · ICMP/2025-12-15 22.02.02.png' | relative_url }}" alt="IPv6 回程 ICMP 2" width="32%" />
   <img src="{{ '/assets/images/nube-fra-opt/IPv6 回程 · ICMP/2025-12-15 22.02.03.png' | relative_url }}" alt="IPv6 回程 ICMP 3" width="32%" />
+</div>
+
+</details>
+
+<details markdown="1">
+<summary>IPv6 回程 · TCP</summary>
+
+<div align="center">
+  <img src="{{ '/assets/images/nube-fra-opt/IPv6 回程 · TCP/2025-12-15 22.06.07.png' | relative_url }}" alt="IPv6 回程 TCP 1" width="32%" />
+  <img src="{{ '/assets/images/nube-fra-opt/IPv6 回程 · TCP/2025-12-15 22.06.08.png' | relative_url }}" alt="IPv6 回程 TCP 2" width="32%" />
+  <img src="{{ '/assets/images/nube-fra-opt/IPv6 回程 · TCP/2025-12-15 22.09.20.png' | relative_url }}" alt="IPv6 回程 TCP 3" width="32%" />
 </div>
 
 </details>

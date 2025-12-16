@@ -110,23 +110,23 @@ IPv6 有三网优化（163 + CMI 可用性尚可）
 </details>
 
 <details markdown="1">
-<summary>IPv6 回程 · TCP</summary>
-
-<div align="center">
-  <img src="{{ '/assets/images/dmit-tyo-pro/IPv6 回程 · TCP/2025-12-15 16.40.32.png' | relative_url }}" alt="IPv6 回程 TCP 1" width="32%" />
-  <img src="{{ '/assets/images/dmit-tyo-pro/IPv6 回程 · TCP/2025-12-15 16.40.36.png' | relative_url }}" alt="IPv6 回程 TCP 2" width="32%" />
-  <img src="{{ '/assets/images/dmit-tyo-pro/IPv6 回程 · TCP/2025-12-15 16.40.39.png' | relative_url }}" alt="IPv6 回程 TCP 3" width="32%" />
-</div>
-
-</details>
-
-<details markdown="1">
 <summary>IPv6 回程 · ICMP</summary>
 
 <div align="center">
   <img src="{{ '/assets/images/dmit-tyo-pro/IPv6 回程 · ICMP/2025-12-15 16.39.59.png' | relative_url }}" alt="IPv6 回程 ICMP 1" width="32%" />
   <img src="{{ '/assets/images/dmit-tyo-pro/IPv6 回程 · ICMP/2025-12-15 16.40.04.png' | relative_url }}" alt="IPv6 回程 ICMP 2" width="32%" />
   <img src="{{ '/assets/images/dmit-tyo-pro/IPv6 回程 · ICMP/2025-12-15 16.40.06.png' | relative_url }}" alt="IPv6 回程 ICMP 3" width="32%" />
+</div>
+
+</details>
+
+<details markdown="1">
+<summary>IPv6 回程 · TCP</summary>
+
+<div align="center">
+  <img src="{{ '/assets/images/dmit-tyo-pro/IPv6 回程 · TCP/2025-12-15 16.40.32.png' | relative_url }}" alt="IPv6 回程 TCP 1" width="32%" />
+  <img src="{{ '/assets/images/dmit-tyo-pro/IPv6 回程 · TCP/2025-12-15 16.40.36.png' | relative_url }}" alt="IPv6 回程 TCP 2" width="32%" />
+  <img src="{{ '/assets/images/dmit-tyo-pro/IPv6 回程 · TCP/2025-12-15 16.40.39.png' | relative_url }}" alt="IPv6 回程 TCP 3" width="32%" />
 </div>
 
 </details>
