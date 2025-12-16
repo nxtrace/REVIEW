@@ -8,6 +8,13 @@ redirect_from:
 
 # xTom Tokyo EPYC Gen 2
 
+<div class="back-home" style="margin: 12px 0 24px;">
+  <a href="{{ '/' | relative_url }}" style="display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px; background: linear-gradient(135deg, #f8fafc 0%, #eef2f7 100%); border: 1px solid #e5e7eb; border-radius: 999px; color: #1f2937; text-decoration: none; font-size: 14px; font-weight: 600;">
+    <span style="font-size: 16px;">←</span>
+    <span>返回主页</span>
+  </a>
+</div>
+
 <div class="toc-container" markdown="1">
 
 ## 目录
