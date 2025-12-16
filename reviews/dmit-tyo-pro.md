@@ -68,7 +68,10 @@ IPv6 有三网优化（163 + CMI 可用性尚可）
 <details markdown="1">
 <summary>线路概览</summary>
 
+**IPv4 路由图**
 ![ipv4-radar]({{ '/assets/images/dmit-tyo-pro/4-radar.png' | relative_url }})
+
+**IPv6 路由图**
 ![ipv6-radar]({{ '/assets/images/dmit-tyo-pro/6-radar.png' | relative_url }})
 
 </details>

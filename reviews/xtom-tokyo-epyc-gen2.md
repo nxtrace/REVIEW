@@ -64,7 +64,10 @@ redirect_from:
 <details markdown="1">
 <summary>线路概览</summary>
 
+**IPv4 路由图**
 ![ipv4-radar]({{ '/assets/images/xtom-tokyo-epyc-gen2/4-radar.png' | relative_url }})
+
+**IPv6 路由图**
 ![ipv6-radar]({{ '/assets/images/xtom-tokyo-epyc-gen2/6-radar.png' | relative_url }})
 
 </details>
