@@ -57,6 +57,15 @@ Jam的新加坡Singtel鸡（Stacks的下游），联通快乐鸡（晚高峰还�
 
 ### 路由表现
 
+
+<details markdown="1">
+<summary>线路概览</summary>
+
+![bgp.tools]({{ '/assets/images/highendnetwork-sin-standard/bgp.tools.svg' | relative_url }})
+![radar]({{ '/assets/images/highendnetwork-sin-standard/radar.png' | relative_url }})
+
+</details>
+
 <details markdown="1">
 <summary>IPv4 去程</summary>
 
