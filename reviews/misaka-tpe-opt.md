@@ -61,6 +61,14 @@ redirect_from:
 ### 路由表现
 
 <details markdown="1">
+<summary>线路概览</summary>
+
+![ipv4-radar]({{ '/assets/images/misaka-tpe-opt/4-radar.png' | relative_url }})
+![ipv6-radar]({{ '/assets/images/misaka-tpe-opt/6-radar.png' | relative_url }})
+
+</details>
+
+<details markdown="1">
 <summary>IPv4 去程</summary>
 
 <div align="center">
