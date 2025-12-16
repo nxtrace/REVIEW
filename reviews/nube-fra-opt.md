@@ -139,9 +139,23 @@ redirect_from:
 </details>
 
 <details markdown="1">
+<summary>北京移动白天</summary>
+
+![北京移动白天]({{ '/assets/images/nube-fra-opt/北京四网代理单线程测速/北京移动白天.jpg' | relative_url }})
+
+</details>
+
+<details markdown="1">
 <summary>北京联通晚高峰</summary>
 
 ![北京联通晚高峰]({{ '/assets/images/nube-fra-opt/北京四网代理单线程测速/北京联通晚高峰.jpg' | relative_url }})
+
+</details>
+
+<details markdown="1">
+<summary>北京联通白天</summary>
+
+![北京联通白天]({{ '/assets/images/nube-fra-opt/北京四网代理单线程测速/北京联通白天.jpg' | relative_url }})
 
 </details>
 
@@ -153,9 +167,23 @@ redirect_from:
 </details>
 
 <details markdown="1">
+<summary>北京网通白天</summary>
+
+![北京网通白天]({{ '/assets/images/nube-fra-opt/北京四网代理单线程测速/北京网通白天.jpg' | relative_url }})
+
+</details>
+
+<details markdown="1">
 <summary>北京电信晚高峰</summary>
 
 ![北京电信晚高峰]({{ '/assets/images/nube-fra-opt/北京四网代理单线程测速/北京电信晚高峰.jpg' | relative_url }})
+
+</details>
+
+<details markdown="1">
+<summary>北京电信白天</summary>
+
+![北京电信白天]({{ '/assets/images/nube-fra-opt/北京四网代理单线程测速/北京电信白天.jpg' | relative_url }})
 
 </details>
 
