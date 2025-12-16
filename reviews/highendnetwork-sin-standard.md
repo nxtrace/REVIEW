@@ -46,7 +46,12 @@ redirect_from:
 
 ## 评
 
-（待补充）
+Jam的新加坡Singtel鸡（Stacks的下游），联通快乐鸡（晚高峰还算稳定，可以跑到400Mbps以上），移动白天还可以但是晚上遭不住，电信就算了。  
+国际线路尚可，Singtel作为新加坡本地T2，该接的资源都是有的，而且IP还算干净，解锁不错。  
+总的来说，推荐联通用户，考虑到他家Special机型的配置和价格，确实算香了。  
+（进[tg群](https://t.me/fuckbjunicom) 购买，Special 机型还有神秘规格升级）  
+
+三网 Singtel 回程 / Singtel 去程  
 
 ## 测
 
