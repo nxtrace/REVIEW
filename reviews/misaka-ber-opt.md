@@ -126,8 +126,8 @@ redirect_from:
 </details>
 
 ### 实时监控
-- **实时三网 ICMP**：<https://ping.nxtrace.org/monitor/goto/HEhVjEINg>
-- **实时三网 TCP**：<https://ping.nxtrace.org/monitor/goto/CGCVjPSHg>
+- **实时三网 ICMP**：<https://ping.nxtrace.org/goto/HEhVjEINg>
+- **实时三网 TCP**：<https://ping.nxtrace.org/goto/CGCVjPSHg>
 - **官方 Looking Glass**：<https://ping.sx/mtr?p=230>
 - **北京三网延迟监控截图**：
   <details markdown="1">
@@ -198,7 +198,7 @@ redirect_from:
 ### 机器性能跑分
 
 <details markdown="1">
-<summary>综合性能跑分</summary>
+<summary>综合性能跑分（YABS·GB5）</summary>
 
 ![综合性能跑分]({{ '/assets/images/misaka-ber-opt/综合性能跑分.png' | relative_url }})
 

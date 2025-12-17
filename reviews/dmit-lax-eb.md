@@ -1,7 +1,7 @@
 ---
 layout: default
 title: DMIT.LAX.EB
-seo_keywords: "DMIT 洛杉矶 EB, DMIT LAX, 9929, Eyeball, 美国VPS"
+seo_keywords: "DMIT 洛杉矶, DMIT 美国, CMIN2, 9929, CN2, 洛杉矶VPS, 美国VPS, EPYC, US, Genoa, Turin, Zen5"
 redirect_from:
   - /reviews/dmit-lax-eb.md
   - /REVIEW/reviews/dmit-lax-eb.md
@@ -30,8 +30,7 @@ redirect_from:
 
 ### 规格对照
 
-- 硬件有 AN4 / AN5 两档，性能差异较大（见下方跑分）。
-- 测试 IP：`154.17.229.24`
+- 硬件有 AN4 / AN5 两档，性能差异较大（见下方跑分，日常销售的机器均为AN5）。
 
 <details markdown="1">
 <summary>LAX.AN5.EB（Eyeball Routing Profile）</summary>
@@ -216,14 +215,14 @@ IPv6 双程三网优化，已是最优路由。
 ### 机器性能跑分
 
 <details markdown="1">
-<summary>AN4 跑分</summary>
+<summary>AN4 综合性能跑分（YABS·GB6）</summary>
 
 ![综合性能跑分·AN4]({{ '/assets/images/dmit-lax-eb/综合性能跑分·AN4.png' | relative_url }})
 
 </details>
 
 <details markdown="1">
-<summary>AN5 跑分</summary>
+<summary>AN5 综合性能跑分（YABS·GB6）</summary>
 
 ![综合性能跑分·AN5]({{ '/assets/images/dmit-lax-eb/综合性能跑分·AN5.jpg' | relative_url }})
 
