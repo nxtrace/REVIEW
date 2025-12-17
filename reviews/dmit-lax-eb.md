@@ -28,6 +28,10 @@ redirect_from:
 
 ## 买
 
+### 购买链接
+
+- [**官方购买入口**](https://www.dmit.io/aff.php?aff=3487)
+
 ### 规格对照
 
 - 硬件有 AN4 / AN5 两档，性能差异较大（见下方跑分，日常销售的机器均为AN5）。
@@ -49,10 +53,6 @@ redirect_from:
 > 说明：套餐含 `1 IPv4` 与 `1 IPv6 /64`，DDoS Protect（Standard），超额降速（TINY/Pocket 为 4 Mbps，MINI/MICRO 为 8 Mbps，MEDIUM 及以上为 10 Mbps）。
 
 </details>
-
-### 购买链接
-
-- [DMIT LAX EB](https://www.dmit.io/aff.php?aff=3487&pid=188)
 
 ## 评
 

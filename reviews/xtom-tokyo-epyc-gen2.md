@@ -28,6 +28,10 @@ redirect_from:
 
 ## 买
 
+### 购买信息
+
+- [**官方购买入口**](https://vps.hosting/?affid=2152&oid=36)
+
 ### 规格对照
 
 <details markdown="1">
@@ -41,9 +45,6 @@ redirect_from:
 | Tokyo EPYC Formula Gen 2 | 8 Cores | 32 GB | 240 GB | 8 TB | 2.5 Gbps | €383.95 |
 
 </details>
-
-### 购买信息
-- **xTom 购买入口**：<https://vps.hosting/?affid=2152&oid=36/>
 
 ## 评
 

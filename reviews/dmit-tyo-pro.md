@@ -28,8 +28,9 @@ redirect_from:
 
 ## 买
 
-### 购买信息
-- **官方购买入口**：<https://www.dmit.io/aff.php?aff=3487&pid=138>
+### 购买链接
+
+- [**官方购买入口**](https://www.dmit.io/aff.php?aff=3487)
 
 ### 规格对照
 

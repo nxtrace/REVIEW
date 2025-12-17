@@ -61,7 +61,7 @@ redirect_from:
 
 ### 购买链接
 
-- [Nube](https://nube.sh/invite/810967136T9BYK)
+- [**官方购买入口**](https://nube.sh/invite/810967136T9BYK)
 
 ## 评
 

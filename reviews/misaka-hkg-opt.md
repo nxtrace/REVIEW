@@ -28,6 +28,10 @@ redirect_from:
 
 ## 买
 
+### 购买链接
+
+- [**官方购买入口**](https://app.misaka.io/iaas/vm/create/hkg12/s3p2-1c1g)
+
 ### 规格对照
 
 <details markdown="1">
@@ -67,9 +71,6 @@ redirect_from:
 </details>
 
 > 说明：规格表仅供对照，库存状态以 Misaka 控制台为准。
-
-### 购买信息
-- **官方开通入口**：<https://app.misaka.io/iaas/vm/create/hkg12/s3p2-1c1g>
 
 ## 评
 

@@ -28,6 +28,10 @@ redirect_from:
 
 ## 买
 
+### 购买链接
+
+- [**官方购买入口**](https://billing.highendnetwork.com/aff.php?aff=57)
+
 ### 规格对照
 
 <details markdown="1">
@@ -40,10 +44,6 @@ redirect_from:
 | SIN.Standard.Special | 1 vCore | 1 GB | 10 GB | 500 GB | 100 Mbps（shared） | $45 / 年 |
 
 </details>
-
-### 购买链接
-
-- [HighEndNetwork](https://billing.highendnetwork.com/aff.php?aff=57)
 
 ## 评
 
