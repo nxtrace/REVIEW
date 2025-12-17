@@ -1,6 +1,7 @@
 ---
 layout: default
 title: DMIT.LAX.EB
+seo_keywords: "DMIT 洛杉矶 EB, DMIT LAX, 9929, Eyeball, 美国VPS"
 redirect_from:
   - /reviews/dmit-lax-eb.md
   - /REVIEW/reviews/dmit-lax-eb.md
@@ -31,6 +32,24 @@ redirect_from:
 
 - 硬件有 AN4 / AN5 两档，性能差异较大（见下方跑分）。
 - 测试 IP：`154.17.229.24`
+
+<details markdown="1">
+<summary>LAX.AN5.EB（Eyeball Routing Profile）</summary>
+
+| 套餐 | vCPU | 内存 | SSD | 流量（双向） | 端口 | 月付 |
+|---|---:|---:|---:|---:|---:|---:|
+| LAX.AN5.EB.TINY | 2 | 2 GB | 20 GB | 15 TB | 2 Gbps | $9.99 |
+| LAX.AN5.EB.POCKET | 2 | 2 GB | 40 GB | 30 TB | 4 Gbps | $14.90 |
+| LAX.AN5.EB.STARTER | 2 | 2 GB | 80 GB | 50 TB | 10 Gbps | $29.90 |
+| LAX.AN5.EB.MINI | 4 | 4 GB | 80 GB | 100 TB | 10 Gbps | $58.88 |
+| LAX.AN5.EB.MICRO | 4 | 4 GB | 160 GB | 140 TB | 10 Gbps | $74.99 |
+| LAX.AN5.EB.MEDIUM | 6 | 8 GB | 160 GB | 300 TB | 10 Gbps | $168.88 |
+| LAX.AN5.EB.LARGE | 8 | 16 GB | 320 GB | 500 TB | 10 Gbps | $338.88 |
+| LAX.AN5.EB.GIANT | 12 | 24 GB | 640 GB | 1000 TB | 10 Gbps | $619.99 |
+
+> 说明：套餐含 `1 IPv4` 与 `1 IPv6 /64`，DDoS Protect（Standard），超额降速（TINY/Pocket 为 4 Mbps，MINI/MICRO 为 8 Mbps，MEDIUM 及以上为 10 Mbps）。
+
+</details>
 
 ### 购买链接
 

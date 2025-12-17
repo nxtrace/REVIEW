@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Misaka.BER.Opt
+seo_keywords: "Misaka 柏林,Misaka 德国, 德国VPS, CN2, BER, EPYC"
 redirect_from:
   - /reviews/misaka-ber-opt.md
   - /REVIEW/reviews/misaka-ber-opt.md
@@ -27,6 +28,26 @@ redirect_from:
 
 ## 买
 
+### 规格对照
+
+<details markdown="1">
+<summary>Standard NVMe (Gen3, AMD EPYC)</summary>
+
+| 套餐 | vCPU | 内存 | 本地 NVMe SSD | 流量（单向 In+Out） | 月付 |
+|---|---:|---:|---:|---:|---:|
+| S3N-1C1G | 1 | 1 GiB | 16 GiB | 1 TiB | $10 |
+| S3N-1C2G | 1 | 2 GiB | 32 GiB | 2 TiB | $20 |
+| S3N-2C3G | 2 | 3 GiB | 48 GiB | 3 TiB | $30 |
+| S3N-2C4G | 2 | 4 GiB | 64 GiB | 4 TiB | $40 |
+| S3N-4C6G | 4 | 6 GiB | 96 GiB | 6 TiB | $60 |
+| S3N-4C8G | 4 | 8 GiB | 112 GiB | 8 TiB | $80 |
+| S3N-6C12G | 6 | 12 GiB | 128 GiB | 12 TiB | $120 |
+| S3N-8C16G | 8 | 16 GiB | 144 GiB | 16 TiB | $160 |
+| S3N-8C24G | 8 | 24 GiB | 160 GiB | 24 TiB | $240 |
+| S3N-16C32G | 16 | 32 GiB | 240 GiB | 32 TiB | $320 |
+
+</details>
+
 ### 购买链接
 
 - [Misaka BER03 S3C-1C512M](https://app.misaka.io/iaas/vm/create/ber03/s3c-1c512m)
@@ -34,7 +55,6 @@ redirect_from:
 ## 评
 
 三网回程莫斯科 CN2 GIA。  
-官方 Looking Glass：<https://ping.sx/mtr?p=230>
 
 ## 测
 
@@ -93,6 +113,7 @@ redirect_from:
 ### 实时监控
 - **实时三网 ICMP**：<https://ping.nxtrace.org/monitor/goto/HEhVjEINg>
 - **实时三网 TCP**：<https://ping.nxtrace.org/monitor/goto/CGCVjPSHg>
+- **官方 Looking Glass**：<https://ping.sx/mtr?p=230>
 - **北京三网延迟监控截图**：
   <details markdown="1">
   <summary>展开查看</summary>

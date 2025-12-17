@@ -1,6 +1,7 @@
 ---
 layout: default
 title: DMIT.LAX.Pro
+seo_keywords: "DMIT 洛杉矶 Pro, DMIT LAX, CN2 GIA, 美国VPS, Premium Routing"
 redirect_from:
   - /reviews/dmit-lax-pro.md
   - /REVIEW/reviews/dmit-lax-pro.md
@@ -31,6 +32,24 @@ redirect_from:
 
 - 硬件有 AN4 / AN5 两档，性能差异较大（见下方跑分）。
 - 测试 IP：`154.17.30.96`
+
+<details markdown="1">
+<summary>LAX.AN5.Pro（Premium Routing Profile）</summary>
+
+| 套餐 | vCPU | 内存 | SSD | 流量（双向） | 端口 | 月付 |
+|---|---:|---:|---:|---:|---:|---:|
+| LAX.AN5.Pro.TINY | 1 | 2 GB | 20 GB | 1 TB | 1 Gbps | $9.99 |
+| LAX.AN5.Pro.POCKET | 2 | 2 GB | 40 GB | 1.5 TB | 4 Gbps | $14.90 |
+| LAX.AN5.Pro.STARTER | 2 | 2 GB | 80 GB | 3 TB | 10 Gbps | $29.90 |
+| LAX.AN5.Pro.MINI | 4 | 4 GB | 80 GB | 5 TB | 10 Gbps | $58.88 |
+| LAX.AN5.Pro.MICRO | 4 | 4 GB | 160 GB | 7 TB | 10 Gbps | $74.99 |
+| LAX.AN5.Pro.MEDIUM | 6 | 8 GB | 160 GB | 14 TB | 10 Gbps | $168.88 |
+| LAX.AN5.Pro.LARGE | 8 | 16 GB | 320 GB | 25 TB | 10 Gbps | $338.88 |
+| LAX.AN5.Pro.GIANT | 12 | 24 GB | 640 GB | 50 TB | 10 Gbps | $619.99 |
+
+> 说明：套餐含 `1 IPv4` 与 `1 IPv6 /64`，DDoS Protect（Standard），超额降速（TINY/Pocket 为 4 Mbps，MINI/MICRO 为 8 Mbps，MEDIUM 及以上为 10 Mbps）。
+
+</details>
 
 ### 购买链接
 
