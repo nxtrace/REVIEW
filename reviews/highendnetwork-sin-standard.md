@@ -30,7 +30,7 @@ redirect_from:
 
 ### 购买链接
 
-- [**官方购买入口**](https://billing.highendnetwork.com/aff.php?aff=57)
+- [**官方购买入口**](https://billing.highendnetwork.com/aff.php?aff=57&gid=6)
 
 ### 规格对照
 
