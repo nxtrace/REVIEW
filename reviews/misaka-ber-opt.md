@@ -35,16 +35,16 @@ redirect_from:
 
 | 套餐 | vCPU | 内存 | 本地 NVMe SSD | 流量（单向 In+Out） | 月付 |
 |---|---:|---:|---:|---:|---:|
-| S3N-1C1G | 1 | 1 GiB | 16 GiB | 1 TiB | $10 |
-| S3N-1C2G | 1 | 2 GiB | 32 GiB | 2 TiB | $20 |
-| S3N-2C3G | 2 | 3 GiB | 48 GiB | 3 TiB | $30 |
-| S3N-2C4G | 2 | 4 GiB | 64 GiB | 4 TiB | $40 |
-| S3N-4C6G | 4 | 6 GiB | 96 GiB | 6 TiB | $60 |
-| S3N-4C8G | 4 | 8 GiB | 112 GiB | 8 TiB | $80 |
-| S3N-6C12G | 6 | 12 GiB | 128 GiB | 12 TiB | $120 |
-| S3N-8C16G | 8 | 16 GiB | 144 GiB | 16 TiB | $160 |
-| S3N-8C24G | 8 | 24 GiB | 160 GiB | 24 TiB | $240 |
-| S3N-16C32G | 16 | 32 GiB | 240 GiB | 32 TiB | $320 |
+| S3N-1C1G | 1 | 1 GiB | 16 GiB | 1 TiB | $6 |
+| S3N-1C2G | 1 | 2 GiB | 32 GiB | 2 TiB | $10 |
+| S3N-2C3G | 2 | 3 GiB | 48 GiB | 3 TiB | $15 |
+| S3N-2C4G | 2 | 4 GiB | 64 GiB | 4 TiB | $20 |
+| S3N-4C6G | 4 | 6 GiB | 96 GiB | 6 TiB | $30 |
+| S3N-4C8G | 4 | 8 GiB | 112 GiB | 8 TiB | $40 |
+| S3N-6C12G | 6 | 12 GiB | 128 GiB | 12 TiB | $60 |
+| S3N-8C16G | 8 | 16 GiB | 144 GiB | 16 TiB | $80 |
+| S3N-8C24G | 8 | 24 GiB | 160 GiB | 24 TiB | $120 |
+| S3N-16C32G | 16 | 32 GiB | 240 GiB | 32 TiB | $160 |
 
 </details>
 
