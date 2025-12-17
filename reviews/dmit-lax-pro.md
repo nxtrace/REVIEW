@@ -81,8 +81,6 @@ IPv6 双程三网优化，已是最优路由。
 <details markdown="1">
 <summary>IPv4 去程</summary>
 
-引用：<https://t.me/nanaselog/605>
-
 <div align="center">
   <img src="{{ '/assets/images/dmit-lax-pro/IPv4去程/2025-12-17 11.16.30.png' | relative_url }}" alt="IPv4 去程路由 1" width="32%" />
   <img src="{{ '/assets/images/dmit-lax-pro/IPv4去程/2025-12-17 11.16.32.png' | relative_url }}" alt="IPv4 去程路由 2" width="32%" />
@@ -93,8 +91,6 @@ IPv6 双程三网优化，已是最优路由。
 
 <details markdown="1">
 <summary>IPv4 回程 · ICMP</summary>
-
-引用：<https://t.me/nanaselog/716>
 
 <div align="center">
   <img src="{{ '/assets/images/dmit-lax-pro/IPv4 回程 · ICMP/2025-12-17 11.11.18.png' | relative_url }}" alt="IPv4 回程 ICMP 1" width="32%" />
@@ -107,8 +103,6 @@ IPv6 双程三网优化，已是最优路由。
 <details markdown="1">
 <summary>IPv4 回程 · TCP</summary>
 
-引用：<https://t.me/nanaselog/717>
-
 <div align="center">
   <img src="{{ '/assets/images/dmit-lax-pro/IPv4 回程 · TCP/2025-12-17 11.12.06.png' | relative_url }}" alt="IPv4 回程 TCP 1" width="32%" />
   <img src="{{ '/assets/images/dmit-lax-pro/IPv4 回程 · TCP/2025-12-17 11.12.07.png' | relative_url }}" alt="IPv4 回程 TCP 2" width="32%" />
@@ -120,8 +114,6 @@ IPv6 双程三网优化，已是最优路由。
 <details markdown="1">
 <summary>IPv6 去程</summary>
 
-引用：<https://t.me/nanaselog/907>
-
 <div align="center">
   <img src="{{ '/assets/images/dmit-lax-pro/IPv6去程/2025-12-17 11.27.19.png' | relative_url }}" alt="IPv6 去程路由 1" width="32%" />
   <img src="{{ '/assets/images/dmit-lax-pro/IPv6去程/2025-12-17 11.27.21.png' | relative_url }}" alt="IPv6 去程路由 2" width="32%" />
@@ -132,8 +124,6 @@ IPv6 双程三网优化，已是最优路由。
 
 <details markdown="1">
 <summary>IPv6 回程 · ICMP</summary>
-
-引用：<https://t.me/nanaselog/224>
 
 <div align="center">
   <img src="{{ '/assets/images/dmit-lax-pro/IPv6 回程 · ICMP/2025-12-17 11.21.58.png' | relative_url }}" alt="IPv6 回程 ICMP 1" width="32%" />

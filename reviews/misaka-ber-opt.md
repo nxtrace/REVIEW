@@ -71,7 +71,7 @@ redirect_from:
 
 ### 购买链接
 
-- [Misaka BER03 S3C-1C512M](https://app.misaka.io/iaas/vm/create/ber03/s3c-1c512m)
+- **官方开通入口**：<https://app.misaka.io/iaas/vm/create/ber03/s3c-1c512m>
 
 ## 评
 
@@ -95,8 +95,6 @@ redirect_from:
 <details markdown="1">
 <summary>IPv4 去程</summary>
 
-引用：<https://t.me/nanaselog/859>
-
 <div align="center">
   <img src="{{ '/assets/images/misaka-ber-opt/IPv4去程/2025-12-17 11.02.19.png' | relative_url }}" alt="IPv4 去程路由 1" width="32%" />
   <img src="{{ '/assets/images/misaka-ber-opt/IPv4去程/2025-12-17 11.02.34.png' | relative_url }}" alt="IPv4 去程路由 2" width="32%" />
@@ -108,8 +106,6 @@ redirect_from:
 <details markdown="1">
 <summary>IPv4 回程 · ICMP</summary>
 
-引用：<https://t.me/nanaselog/862>
-
 <div align="center">
   <img src="{{ '/assets/images/misaka-ber-opt/IPv4 回程 · ICMP/截屏2025-12-17 上午10.43.33.png' | relative_url }}" alt="IPv4 回程 ICMP 1" width="32%" />
   <img src="{{ '/assets/images/misaka-ber-opt/IPv4 回程 · ICMP/截屏2025-12-17 上午10.46.53.png' | relative_url }}" alt="IPv4 回程 ICMP 2" width="32%" />
@@ -120,8 +116,6 @@ redirect_from:
 
 <details markdown="1">
 <summary>IPv4 回程 · TCP</summary>
-
-引用：<https://t.me/nanaselog/865>
 
 <div align="center">
   <img src="{{ '/assets/images/misaka-ber-opt/IPv4 回程 · TCP/截屏2025-12-17 上午10.47.43.png' | relative_url }}" alt="IPv4 回程 TCP 1" width="32%" />
