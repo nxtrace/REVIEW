@@ -48,6 +48,27 @@ redirect_from:
 
 </details>
 
+<details markdown="1">
+<summary>Standard NVMe w/ CN2 (Gen3, AMD EPYC)</summary>
+
+| 套餐 | vCPU | 内存 | 本地 NVMe SSD | 流量（单向 In+Out） | 月付 |
+|---|---:|---:|---:|---:|---:|
+| S3C-1C512M | 1 | 512 MiB | 10 GiB | 512 GiB | $10.5 |
+| S3C-1C1G | 1 | 1 GiB | 16 GiB | 1 TiB | $15 |
+| S3C-1C2G | 1 | 2 GiB | 32 GiB | 2 TiB | $30 |
+| S3C-2C3G | 2 | 3 GiB | 48 GiB | 3 TiB | $45 |
+| S3C-2C4G | 2 | 4 GiB | 64 GiB | 4 TiB | $60 |
+| S3C-4C6G | 4 | 6 GiB | 96 GiB | 6 TiB | $90 |
+| S3C-4C8G | 4 | 8 GiB | 112 GiB | 8 TiB | $120 |
+| S3C-6C12G | 6 | 12 GiB | 128 GiB | 12 TiB | $180 |
+| S3C-8C16G | 8 | 16 GiB | 144 GiB | 16 TiB | $240 |
+| S3C-8C24G | 8 | 24 GiB | 160 GiB | 24 TiB | $360 |
+| S3C-16C32G | 16 | 32 GiB | 240 GiB | 32 TiB | $480 |
+
+</details>
+
+> 说明：规格表仅供对照，库存状态以 Misaka 控制台为准。
+
 ### 购买链接
 
 - [Misaka BER03 S3C-1C512M](https://app.misaka.io/iaas/vm/create/ber03/s3c-1c512m)
