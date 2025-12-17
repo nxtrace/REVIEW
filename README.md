@@ -10,6 +10,7 @@
 
 - [Misaka.HKG.Opt](https://review.nxtrace.org/reviews/misaka-hkg-opt/)
 - [Misaka.TPE.Opt](https://review.nxtrace.org/reviews/misaka-tpe-opt/)
+- [Misaka.BER.Opt](https://review.nxtrace.org/reviews/misaka-ber-opt/)
 
 </details>
 
@@ -17,6 +18,8 @@
 <summary>DMIT</summary>
 
 - [DMIT.TYO.Pro](https://review.nxtrace.org/reviews/dmit-tyo-pro/)
+- [DMIT.LAX.Pro](https://review.nxtrace.org/reviews/dmit-lax-pro/)
+- [DMIT.LAX.EB](https://review.nxtrace.org/reviews/dmit-lax-eb/)
 
 </details>
 
