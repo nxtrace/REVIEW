@@ -60,7 +60,8 @@ redirect_from:
 **电信/移动/联通用户都可稳定跑到 600Mbps** 以上  
 值得注意的是该产品的**IPv6线路，速度一样可以跑的非常快**  
 
-三网 CTG GIA（CN2 GIA）回程  
+联通/电信 CUG VIP（9929）回程  
+移动 CMIN2 回程  
 电信 CTG GIA 去程  
 联通 CUG VIP（9929）去程  
 移动 CMIN2 去程  
