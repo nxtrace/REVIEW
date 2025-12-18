@@ -40,7 +40,7 @@
 <details open markdown="1">
 <summary>HighEndNetwork</summary>
 
-- [🇸🇬 HighEndNetwork.SIN.Standard 新加坡 Singtel VPS 测评](https://review.nxtrace.org/reviews/highendnetwork-sin-standard/)
+- [🇸🇬 HighEndNetwork SIN-Standard 新加坡 Singtel VPS 测评](https://review.nxtrace.org/reviews/highendnetwork-sin-standard/)
 
 </details>
 
