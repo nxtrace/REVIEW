@@ -8,18 +8,18 @@
 <details open markdown="1">
 <summary>Misaka</summary>
 
-- [Misaka.HKG.Opt](https://review.nxtrace.org/reviews/misaka-hkg-opt/)
-- [Misaka.TPE.Opt](https://review.nxtrace.org/reviews/misaka-tpe-opt/)
-- [Misaka.BER.Opt](https://review.nxtrace.org/reviews/misaka-ber-opt/)
+- [🇭🇰 Misaka Hong Kong 香港 VPS 详细测评](https://review.nxtrace.org/reviews/misaka-hkg-opt/)
+- [🇹🇼 Misaka Taipei 台湾台北 VPS 详细测评](https://review.nxtrace.org/reviews/misaka-tpe-opt/)
+- [🇩🇪 Misaka Berlin 德国柏林 CN2 VPS 详细测评](https://review.nxtrace.org/reviews/misaka-ber-opt/)
 
 </details>
 
 <details open markdown="1">
 <summary>DMIT</summary>
 
-- [DMIT.TYO.Pro](https://review.nxtrace.org/reviews/dmit-tyo-pro/)
-- [DMIT.LAX.Pro](https://review.nxtrace.org/reviews/dmit-lax-pro/)
-- [DMIT.LAX.EB](https://review.nxtrace.org/reviews/dmit-lax-eb/)
+- [🇯🇵 DMIT.TYO.Pro 日本东京 CN2 VPS 详细测评](https://review.nxtrace.org/reviews/dmit-tyo-pro/)
+- [🇺🇸 DMIT.LAX.Pro 美国洛杉矶 CN2 VPS 详细测评](https://review.nxtrace.org/reviews/dmit-lax-pro/)
+- [🇺🇸 DMIT.LAX.EB 美国洛杉矶 9929/CMIN2 VPS 详细测评](https://review.nxtrace.org/reviews/dmit-lax-eb/)
 
 </details>
 
@@ -33,22 +33,22 @@
 <details open markdown="1">
 <summary>Nube</summary>
 
-- [Nube.FRA.Opt](https://review.nxtrace.org/reviews/nube-fra-opt/)
+- [🇩🇪 Nube FRA 德国柏林精品线路 VPS 详细测评](https://review.nxtrace.org/reviews/nube-fra-opt/)
 
 </details>
 
 <details open markdown="1">
 <summary>HighEndNetwork</summary>
 
-- [HighEndNetwork.SIN.Standard](https://review.nxtrace.org/reviews/highendnetwork-sin-standard/)
+- [🇸🇬 HighEndNetwork.SIN.Standard 新加坡 Singtel VPS 详细测评](https://review.nxtrace.org/reviews/highendnetwork-sin-standard/)
 
 </details>
 
 <details open markdown="1">
 <summary>xTom</summary>
 
-- [xTom Tokyo EPYC Gen 2](https://review.nxtrace.org/reviews/xtom-tokyo-epyc-gen2/)
-- [xTom Singapore EPYC](https://review.nxtrace.org/reviews/xtom-singapore-epyc/)
+- [🇯🇵 V.PS Performance Tokyo Gen2 日本东京 CN2/9929 VPS 详细测评](https://review.nxtrace.org/reviews/xtom-tokyo-epyc-gen2/)
+- [🇸🇬 V.PS Performance Singapore 新加坡 CN2 VPS 详细测评](https://review.nxtrace.org/reviews/xtom-singapore-epyc/)
 
 </details>
 
