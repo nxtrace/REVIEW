@@ -33,7 +33,7 @@
 <details open markdown="1">
 <summary>Nube</summary>
 
-- [🇩🇪 Nube FRA 德国柏林精品线路 VPS 测评](https://review.nxtrace.org/reviews/nube-fra-opt/)
+- [🇩🇪 Nube FRA 德国法兰克福中国优化 VPS 测评](https://review.nxtrace.org/reviews/nube-fra-opt/)
 
 </details>
 

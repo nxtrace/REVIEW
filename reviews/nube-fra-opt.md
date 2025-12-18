@@ -1,13 +1,13 @@
 ---
 layout: default
-title: "🇩🇪 Nube FRA 德国柏林精品线路 VPS 测评"
+title: "🇩🇪 Nube FRA 德国法兰克福中国优化 VPS 测评"
 seo_keywords: "法兰克福VPS, 牛彼云, CMIN2, 9929, 德国VPS, EPYC"
 redirect_from:
   - /reviews/nube-fra-opt.md
   - /REVIEW/reviews/nube-fra-opt.md
 ---
 
-# 🇩🇪 Nube FRA 德国柏林精品线路 VPS 测评
+# 🇩🇪 Nube FRA 德国法兰克福中国优化 VPS 测评
 
 <div class="back-home" style="margin: 12px 0 24px;">
   <a href="{{ '/' | relative_url }}" style="display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px; background: linear-gradient(135deg, #f8fafc 0%, #eef2f7 100%); border: 1px solid #e5e7eb; border-radius: 999px; color: #1f2937; text-decoration: none; font-size: 14px; font-weight: 600;">
