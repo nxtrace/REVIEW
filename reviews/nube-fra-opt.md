@@ -53,9 +53,9 @@ redirect_from:
 <details markdown="1">
 <summary>计费项</summary>
 
-- **出站流量**：$0.0117 / GB（仅按出站计费）
+- **出站流量**：$0.0125 / GB（仅按出站计费）
 - **存储（NVMe）**：$0.05605 / GB / 30 天
-- **IP（IPv4 + IPv6 各一个）**：$0.6048 / 30 天
+- **IP（IPv4 + IPv6 各一个）**：$0.7992 / 30 天
 
 </details>
 
