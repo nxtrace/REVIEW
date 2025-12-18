@@ -1,13 +1,13 @@
 ---
 layout: default
-title: "🇩🇪 Misaka Berlin 德国柏林 CN2 VPS 测评"
+title: "🇩🇪 Misaka BER 德国柏林 CN2 VPS 测评"
 seo_keywords: "Misaka 柏林,Misaka 德国, 德国VPS, CN2, BER, EPYC"
 redirect_from:
   - /reviews/misaka-ber-opt.md
   - /REVIEW/reviews/misaka-ber-opt.md
 ---
 
-# 🇩🇪 Misaka Berlin 德国柏林 CN2 VPS 测评
+# 🇩🇪 Misaka BER 德国柏林 CN2 VPS 测评
 
 <div class="back-home" style="margin: 12px 0 24px;">
   <a href="{{ '/' | relative_url }}" style="display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px; background: linear-gradient(135deg, #f8fafc 0%, #eef2f7 100%); border: 1px solid #e5e7eb; border-radius: 999px; color: #1f2937; text-decoration: none; font-size: 14px; font-weight: 600;">

@@ -8,9 +8,9 @@
 <details open markdown="1">
 <summary>Misaka</summary>
 
-- [🇭🇰 Misaka Hong Kong 香港 VPS 测评](https://review.nxtrace.org/reviews/misaka-hkg-opt/)
-- [🇹🇼 Misaka Taipei 台湾台北 VPS 测评](https://review.nxtrace.org/reviews/misaka-tpe-opt/)
-- [🇩🇪 Misaka Berlin 德国柏林 CN2 VPS 测评](https://review.nxtrace.org/reviews/misaka-ber-opt/)
+- [🇭🇰 Misaka HKG 香港 VPS 测评](https://review.nxtrace.org/reviews/misaka-hkg-opt/)
+- [🇹🇼 Misaka TPE 台湾台北 VPS 测评](https://review.nxtrace.org/reviews/misaka-tpe-opt/)
+- [🇩🇪 Misaka BER 德国柏林 CN2 VPS 测评](https://review.nxtrace.org/reviews/misaka-ber-opt/)
 
 </details>
 
