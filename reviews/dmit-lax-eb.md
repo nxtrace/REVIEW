@@ -1,13 +1,13 @@
 ---
 layout: default
-title: "🇺🇸 DMIT.LAX.EB 美国洛杉矶 9929/CMIN2 VPS 详细测评"
+title: "🇺🇸 DMIT.LAX.EB 美国洛杉矶 9929/CMIN2 VPS 测评"
 seo_keywords: "DMIT 洛杉矶, DMIT 美国, CMIN2, 9929, CN2, 洛杉矶VPS, 美国VPS, EPYC, US, Genoa, Turin, Zen5"
 redirect_from:
   - /reviews/dmit-lax-eb.md
   - /REVIEW/reviews/dmit-lax-eb.md
 ---
 
-# 🇺🇸 DMIT.LAX.EB 美国洛杉矶 9929/CMIN2 VPS 详细测评
+# 🇺🇸 DMIT.LAX.EB 美国洛杉矶 9929/CMIN2 VPS 测评
 
 <div class="back-home" style="margin: 12px 0 24px;">
   <a href="{{ '/' | relative_url }}" style="display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px; background: linear-gradient(135deg, #f8fafc 0%, #eef2f7 100%); border: 1px solid #e5e7eb; border-radius: 999px; color: #1f2937; text-decoration: none; font-size: 14px; font-weight: 600;">

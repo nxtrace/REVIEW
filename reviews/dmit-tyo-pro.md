@@ -1,13 +1,13 @@
 ---
 layout: default
-title: "🇯🇵 DMIT.TYO.Pro 日本东京 CN2 VPS 详细测评"
+title: "🇯🇵 DMIT.TYO.Pro 日本东京 CN2 VPS 测评"
 seo_keywords: "DMIT 东京, DMIT 日本, DMIT, CN2, 东京VPS, 日本VPS, EPYC, JP"
 redirect_from:
   - /reviews/dmit-tyo-pro.md
   - /REVIEW/reviews/dmit-tyo-pro.md
 ---
 
-# 🇯🇵 DMIT.TYO.Pro 日本东京 CN2 VPS 详细测评
+# 🇯🇵 DMIT.TYO.Pro 日本东京 CN2 VPS 测评
 
 <div class="back-home" style="margin: 12px 0 24px;">
   <a href="{{ '/' | relative_url }}" style="display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px; background: linear-gradient(135deg, #f8fafc 0%, #eef2f7 100%); border: 1px solid #e5e7eb; border-radius: 999px; color: #1f2937; text-decoration: none; font-size: 14px; font-weight: 600;">

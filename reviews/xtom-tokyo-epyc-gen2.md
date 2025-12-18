@@ -1,13 +1,13 @@
 ---
 layout: default
-title: "🇯🇵 V.PS Performance Tokyo Gen2 日本东京 CN2/9929 VPS 详细测评"
+title: "🇯🇵 V.PS Performance Tokyo Gen2 日本东京 CN2/9929 VPS 测评"
 seo_keywords: "V.PS Tokyo Performance KVM VPS Gen 2, V.PS Tokyo EPYC Gen 2 Explorer, xtom, sa.net, Riven Cloud, GreenCloud, 绿云, CN2, 9929, 东京VPS, 日本VPS, EPYC, JP"
 redirect_from:
   - /reviews/xtom-tokyo-epyc-gen2.md
   - /REVIEW/reviews/xtom-tokyo-epyc-gen2.md
 ---
 
-# 🇯🇵 V.PS Performance Tokyo Gen2 日本东京 CN2/9929 VPS 详细测评
+# 🇯🇵 V.PS Performance Tokyo Gen2 日本东京 CN2/9929 VPS 测评
 
 <div class="back-home" style="margin: 12px 0 24px;">
   <a href="{{ '/' | relative_url }}" style="display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px; background: linear-gradient(135deg, #f8fafc 0%, #eef2f7 100%); border: 1px solid #e5e7eb; border-radius: 999px; color: #1f2937; text-decoration: none; font-size: 14px; font-weight: 600;">

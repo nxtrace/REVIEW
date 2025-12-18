@@ -1,13 +1,13 @@
 ---
 layout: default
-title: "🇹🇼 Misaka Taipei 台湾台北 VPS 详细测评"
+title: "🇹🇼 Misaka Taipei 台湾台北 VPS 测评"
 seo_keywords: "Misaka 台湾, Misaka 台北, 台湾VPS, 台北VPS, Hinet, TW, EPYC"
 redirect_from:
   - /reviews/misaka-tpe-opt.md
   - /REVIEW/reviews/misaka-tpe-opt.md
 ---
 
-# 🇹🇼 Misaka Taipei 台湾台北 VPS 详细测评
+# 🇹🇼 Misaka Taipei 台湾台北 VPS 测评
 
 <div class="back-home" style="margin: 12px 0 24px;">
   <a href="{{ '/' | relative_url }}" style="display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px; background: linear-gradient(135deg, #f8fafc 0%, #eef2f7 100%); border: 1px solid #e5e7eb; border-radius: 999px; color: #1f2937; text-decoration: none; font-size: 14px; font-weight: 600;">

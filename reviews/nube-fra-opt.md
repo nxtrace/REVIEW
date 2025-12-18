@@ -1,13 +1,13 @@
 ---
 layout: default
-title: "🇩🇪 Nube FRA 德国柏林精品线路 VPS 详细测评"
+title: "🇩🇪 Nube FRA 德国柏林精品线路 VPS 测评"
 seo_keywords: "法兰克福VPS, 牛彼云, CMIN2, 9929, 德国VPS, EPYC"
 redirect_from:
   - /reviews/nube-fra-opt.md
   - /REVIEW/reviews/nube-fra-opt.md
 ---
 
-# 🇩🇪 Nube FRA 德国柏林精品线路 VPS 详细测评
+# 🇩🇪 Nube FRA 德国柏林精品线路 VPS 测评
 
 <div class="back-home" style="margin: 12px 0 24px;">
   <a href="{{ '/' | relative_url }}" style="display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px; background: linear-gradient(135deg, #f8fafc 0%, #eef2f7 100%); border: 1px solid #e5e7eb; border-radius: 999px; color: #1f2937; text-decoration: none; font-size: 14px; font-weight: 600;">
@@ -73,6 +73,8 @@ redirect_from:
 联通 Telxius 回程 / CUG VIP 去程  
 移动 CMIN2 回程 / CMIN2 回程  
 另 IPv6 有电信移动方向优化（CMIN2），联通 Telxius 回程  
+
+**主要提示：Nube该区域存在两种流量配置，本测评测的是中国优化版本，对应的流量价格不同，其他价格一致。**
 
 ## 测
 
