@@ -30,7 +30,7 @@ redirect_from:
 
 ### 促销链接
 
-> 优惠码会自动填入
+> 优惠码会自动填入，该系列流量均为单向计费
 
 <details open markdown="1">
 <summary>AN5 · VOLUME 系列（流量额度多，CPU：AMD EPYC 9005）</summary>
@@ -87,7 +87,8 @@ redirect_from:
 
 ## 评
 
-//TODO 测评
+DMIT 高性能建站/落地小鸡，性能/稳定性/国际互联优异，大带宽，接入 GSL/GTT/1299 线路。  
+无中国路由优化，如需中国访问建议搭配精品线路机器使用。  
 
 ## 测
 
