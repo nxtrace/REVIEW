@@ -61,8 +61,8 @@ redirect_from:
 **移动联通用户可稳定跑到 400Mbps** 以上  
 值得注意的是该产品的**IPv6线路，速度一样可以跑的非常快**  
 
-三网 CTG GIA（CN2 GIA）回程  
-电信 CTG GIA 去程  
+三网 CN2 GIA 回程  
+电信 CN2 GIA 去程  
 联通 CUG VIP（9929）去程  
 移动 CMIN2 去程  
 IPv6 双程三网优化（CMIN2+CUG VIP 回程），已是市面上可提供的最优路由
