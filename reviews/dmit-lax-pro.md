@@ -30,7 +30,7 @@ redirect_from:
 
 ### 购买链接
 
-- [**官方购买入口**](https://www.dmit.io/aff.php?aff=3487)
+- [**官方购买入口**](https://www.dmit.io/cart.php?region=los-angeles&generation=an5&network=premium&aff=3487)
 
 ### 规格对照
 
