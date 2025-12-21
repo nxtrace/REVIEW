@@ -32,8 +32,10 @@ redirect_from:
 
 > 优惠码会自动填入
 
-<details markdown="1">
+<details open markdown="1">
 <summary>AN5 · VOLUME 系列（流量额度多，CPU：AMD EPYC 9005）</summary>
+
+<div class="spec-table" markdown="1">
 
 | 型号 | CPU | vCPU | 内存 | SSD | 流量额度（高速区） | 高速端口 | 超额后不限流量限速 | 年付价格 ($) | 返现 ($) | 购买链接 |
 |---|---|---:|---:|---:|---:|---:|---:|---:|---:|---|
@@ -44,10 +46,14 @@ redirect_from:
 | V8C16G | EPYC 9005 | 8 | 16 GB | 240 GB | 80000 GB | 10 Gbps | 500 Mbps | $1151.04 | $115.10 | [购买链接](https://www.dmit.io/cart.php?a=add&pid=172&billingcycle=annually&promocode=2025-XMAS-LAX-T1-ANNUALLY-EXCL-WEE-TINY-20OFF-RECURRING&aff=3487) |
 | V12C24G | EPYC 9005 | 12 | 24 GB | 320 GB | 160000 GB | 10 Gbps | 500 Mbps | $1919.04 | $191.90 | [购买链接](https://www.dmit.io/cart.php?a=add&pid=173&billingcycle=annually&promocode=2025-XMAS-LAX-T1-ANNUALLY-EXCL-WEE-TINY-20OFF-RECURRING&aff=3487) |
 
+</div>
+
 </details>
 
-<details markdown="1">
+<details open markdown="1">
 <summary>AN5 · GENERAL 系列（硬件规格高，CPU：AMD EPYC 9005）</summary>
+
+<div class="spec-table" markdown="1">
 
 | 型号 | CPU | vCPU | 内存 | SSD | 流量额度（高速区） | 高速端口 | 超额后不限流量限速 | 年付价格 ($) | 返现 ($) | 购买链接 |
 |---|---|---:|---:|---:|---:|---:|---:|---:|---:|---|
@@ -57,10 +63,14 @@ redirect_from:
 | G12C24G | EPYC 9005 | 12 | 24 GB | 480 GB | 24000 GB | 10 Gbps | 200 Mbps | $1151.04 | $115.10 | [购买链接](https://www.dmit.io/cart.php?a=add&pid=174&billingcycle=annually&promocode=2025-XMAS-LAX-T1-ANNUALLY-EXCL-WEE-TINY-20OFF-RECURRING&aff=3487) |
 | G16C32G | EPYC 9005 | 16 | 32 GB | 640 GB | 32000 GB | 10 Gbps | 200 Mbps | $1919.04 | $191.90 | [购买链接](https://www.dmit.io/cart.php?a=add&pid=175&billingcycle=annually&promocode=2025-XMAS-LAX-T1-ANNUALLY-EXCL-WEE-TINY-20OFF-RECURRING&aff=3487) |
 
+</div>
+
 </details>
 
-<details markdown="1">
+<details open markdown="1">
 <summary>AN4 · 入门款（性能稍弱/便宜，CPU：AMD EPYC 9004）</summary>
+
+<div class="spec-table" markdown="1">
 
 | 套餐 | CPU | vCPU | 内存 | SSD | 流量额度（高速区） | 高速端口 | 超额后不限流量限速 | 年付价格 ($) | 返现 ($) | 购买链接 |
 |---|---|---:|---:|---:|---:|---:|---:|---:|---:|---|
@@ -68,6 +78,8 @@ redirect_from:
 | STARTER | EPYC 9004 | 2 | 2 GB | 40 GB | 4000 GB | 10 Gbps | 200 Mbps | $123.84 | $12.38 | [购买链接](https://www.dmit.io/cart.php?a=add&pid=117&billingcycle=annually&promocode=2025-XMAS-LAX-T1-ANNUALLY-EXCL-WEE-TINY-20OFF-RECURRING&aff=3487) |
 | MINI | EPYC 9004 | 2 | 4 GB | 80 GB | 8000 GB | 10 Gbps | 200 Mbps | $210.24 | $21.02 | [购买链接](https://www.dmit.io/cart.php?a=add&pid=118&billingcycle=annually&promocode=2025-XMAS-LAX-T1-ANNUALLY-EXCL-WEE-TINY-20OFF-RECURRING&aff=3487) |
 | MICRO | EPYC 9004 | 4 | 4 GB | 120 GB | 16000 GB | 10 Gbps | 500 Mbps | $315.84 | $31.58 | [购买链接](https://www.dmit.io/cart.php?a=add&pid=119&billingcycle=annually&promocode=2025-XMAS-LAX-T1-ANNUALLY-EXCL-WEE-TINY-20OFF-RECURRING&aff=3487) |
+
+</div>
 
 </details>
 

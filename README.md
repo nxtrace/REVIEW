@@ -18,6 +18,7 @@
 <summary>DMIT</summary>
 
 - [🇯🇵 DMIT.TYO.Pro 日本东京 CN2 VPS 测评](https://review.nxtrace.org/reviews/dmit-tyo-pro/)
+- [🇺🇸 DMIT.LAX.T1 美国洛杉矶 高性能 VPS 测评](https://review.nxtrace.org/reviews/dmit-lax-t1/)
 - [🇺🇸 DMIT.LAX.Pro 美国洛杉矶 CN2 VPS 测评](https://review.nxtrace.org/reviews/dmit-lax-pro/)
 - [🇺🇸 DMIT.LAX.EB 美国洛杉矶 9929/CMIN2 VPS 测评](https://review.nxtrace.org/reviews/dmit-lax-eb/)
 
