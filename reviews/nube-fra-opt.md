@@ -61,7 +61,7 @@ redirect_from:
 
 ### 购买链接
 
-- [**官方购买入口**](https://nube.sh/invite/810967136T9BYK)
+- [**官方购买入口**](https://console.nube.sh/zh-cn/vm/place-order?compute=pm_gp_amd_epyc_g3_shared_1c1g&storage=pm_gp_storage_Nvme_NVMe&size=10&ip=pm_gp_ip_ip&network=pm_gp_network_china_direct_group_fra_china_direct_fra&zone=random&cycle=1hr&affId=810967136T9BYK)
 
 ## 评
 
@@ -107,7 +107,7 @@ redirect_from:
 
 <div align="center">
   <img src="{{ '/assets/images/nube-fra-opt/IPv4 回程 · ICMP/2025-12-15 21.56.38.png' | relative_url }}" alt="IPv4 回程 ICMP 1" width="32%" />
-  <img src="{{ '/assets/images/nube-fra-opt/IPv4 回程 · ICMP/2025-12-15 21.56.40.png' | relative_url }}" alt="IPv4 回程 ICMP 2" width="32%" />
+  <img src="{{ '/assets/images/nube-fra-opt/IPv4 回程 · ICMP/2025-12-21 15.01.47.png' | relative_url }}" alt="IPv4 回程 ICMP 2" width="32%" />
   <img src="{{ '/assets/images/nube-fra-opt/IPv4 回程 · ICMP/2025-12-15 21.56.41.png' | relative_url }}" alt="IPv4 回程 ICMP 3" width="32%" />
 </div>
 
@@ -118,7 +118,7 @@ redirect_from:
 
 <div align="center">
   <img src="{{ '/assets/images/nube-fra-opt/IPv4 回程 · TCP/2025-12-15 21.57.02.png' | relative_url }}" alt="IPv4 回程 TCP 1" width="32%" />
-  <img src="{{ '/assets/images/nube-fra-opt/IPv4 回程 · TCP/2025-12-15 21.57.15.png' | relative_url }}" alt="IPv4 回程 TCP 2" width="32%" />
+  <img src="{{ '/assets/images/nube-fra-opt/IPv4 回程 · TCP/2025-12-21 15.02.49.png' | relative_url }}" alt="IPv4 回程 TCP 2" width="32%" />
   <img src="{{ '/assets/images/nube-fra-opt/IPv4 回程 · TCP/2025-12-15 21.57.16.png' | relative_url }}" alt="IPv4 回程 TCP 3" width="32%" />
 </div>
 
@@ -140,7 +140,7 @@ redirect_from:
 
 <div align="center">
   <img src="{{ '/assets/images/nube-fra-opt/IPv6 回程 · ICMP/2025-12-15 22.01.59.png' | relative_url }}" alt="IPv6 回程 ICMP 1" width="32%" />
-  <img src="{{ '/assets/images/nube-fra-opt/IPv6 回程 · ICMP/2025-12-15 22.02.02.png' | relative_url }}" alt="IPv6 回程 ICMP 2" width="32%" />
+  <img src="{{ '/assets/images/nube-fra-opt/IPv6 回程 · ICMP/2025-12-21 15.03.25.png' | relative_url }}" alt="IPv6 回程 ICMP 2" width="32%" />
   <img src="{{ '/assets/images/nube-fra-opt/IPv6 回程 · ICMP/2025-12-15 22.02.03.png' | relative_url }}" alt="IPv6 回程 ICMP 3" width="32%" />
 </div>
 
@@ -150,7 +150,7 @@ redirect_from:
 <summary>IPv6 回程 · TCP</summary>
 
 <div align="center">
-  <img src="{{ '/assets/images/nube-fra-opt/IPv6 回程 · TCP/2025-12-15 22.06.07.png' | relative_url }}" alt="IPv6 回程 TCP 1" width="32%" />
+  <img src="{{ '/assets/images/nube-fra-opt/IPv6 回程 · TCP/2025-12-21 15.03.57.png' | relative_url }}" alt="IPv6 回程 TCP 1" width="32%" />
   <img src="{{ '/assets/images/nube-fra-opt/IPv6 回程 · TCP/2025-12-15 22.06.08.png' | relative_url }}" alt="IPv6 回程 TCP 2" width="32%" />
   <img src="{{ '/assets/images/nube-fra-opt/IPv6 回程 · TCP/2025-12-15 22.09.20.png' | relative_url }}" alt="IPv6 回程 TCP 3" width="32%" />
 </div>
