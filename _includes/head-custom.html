@@ -96,21 +96,25 @@ details[open] summary::before {
 
 .spec-table table {
   width: 100%;
-  table-layout: fixed;
-  font-size: 0.8rem;
-  line-height: 1.15;
+  table-layout: auto;
+  font-size: 0.82rem;
+  line-height: 1.2;
 }
 
 .spec-table th,
 .spec-table td {
-  padding: 0.3rem 0.4rem;
-  white-space: normal;
-  word-break: break-word;
+  padding: 0.3rem 0.45rem;
+  white-space: nowrap;
 }
 
 @media screen and (min-width: 64em) {
   .main-content {
     padding-right: 18rem;
+  }
+
+  body.has-spec-table .main-content {
+    max-width: 90rem;
+    padding-right: 14rem;
   }
 
   .toc-container {
@@ -132,6 +136,17 @@ details[open] summary::before {
   .toc-container li {
     font-size: 0.85rem;
   }
+
+  body.has-spec-table .toc-container {
+    width: 12rem;
+  }
+}
+
+@media screen and (max-width: 64em) {
+  .spec-table th,
+  .spec-table td {
+    white-space: normal;
+  }
 }
 </style>
 {% assign _seo_keywords = page.seo_keywords | default: "" | strip %}
@@ -142,6 +157,10 @@ details[open] summary::before {
 document.addEventListener('DOMContentLoaded', function () {
   const main = document.querySelector('.main-content');
   if (!main) return;
+
+  if (document.querySelector('.spec-table')) {
+    document.body.classList.add('has-spec-table');
+  }
 
   const overlay = document.createElement('div');
   overlay.className = 'lightbox-overlay';
