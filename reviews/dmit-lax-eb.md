@@ -62,8 +62,8 @@ redirect_from:
 
 联通/电信 CUG VIP（9929）回程  
 移动 CMIN2 回程  
-电信 CTG GIA 去程  
-联通 CUG VIP（9929）去程  
+电信 CN2 GIA 去程  
+联通 CUG VIP 去程  
 移动 CMIN2 去程  
 IPv6 双程三网优化（CMIN2+CUG VIP 回程），已是市面上可提供的最优路由
 
