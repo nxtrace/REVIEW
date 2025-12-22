@@ -90,21 +90,68 @@ details[open] summary::before {
   text-decoration: underline;
 }
 
+/* 通用表格容器：支持水平滚动 */
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  margin: 1rem 0;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* 通用表格样式优化 */
+.main-content table {
+  width: max-content;
+  min-width: 100%;
+  table-layout: auto;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  border-collapse: collapse;
+}
+
+.main-content th,
+.main-content td {
+  padding: 0.5rem 0.75rem;
+  white-space: nowrap;
+  border: 1px solid #e1e4e8;
+}
+
+.main-content th {
+  background: #f6f8fa;
+  font-weight: 600;
+}
+
+.main-content tbody tr:hover {
+  background: #f8f9fa;
+}
+
+/* spec-table 专用样式（用于多列复杂表格） */
 .spec-table {
   margin: 0.5rem 0;
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .spec-table table {
-  width: 100%;
+  width: max-content;
+  min-width: 100%;
   table-layout: auto;
   font-size: 0.82rem;
-  line-height: 1.2;
+  line-height: 1.3;
 }
 
 .spec-table th,
 .spec-table td {
-  padding: 0.3rem 0.45rem;
+  padding: 0.4rem 0.6rem;
   white-space: nowrap;
+}
+
+/* details 内的表格也支持滚动 */
+details table {
+  display: block;
+  width: max-content;
+  min-width: 100%;
+  overflow-x: auto;
 }
 
 @media screen and (min-width: 64em) {
@@ -112,8 +159,14 @@ details[open] summary::before {
     padding-right: 18rem;
   }
 
+  /* 有表格时扩展内容区宽度 */
+  body.has-table .main-content {
+    max-width: 95vw;
+    padding-right: 14rem;
+  }
+
   body.has-spec-table .main-content {
-    max-width: 90rem;
+    max-width: 95vw;
     padding-right: 14rem;
   }
 
@@ -137,15 +190,26 @@ details[open] summary::before {
     font-size: 0.85rem;
   }
 
+  body.has-table .toc-container,
   body.has-spec-table .toc-container {
     width: 12rem;
   }
 }
 
 @media screen and (max-width: 64em) {
+  .main-content th,
+  .main-content td,
   .spec-table th,
   .spec-table td {
-    white-space: normal;
+    white-space: nowrap;
+    font-size: 0.8rem;
+    padding: 0.35rem 0.5rem;
+  }
+  
+  /* 移动端表格容器滚动提示 */
+  .main-content table {
+    display: block;
+    overflow-x: auto;
   }
 }
 </style>
@@ -158,8 +222,12 @@ document.addEventListener('DOMContentLoaded', function () {
   const main = document.querySelector('.main-content');
   if (!main) return;
 
+  // 检测是否有表格，添加对应的 body class
   if (document.querySelector('.spec-table')) {
     document.body.classList.add('has-spec-table');
+  }
+  if (main.querySelector('table')) {
+    document.body.classList.add('has-table');
   }
 
   const overlay = document.createElement('div');
