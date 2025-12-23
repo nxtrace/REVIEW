@@ -1,0 +1,191 @@
+---
+layout: default
+title: "🇩🇪 Saltyfish Frankfurt Elite 德国法兰克福 9929 VPS 测评"
+seo_keywords: "法兰克福VPS, FRA, 咸鱼云, Saltyfish, snapstack, 9929, CUG Premium, CMIN2, CUG VIP, 德国VPS"
+redirect_from:
+  - /reviews/saltyfish-fra-elite.md
+  - /REVIEW/reviews/saltyfish-fra-elite.md
+---
+
+# 🇩🇪 Saltyfish Frankfurt Elite 德国法兰克福 9929 VPS 测评
+
+<div class="back-home" style="margin: 12px 0 24px;">
+  <a href="{{ '/' | relative_url }}" style="display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px; background: linear-gradient(135deg, #f8fafc 0%, #eef2f7 100%); border: 1px solid #e5e7eb; border-radius: 999px; color: #1f2937; text-decoration: none; font-size: 14px; font-weight: 600;">
+    <span style="font-size: 16px;">←</span>
+    <span>返回主页</span>
+  </a>
+</div>
+
+<div class="toc-container" markdown="1">
+
+## 目录
+{: .no_toc }
+
+* TOC
+{:toc}
+
+</div>
+
+## 买
+
+### 购买链接
+
+- [**官方购买入口**](https://portal.saltyfish.io/aff.php?aff=610&gid=25)
+
+### 规格对照
+
+> China Mainland Optimized by China Unicom AS10099 (9929) Premium
+
+<details markdown="1">
+<summary>FRA.Elite（Elite Network）</summary>
+
+| 套餐 | vCPU | 内存 | SSD | 流量 | 端口 | 月付 |
+|---|---:|---:|---:|---:|---:|---:|
+| fra.e1.mini | 1 | 1 GB | 15 GB | 1000 GB | 500 Mbps | ¥52.50 |
+| fra.e1.micro | 1 | 2 GB | 20 GB | 1800 GB | 500 Mbps | ¥101.50 |
+| fra.e1.medium | 2 | 4 GB | 40 GB | 4000 GB | 500 Mbps | ¥203.00 |
+
+</details>
+
+## 评
+
+咸鱼云德国法兰克福 Elite 线路产品，联通/电信方向走 CUG-Premium（9929）回程，移动方向走 CMIN2 回程。  
+适合联通用户选择，电信用户因跨网可能体验稍有差异，移动用户走 CMIN2 表现稳定。  
+端口为 500Mbps，相比 Pro 系列带宽较小，但价格也相对更低。
+
+电信 CUG-Premium（9929）回程  
+联通 CUG-Premium（9929）回程  
+移动 CMIN2 回程
+
+## 测
+
+### 路由表现
+
+<details markdown="1">
+<summary>线路概览</summary>
+
+**IPv4 路由图**
+![ipv4-radar]({{ '/assets/images/saltyfish-fra-elite/radar.png' | relative_url }})
+
+</details>
+
+<details markdown="1">
+<summary>IPv4 去程</summary>
+
+<div align="center">
+  <img src="{{ '/assets/images/saltyfish-fra-elite/IPv4去程/IMAGE 2025-12-15 14:57:08.jpg' | relative_url }}" alt="IPv4 去程路由 1" width="32%" />
+  <img src="{{ '/assets/images/saltyfish-fra-elite/IPv4去程/IMAGE 2025-12-15 14:57:11.jpg' | relative_url }}" alt="IPv4 去程路由 2" width="32%" />
+  <img src="{{ '/assets/images/saltyfish-fra-elite/IPv4去程/IMAGE 2025-12-15 14:57:12.jpg' | relative_url }}" alt="IPv4 去程路由 3" width="32%" />
+</div>
+
+</details>
+
+<details markdown="1">
+<summary>IPv4 回程 · ICMP</summary>
+
+<div align="center">
+  <img src="{{ '/assets/images/saltyfish-fra-elite/IPv4 回程 · ICMP/IMAGE 2025-12-15 14:56:24.jpg' | relative_url }}" alt="IPv4 回程 ICMP 1" width="32%" />
+  <img src="{{ '/assets/images/saltyfish-fra-elite/IPv4 回程 · ICMP/IMAGE 2025-12-15 14:56:26.jpg' | relative_url }}" alt="IPv4 回程 ICMP 2" width="32%" />
+  <img src="{{ '/assets/images/saltyfish-fra-elite/IPv4 回程 · ICMP/IMAGE 2025-12-15 14:56:27.jpg' | relative_url }}" alt="IPv4 回程 ICMP 3" width="32%" />
+</div>
+
+</details>
+
+<details markdown="1">
+<summary>IPv4 回程 · TCP</summary>
+
+<div align="center">
+  <img src="{{ '/assets/images/saltyfish-fra-elite/IPv4 回程 · TCP/IMAGE 2025-12-15 14:56:13.jpg' | relative_url }}" alt="IPv4 回程 TCP 1" width="32%" />
+  <img src="{{ '/assets/images/saltyfish-fra-elite/IPv4 回程 · TCP/IMAGE 2025-12-15 14:56:15.jpg' | relative_url }}" alt="IPv4 回程 TCP 2" width="32%" />
+  <img src="{{ '/assets/images/saltyfish-fra-elite/IPv4 回程 · TCP/IMAGE 2025-12-15 14:56:17.jpg' | relative_url }}" alt="IPv4 回程 TCP 3" width="32%" />
+</div>
+
+</details>
+
+### 实时监控
+- **实时三网 ICMP**：<https://ping.nxtrace.org/monitor/goto/uIYczzZHR>
+- **实时三网 TCP**：<https://ping.nxtrace.org/monitor/goto/oKXtzzWNg>
+- **官方 Looking Glass**：<https://lg.saltyfish.io/?router=fra-elite>
+- **北京三网延迟监控截图**：
+  <details markdown="1">
+  <summary>展开查看</summary>
+  
+  ![北京三网延迟监控截图]({{ '/assets/images/saltyfish-fra-elite/北京三网延迟监控截图.png' | relative_url }})
+  
+  </details>
+
+### 北京四网代理单线程测速
+
+<details markdown="1">
+<summary>北京移动晚高峰</summary>
+
+![北京移动晚高峰]({{ '/assets/images/saltyfish-fra-elite/北京四网代理单线程测速/北京移动晚高峰.jpg' | relative_url }})
+
+</details>
+
+<details markdown="1">
+<summary>北京移动白天</summary>
+
+![北京移动白天]({{ '/assets/images/saltyfish-fra-elite/北京四网代理单线程测速/北京移动白天.jpg' | relative_url }})
+
+</details>
+
+<details markdown="1">
+<summary>北京联通晚高峰</summary>
+
+![北京联通晚高峰]({{ '/assets/images/saltyfish-fra-elite/北京四网代理单线程测速/北京联通晚高峰.jpg' | relative_url }})
+
+</details>
+
+<details markdown="1">
+<summary>北京联通白天</summary>
+
+![北京联通白天]({{ '/assets/images/saltyfish-fra-elite/北京四网代理单线程测速/北京联通白天.jpg' | relative_url }})
+
+</details>
+
+<details markdown="1">
+<summary>北京网通晚高峰</summary>
+
+![北京网通晚高峰]({{ '/assets/images/saltyfish-fra-elite/北京四网代理单线程测速/北京网通晚高峰.jpg' | relative_url }})
+
+</details>
+
+<details markdown="1">
+<summary>北京网通白天</summary>
+
+![北京网通白天]({{ '/assets/images/saltyfish-fra-elite/北京四网代理单线程测速/北京网通白天.jpg' | relative_url }})
+
+</details>
+
+<details markdown="1">
+<summary>北京电信晚高峰</summary>
+
+![北京电信晚高峰]({{ '/assets/images/saltyfish-fra-elite/北京四网代理单线程测速/北京电信晚高峰.jpg' | relative_url }})
+
+</details>
+
+<details markdown="1">
+<summary>北京电信白天</summary>
+
+![北京电信白天]({{ '/assets/images/saltyfish-fra-elite/北京四网代理单线程测速/北京电信白天.jpg' | relative_url }})
+
+</details>
+
+### 机器性能跑分
+
+<details markdown="1">
+<summary>综合性能跑分（YABS·GB4）</summary>
+
+![综合性能跑分]({{ '/assets/images/saltyfish-fra-elite/综合性能跑分.png' | relative_url }})
+
+</details>
+
+### IP 解锁
+
+<details markdown="1">
+<summary>流媒体 / 平台解锁记录</summary>
+
+![解锁情况]({{ '/assets/images/saltyfish-fra-elite/解锁情况/2025-12-15 15.12.59.png' | relative_url }})
+
+</details>
