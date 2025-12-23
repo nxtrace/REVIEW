@@ -37,7 +37,7 @@ redirect_from:
 > China Mainland Optimized by China Telecom CN2 GIA.
 
 <details markdown="1">
-<summary>FRA.Pro（Premium Network）</summary>
+<summary>Frankfurt VPS - Premium Network</summary>
 
 | 套餐 | vCPU | 内存 | SSD | 流量 | 端口 | 月付 |
 |---|---:|---:|---:|---:|---:|---:|
@@ -49,13 +49,12 @@ redirect_from:
 
 ## 评
 
-咸鱼云德国法兰克福 Premium 线路产品，三网回程中国优化。  
-电信/联通方向走 CTG GIA (CN2 GIA) 回程，表现优秀；移动方向走 CMIN2 回程，延迟和速度表现良好。  
-三网去程各自优化（CN2/9929/CMIN2），三网方向均有较好的连接质量。  
-全系列已升级至 2.5Gbps 端口，带宽充足。
+咸鱼云德国法兰克福 CN2 GIA+CMIN2 小鸡，线路优秀。  
+适合电信/移动用户选择，对于北方用户晚高峰三网都可以跑500-800Mbps，  
+而且目前该产品线所有机型均已升级2.5Gbps端口，算是欧洲鸡中经济实惠的选择了。  
 
-电信 CTG GIA（CN2 GIA）回程 / CN2 去程  
-联通 CTG GIA（CN2 GIA）回程 / 9929 去程  
+电信 CTG GIA (aka: CN2 GIA）回程 / CTG GIA 去程  
+联通 CTG GIA 回程 / CUG VIP (aka: 9929) 去程  
 移动 CMIN2 回程 / CMIN2 去程
 
 ## 测

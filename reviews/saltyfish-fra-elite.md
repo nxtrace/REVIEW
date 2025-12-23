@@ -37,7 +37,7 @@ redirect_from:
 > China Mainland Optimized by China Unicom AS10099 (9929) Premium
 
 <details markdown="1">
-<summary>FRA.Elite（Elite Network）</summary>
+<summary>Frankfurt VPS - Elite Network</summary>
 
 | 套餐 | vCPU | 内存 | SSD | 流量 | 端口 | 月付 |
 |---|---:|---:|---:|---:|---:|---:|
@@ -49,13 +49,13 @@ redirect_from:
 
 ## 评
 
-咸鱼云德国法兰克福 Elite 线路产品，联通/电信方向走 CUG-Premium（9929）回程，移动方向走 CMIN2 回程。  
-适合联通用户选择，电信用户因跨网可能体验稍有差异，移动用户走 CMIN2 表现稳定。  
-端口为 500Mbps，相比 Pro 系列带宽较小，但价格也相对更低。
+咸鱼云德国法兰克福 9929+CMIN2 小鸡，线路优秀。  
+移动/联通/电信用户都可以选择，全能性线路延迟低、速度快，尤其对于北方用户晚高峰三网都可以跑500-800Mbps（但需要注意目前日常在售机型端口为500Mbps），  
+对于需要欧洲方向精品线路的客户，这是一个不错的选择。  
 
-电信 CUG-Premium（9929）回程  
-联通 CUG-Premium（9929）回程  
-移动 CMIN2 回程
+电信 CUG VIP (aka: 9929) 回程 / CTG GIA (aka: CN2 GIA) 去程  
+联通 CUG VIP 回程 / CUG VIP 去程  
+移动 CMIN2 回程 / CMIN2 去程
 
 ## 测
 
@@ -103,8 +103,8 @@ redirect_from:
 </details>
 
 ### 实时监控
-- **实时三网 ICMP**：<https://ping.nxtrace.org/monitor/goto/uIYczzZHR>
-- **实时三网 TCP**：<https://ping.nxtrace.org/monitor/goto/oKXtzzWNg>
+- **实时三网 ICMP**：<https://ping.nxtrace.org/goto/uIYczzZHR>
+- **实时三网 TCP**：<https://ping.nxtrace.org/goto/oKXtzzWNg>
 - **官方 Looking Glass**：<https://lg.saltyfish.io/?router=fra-elite>
 - **北京三网延迟监控截图**：
   <details markdown="1">
