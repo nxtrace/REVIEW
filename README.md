@@ -27,8 +27,11 @@
 <details open markdown="1">
 <summary>Saltyfish</summary>
 
+- [🇺🇸 Saltyfish San Jose Premium 美国圣何塞 CN2 GIA VPS 测评](https://review.nxtrace.org/reviews/saltyfish-sjc-pro/)
+- [🇺🇸 Saltyfish San Jose Elite 美国圣何塞 9929 VPS 测评](https://review.nxtrace.org/reviews/saltyfish-sjc-elite/)
 - [🇩🇪 Saltyfish Frankfurt Premium 德国法兰克福 CN2 GIA VPS 测评](https://review.nxtrace.org/reviews/saltyfish-fra-pro/)
 - [🇩🇪 Saltyfish Frankfurt Elite 德国法兰克福 9929 VPS 测评](https://review.nxtrace.org/reviews/saltyfish-fra-elite/)
+- [🇳🇱 Saltyfish Amsterdam Premium 荷兰阿姆斯特丹 CN2 GIA VPS 测评](https://review.nxtrace.org/reviews/saltyfish-ams-pro/)
 
 </details>
 

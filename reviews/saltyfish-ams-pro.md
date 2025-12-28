@@ -50,13 +50,13 @@ redirect_from:
 ## 评
 
 咸鱼云荷兰阿姆斯特丹 CN2 GIA+CMIN2 小鸡，线路优秀。  
-电信双向 CTG GIA，联通回程 CTG GIA、去程 CUG VIP (9929)，移动双向 CMIN2。  
-适合电信/移动用户选择，欧洲节点位置对于访问欧洲资源较为友好。  
-全系列已升级 2.5Gbps 端口，带宽充足。
+中国优化路由是从他家法兰克福拉过来的，所以延迟表现会稍差于他家FRA.Pro机型（延迟大约高10ms），国际方向是本地直接出的，  
+速度和FRA.Pro一致，三网晚高峰都可以跑到600Mbps以上。  
+考虑到他家AMS.Pro价格相对于的便宜一些，不太在意极致延迟的话可以选择。  
 
 电信 CTG GIA (aka: CN2 GIA）回程 / CTG GIA 去程  
 联通 CTG GIA 回程 / CUG VIP (aka: 9929) 去程  
-移动 CMIN2 回程 / CMIN2 去程
+移动 CMIN2 回程 / CMIN2 去程  
 
 ## 测
 
