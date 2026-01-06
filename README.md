@@ -25,13 +25,13 @@
 </details>
 
 <details open markdown="1">
-<summary>Saltyfish</summary>
+<summary>咸鱼云 Saltyfish</summary>
 
-- [🇺🇸 Saltyfish San Jose Premium 美国圣何塞 CN2 GIA VPS 测评](https://review.nxtrace.org/reviews/saltyfish-sjc-pro/)
-- [🇺🇸 Saltyfish San Jose Elite 美国圣何塞 9929 VPS 测评](https://review.nxtrace.org/reviews/saltyfish-sjc-elite/)
-- [🇩🇪 Saltyfish Frankfurt Premium 德国法兰克福 CN2 GIA VPS 测评](https://review.nxtrace.org/reviews/saltyfish-fra-pro/)
-- [🇩🇪 Saltyfish Frankfurt Elite 德国法兰克福 9929 VPS 测评](https://review.nxtrace.org/reviews/saltyfish-fra-elite/)
-- [🇳🇱 Saltyfish Amsterdam Premium 荷兰阿姆斯特丹 CN2 GIA VPS 测评](https://review.nxtrace.org/reviews/saltyfish-ams-pro/)
+- [🇺🇸 咸鱼云 Saltyfish San Jose Premium 美国圣何塞 CN2 GIA VPS 测评](https://review.nxtrace.org/reviews/saltyfish-sjc-pro/)
+- [🇺🇸 咸鱼云 Saltyfish San Jose Elite 美国圣何塞 9929 VPS 测评](https://review.nxtrace.org/reviews/saltyfish-sjc-elite/)
+- [🇩🇪 咸鱼云 Saltyfish Frankfurt Premium 德国法兰克福 CN2 GIA VPS 测评](https://review.nxtrace.org/reviews/saltyfish-fra-pro/)
+- [🇩🇪 咸鱼云 Saltyfish Frankfurt Elite 德国法兰克福 9929 VPS 测评](https://review.nxtrace.org/reviews/saltyfish-fra-elite/)
+- [🇳🇱 咸鱼云 Saltyfish Amsterdam Premium 荷兰阿姆斯特丹 CN2 GIA VPS 测评](https://review.nxtrace.org/reviews/saltyfish-ams-pro/)
 
 </details>
 
@@ -50,7 +50,7 @@
 </details>
 
 <details open markdown="1">
-<summary>xTom</summary>
+<summary>xTom V.PS</summary>
 
 - [🇯🇵 V.PS Performance Tokyo Gen2 日本东京 CN2/9929 VPS 测评](https://review.nxtrace.org/reviews/xtom-tokyo-epyc-gen2/)
 - [🇸🇬 V.PS Performance Singapore 新加坡 CN2 VPS 测评](https://review.nxtrace.org/reviews/xtom-singapore-epyc/)

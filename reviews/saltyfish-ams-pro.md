@@ -1,13 +1,13 @@
 ---
 layout: default
-title: "🇳🇱 Saltyfish Amsterdam Premium 荷兰阿姆斯特丹 CN2 GIA VPS 测评"
+title: "🇳🇱 咸鱼云 Saltyfish Amsterdam Premium 荷兰阿姆斯特丹 CN2 GIA VPS 测评"
 seo_keywords: "阿姆斯特丹VPS, AMS, 咸鱼云, Saltyfish, CN2 GIA, CTG GIA, CMIN2, 9929, snapstack, 荷兰VPS"
 redirect_from:
   - /reviews/saltyfish-ams-pro.md
   - /REVIEW/reviews/saltyfish-ams-pro.md
 ---
 
-# 🇳🇱 Saltyfish Amsterdam Premium 荷兰阿姆斯特丹 CN2 GIA VPS 测评
+# 🇳🇱 咸鱼云 Saltyfish Amsterdam Premium 荷兰阿姆斯特丹 CN2 GIA VPS 测评
 
 <div class="back-home" style="margin: 12px 0 24px;">
   <a href="{{ '/' | relative_url }}" style="display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px; background: linear-gradient(135deg, #f8fafc 0%, #eef2f7 100%); border: 1px solid #e5e7eb; border-radius: 999px; color: #1f2937; text-decoration: none; font-size: 14px; font-weight: 600;">

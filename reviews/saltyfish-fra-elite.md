@@ -1,13 +1,13 @@
 ---
 layout: default
-title: "🇩🇪 Saltyfish Frankfurt Elite 德国法兰克福 9929 VPS 测评"
+title: "🇩🇪 咸鱼云 Saltyfish Frankfurt Elite 德国法兰克福 9929 VPS 测评"
 seo_keywords: "法兰克福VPS, FRA, 咸鱼云, Saltyfish, snapstack, 9929, CUG Premium, CMIN2, CUG VIP, 德国VPS"
 redirect_from:
   - /reviews/saltyfish-fra-elite.md
   - /REVIEW/reviews/saltyfish-fra-elite.md
 ---
 
-# 🇩🇪 Saltyfish Frankfurt Elite 德国法兰克福 9929 VPS 测评
+# 🇩🇪 咸鱼云 Saltyfish Frankfurt Elite 德国法兰克福 9929 VPS 测评
 
 <div class="back-home" style="margin: 12px 0 24px;">
   <a href="{{ '/' | relative_url }}" style="display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px; background: linear-gradient(135deg, #f8fafc 0%, #eef2f7 100%); border: 1px solid #e5e7eb; border-radius: 999px; color: #1f2937; text-decoration: none; font-size: 14px; font-weight: 600;">
