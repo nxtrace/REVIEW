@@ -53,7 +53,7 @@
 <summary>xTom V.PS</summary>
 
 - [🇯🇵 V.PS Performance Tokyo Gen2 日本东京 CN2/9929 VPS 测评](https://review.nxtrace.org/reviews/xtom-tokyo-epyc-gen2/)
-- [🇸🇬 V.PS Performance Singapore 新加坡 CN2 VPS 测评](https://review.nxtrace.org/reviews/xtom-singapore-epyc/)
+- [🇸🇬 V.PS Performance Singapore 新加坡 CN2/9929 VPS 测评](https://review.nxtrace.org/reviews/xtom-singapore-epyc/)
 
 </details>
 
