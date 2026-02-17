@@ -30,8 +30,7 @@ redirect_from:
 
 ### 购买链接
 
-- **官方购买入口**：
-  - <https://www.mkcloud.net/aff.php?aff=356&pid=91>
+- **[官方购买入口](https://www.mkcloud.net/aff.php?aff=356&pid=91)**
 
 ### 产品说明
 
@@ -132,6 +131,21 @@ redirect_from:
 | 浙江杭州 | 30.5965 ms |
 | 广东广州 | 9.8919 ms |
 | 广东深圳 | 8.5284 ms |
+
+</details>
+
+<details markdown="1">
+<summary>国际网络带宽测试（IPv4）</summary>
+
+| 服务商 | 地点 | 发送速度 | 接收速度 | 延迟 |
+|---|---|---:|---:|---:|
+| Clouvider | London, UK (10G) | 470 Mbits/sec | 170 Mbits/sec | 196 ms |
+| Eranium | Amsterdam, NL (100G) | 480 Mbits/sec | 334 Mbits/sec | 258 ms |
+| Uztelecom | Tashkent, UZ (10G) | 489 Mbits/sec | 225 Mbits/sec | 112 ms |
+| Leaseweb | Singapore, SG (10G) | 511 Mbits/sec | 381 Mbits/sec | 86.6 ms |
+| Clouvider | Los Angeles, CA, US (10G) | 487 Mbits/sec | 253 Mbits/sec | 145 ms |
+| Leaseweb | NYC, NY, US (10G) | 461 Mbits/sec | 267 Mbits/sec | 254 ms |
+| Edgoo | Sao Paulo, BR (1G) | 380 Mbits/sec | 64.5 Mbits/sec | 334 ms |
 
 </details>
 
