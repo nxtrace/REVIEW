@@ -18,6 +18,10 @@
 <summary>Mkcloud</summary>
 
 - [🇨🇳 Mkcloud 广东-香港 IEPL 专线 上云互联优化入口（IXP）测评](https://review.nxtrace.org/reviews/mkcloud-ix-szx-hkg/)
+- [🇨🇳 Mkcloud 上海-香港 IPLC 专线 上云互联优化入口（IXP）测评](https://review.nxtrace.org/reviews/Mkcloud-ix-sha-hkg/)
+- [🇨🇳 Mkcloud 广东-香港 IEPL 专线 广州BGP 测评](https://review.nxtrace.org/reviews/Mkcloud-can-hkg/)
+- [🇯🇵 Mkcloud 上海-日本 IPLC 专线 上云互联优化入口（IXP）测评](https://review.nxtrace.org/reviews/Mkcloud-ix-sha-nrt/)
+- [🇯🇵 Mkcloud 上海-日本 IPLC 专线 上海电信 测评](https://review.nxtrace.org/reviews/Mkcloud-sha-nrt/)
 
 </details>
 

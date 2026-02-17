@@ -112,20 +112,31 @@ redirect_from:
   </details>
 
 <details markdown="1">
-<summary>阿里云各地区到入口延迟测试</summary>
+<summary>三网延迟测试</summary>
 
-| 探测点（阿里云） | 平均时间 |
-|---|---:|
-| 待补充 | 待补充 |
+| 城市 | 电信 | 联通 | 移动 |
+|---|---:|---:|---:|
+| 北京 | 20.868 ms | 27.839 ms | 29.171 ms |
+| 上海 | 3.772 ms | 6.367 ms | 8.595 ms |
+| 广州 | 29.345 ms | 29.876 ms | 36.261 ms |
+| 成都 | 34.386 ms | 34.616 ms | 39.607 ms |
+| 西安 | 26.069 ms | 29.052 ms | 32.599 ms |
+| 杭州 | 10.200 ms | 17.023 ms | 9.344 ms |
 
 </details>
 
 <details markdown="1">
-<summary>国际网络带宽测试（IPv4）</summary>
+<summary>国际网络带宽测试</summary>
 
 | 服务商 | 地点 | 发送速度 | 接收速度 | 延迟 |
 |---|---|---:|---:|---:|
-| 待补充 | 待补充 | 待补充 | 待补充 | 待补充 |
+| Clouvider | London, UK (10G) | 136 Mbits/sec | 77.5 Mbits/sec | 251 ms |
+| Eranium | Amsterdam, NL (100G) | 138 Mbits/sec | 121 Mbits/sec | 267 ms |
+| Uztelecom | Tashkent, UZ (10G) | 1.01 Mbits/sec | 62.4 Mbits/sec | 268 ms |
+| Leaseweb | Singapore, SG (10G) | 118 Mbits/sec | 131 Mbits/sec | 142 ms |
+| Clouvider | Los Angeles, CA, US (10G) | 149 Mbits/sec | 136 Mbits/sec | 123 ms |
+| Leaseweb | NYC, NY, US (10G) | 145 Mbits/sec | 102 Mbits/sec | 189 ms |
+| Edgoo | Sao Paulo, BR (1G) | 131 Mbits/sec | 88.4 Mbits/sec | 311 ms |
 
 </details>
 

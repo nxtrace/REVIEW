@@ -121,11 +121,17 @@ redirect_from:
 </details>
 
 <details markdown="1">
-<summary>国际网络带宽测试（IPv4）</summary>
+<summary>国际网络带宽测试</summary>
 
 | 服务商 | 地点 | 发送速度 | 接收速度 | 延迟 |
 |---|---|---:|---:|---:|
-| 待补充 | 待补充 | 待补充 | 待补充 | 待补充 |
+| Clouvider | London, UK (10G) | 455 Mbits/sec | 70.9 Mbits/sec | 212 ms |
+| Eranium | Amsterdam, NL (100G) | 472 Mbits/sec | 375 Mbits/sec | 195 ms |
+| Uztelecom | Tashkent, UZ (10G) | 481 Mbits/sec | 274 Mbits/sec | 189 ms |
+| Leaseweb | Singapore, SG (10G) | 108 Mbits/sec | 321 Mbits/sec | 99.2 ms |
+| Clouvider | Los Angeles, CA, US (10G) | 470 Mbits/sec | 402 Mbits/sec | 169 ms |
+| Leaseweb | NYC, NY, US (10G) | 453 Mbits/sec | 319 Mbits/sec | 251 ms |
+| Edgoo | Sao Paulo, BR (1G) | 52.4 Mbits/sec | 45.6 Mbits/sec | 344 ms |
 
 </details>
 
