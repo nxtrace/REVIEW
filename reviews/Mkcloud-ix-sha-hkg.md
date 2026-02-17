@@ -1,13 +1,13 @@
 ---
 layout: default
-title: "🇨🇳 Mkcloud 上海-香港 IPLC 专线 上云互联优化入口（IXP）测评"
+title: "🇭🇰 Mkcloud 上海-香港 IPLC 专线 上云互联优化入口（IXP）测评"
 seo_keywords: "Mkcloud, 上海香港IPLC, IXP, 云厂BGP优化入口, 香港BGP"
 redirect_from:
   - /reviews/Mkcloud-ix-sha-hkg.md
   - /REVIEW/reviews/Mkcloud-ix-sha-hkg.md
 ---
 
-# 🇨🇳 Mkcloud 上海-香港 IPLC 专线 上云互联优化入口（IXP）测评
+# 🇭🇰 Mkcloud 上海-香港 IPLC 专线 上云互联优化入口（IXP）测评
 
 <div class="back-home" style="margin: 12px 0 24px;">
   <a href="{{ '/' | relative_url }}" style="display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px; background: linear-gradient(135deg, #f8fafc 0%, #eef2f7 100%); border: 1px solid #e5e7eb; border-radius: 999px; color: #1f2937; text-decoration: none; font-size: 14px; font-weight: 600;">
@@ -102,7 +102,7 @@ redirect_from:
 
 ### 实时监控
 
-- **端内实时状态监控**：https://ping.nxtrace.org/goto/idBZU8vvg
+- **端内实时状态监控**：<https://ping.nxtrace.org/goto/idBZU8vvg>
 - **端内状态监控截图**：
   <details markdown="1">
   <summary>展开查看</summary>

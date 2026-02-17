@@ -102,7 +102,7 @@ redirect_from:
 
 ### 实时监控
 
-- **端内实时状态监控**：https://ping.nxtrace.org/goto/04v7U8vDg
+- **端内实时状态监控**：<https://ping.nxtrace.org/goto/04v7U8vDg>
 - **端内状态监控截图**：
   <details markdown="1">
   <summary>展开查看</summary>
