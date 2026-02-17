@@ -15,6 +15,13 @@
 </details>
 
 <details open markdown="1">
+<summary>Mkcloud</summary>
+
+- [🇨🇳 Mkcloud 广东-香港 IEPL 专线 上云互联优化入口（IXP）测评](https://review.nxtrace.org/reviews/mkcloud-ix-szx-hkg/)
+
+</details>
+
+<details open markdown="1">
 <summary>DMIT</summary>
 
 - [🇯🇵 DMIT.TYO.Pro 日本东京 CN2 VPS 测评](https://review.nxtrace.org/reviews/dmit-tyo-pro/)
