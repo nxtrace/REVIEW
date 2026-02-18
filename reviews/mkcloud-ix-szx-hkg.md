@@ -30,7 +30,7 @@ redirect_from:
 
 ### 购买链接
 
-- **[官方购买入口](https://www.mkcloud.net/aff.php?aff=356&pid=91)**
+- [**官方购买入口**](https://www.mkcloud.net/aff.php?aff=356&gid=14)
 
 ### 产品说明
 
