@@ -3,6 +3,7 @@ layout: default
 title: "🇯🇵 Mkcloud 上海-日本 IPLC 专线 上海电信 测评"
 seo_keywords: "Mkcloud, 上海日本IPLC, 上海电信, 日本BGP"
 redirect_from:
+  - /reviews/Mkcloud-sha-nrt/
   - /reviews/Mkcloud-sha-nrt.md
   - /REVIEW/reviews/Mkcloud-sha-nrt.md
 ---

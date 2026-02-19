@@ -3,6 +3,7 @@ layout: default
 title: "🇭🇰 Mkcloud 广东-香港 IEPL 专线 广州BGP 测评"
 seo_keywords: "Mkcloud, 广东香港IEPL, 广州BGP, 香港BGP"
 redirect_from:
+  - /reviews/Mkcloud-can-hkg/
   - /reviews/Mkcloud-can-hkg.md
   - /REVIEW/reviews/Mkcloud-can-hkg.md
 ---

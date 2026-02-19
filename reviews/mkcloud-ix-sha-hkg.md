@@ -3,6 +3,7 @@ layout: default
 title: "🇭🇰 Mkcloud 上海-香港 IPLC 专线 上云互联优化入口（IXP）测评"
 seo_keywords: "Mkcloud, 上海香港IPLC, IXP, 云厂BGP优化入口, 香港BGP"
 redirect_from:
+  - /reviews/Mkcloud-ix-sha-hkg/
   - /reviews/Mkcloud-ix-sha-hkg.md
   - /REVIEW/reviews/Mkcloud-ix-sha-hkg.md
 ---
