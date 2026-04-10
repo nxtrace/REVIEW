@@ -34,23 +34,41 @@ redirect_from:
 
 ### 规格对照
 
-- 硬件有 AN4 / AN5 两档，性能差异较大（见下方跑分，日常销售的机器均为AN5）。
+- 硬件有 AN4 / AN5 两档，性能差异较大（见下方跑分）。
 
 <details markdown="1">
 <summary>LAX.AN5.Pro（Premium Routing Profile）</summary>
 
-| 套餐 | vCPU | 内存 | SSD | 流量（双向） | 端口 | 月付 |
+| 套餐 | vCPU | 内存 | SSD | 流量（双向） | 端口 | 价格（月付折算） |
 |---|---:|---:|---:|---:|---:|---:|
-| LAX.AN5.Pro.TINY | 1 | 2 GB | 20 GB | 1 TB | 1 Gbps | $9.99 |
-| LAX.AN5.Pro.POCKET | 2 | 2 GB | 40 GB | 1.5 TB | 4 Gbps | $14.90 |
-| LAX.AN5.Pro.STARTER | 2 | 2 GB | 80 GB | 3 TB | 10 Gbps | $29.90 |
-| LAX.AN5.Pro.MINI | 4 | 4 GB | 80 GB | 5 TB | 10 Gbps | $58.88 |
-| LAX.AN5.Pro.MICRO | 4 | 4 GB | 160 GB | 7 TB | 10 Gbps | $74.99 |
-| LAX.AN5.Pro.MEDIUM | 6 | 8 GB | 160 GB | 14 TB | 10 Gbps | $168.88 |
-| LAX.AN5.Pro.LARGE | 8 | 16 GB | 320 GB | 25 TB | 10 Gbps | $338.88 |
-| LAX.AN5.Pro.GIANT | 12 | 24 GB | 640 GB | 50 TB | 10 Gbps | $619.99 |
+| LAX.AN5.Pro.TINY | 1 | 2 GB | 20 GB | 1000 GB | 1 Gbps | $12.66（原价 $37.99 / 季付） |
+| LAX.AN5.Pro.POCKET | 2 | 2 GB | 40 GB | 1500 GB | 4 Gbps | $18.90（原价 $56.70 / 季付） |
+| LAX.AN5.Pro.STARTER | 2 | 2 GB | 80 GB | 3000 GB | 10 Gbps | $38.90 |
+| LAX.AN5.Pro.MINI | 4 | 4 GB | 80 GB | 5000 GB | 10 Gbps | $76.90 |
+| LAX.AN5.Pro.MICRO | 4 | 4 GB | 160 GB | 7000 GB | 10 Gbps | $99.90 |
+| LAX.AN5.Pro.MEDIUM | 6 | 8 GB | 160 GB | 14000 GB | 10 Gbps | $219.90 |
+| LAX.AN5.Pro.LARGE | 8 | 16 GB | 320 GB | 25000 GB | 10 Gbps | $459.90（原价 $2759.40 / 半年付） |
+| LAX.AN5.Pro.GIANT | 12 | 24 GB | 640 GB | 50000 GB | 10 Gbps | $839.90 |
 
-> 说明：套餐含 `1 IPv4` 与 `1 IPv6 /64`，DDoS Protect（Standard），超额降速（TINY/Pocket 为 4 Mbps，MINI/MICRO 为 8 Mbps，MEDIUM 及以上为 10 Mbps）。
+> 说明：套餐含 `IPv6 /64`；TINY、POCKET、STARTER、MINI、MICRO 为 `1 IPv4`，MEDIUM/LARGE 为 `2 IPv4`，GIANT 为 `3 IPv4`；均含 DDoS Protect（Standard）；超额后不限量限速为 TINY/POCKET/STARTER 4 Mbps、MINI/MICRO 8 Mbps、MEDIUM/LARGE/GIANT 10 Mbps。
+
+</details>
+
+<details markdown="1">
+<summary>LAX.AN4.Pro（Premium Routing Profile）</summary>
+
+| 套餐 | vCPU | 内存 | SSD | 流量（双向） | 端口 | 价格（月付折算） |
+|---|---:|---:|---:|---:|---:|---:|
+| LAX.AN4.Pro.TINY | 1 | 2 GB | 20 GB | 1000 GB | 1 Gbps | $8.15（原价 $48.88 / 半年付） |
+| LAX.AN4.Pro.POCKET | 2 | 2 GB | 40 GB | 1500 GB | 4 Gbps | $14.90（原价 $44.70 / 季付） |
+| LAX.AN4.Pro.STARTER | 2 | 2 GB | 80 GB | 3000 GB | 10 Gbps | $29.90 |
+| LAX.AN4.Pro.MINI | 4 | 4 GB | 80 GB | 5000 GB | 10 Gbps | $58.88 |
+| LAX.AN4.Pro.MICRO | 4 | 4 GB | 160 GB | 7000 GB | 10 Gbps | $74.99 |
+| LAX.AN4.Pro.MEDIUM | 6 | 8 GB | 160 GB | 14000 GB | 10 Gbps | $168.88 |
+| LAX.AN4.Pro.LARGE | 8 | 16 GB | 320 GB | 25000 GB | 10 Gbps | $338.88 |
+| LAX.AN4.Pro.GIANT | 12 | 24 GB | 640 GB | 50000 GB | 10 Gbps | $619.99 |
+
+> 说明：套餐含 `IPv6 /64`；TINY、POCKET、STARTER、MINI、MICRO 为 `1 IPv4`，MEDIUM/LARGE 为 `2 IPv4`，GIANT 为 `3 IPv4`；均含 DDoS Protect（Standard）；超额后不限量限速为 TINY/POCKET/STARTER 4 Mbps、MINI/MICRO 8 Mbps、MEDIUM/LARGE/GIANT 10 Mbps。
 
 </details>
 
