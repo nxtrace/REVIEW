@@ -61,11 +61,11 @@ redirect_from:
 
 ### 购买链接
 
-- [**官方购买入口**](https://console.nube.sh/zh-cn/vm/place-order?compute=pm_gp_amd_epyc_g3_shared_1c1g&storage=pm_gp_storage_Nvme_NVMe&size=10&ip=pm_gp_ip_ip&network=pm_gp_network_china_direct_group_fra_china_direct_fra&zone=random&cycle=1hr&affId=810967136T9BYK)
+- [**官方购买入口**](#purchase-warning)
 
 ## 评
 
-<div style="margin: 1rem 0; padding: 1rem 1.1rem; border: 2px solid #dc2626; border-left-width: 6px; border-radius: 6px; background: #fef2f2; color: #7f1d1d;">
+<div id="purchase-warning" style="margin: 1rem 0; padding: 1rem 1.1rem; border: 2px solid #dc2626; border-left-width: 6px; border-radius: 6px; background: #fef2f2; color: #7f1d1d;">
   <p style="margin: 0 0 0.5rem; font-size: 1.05rem; font-weight: 700;">⚠️ 当前评价：不推荐购买</p>
   <p style="margin: 0;">由于该商家服务过于不稳定，且频繁切换线路，当前不推荐购买。下方原测评内容仅反映当时测试状态，不应作为当前购买决策依据。</p>
 </div>
