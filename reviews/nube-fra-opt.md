@@ -65,6 +65,11 @@ redirect_from:
 
 ## 评
 
+<div style="margin: 1rem 0; padding: 1rem 1.1rem; border: 2px solid #dc2626; border-left-width: 6px; border-radius: 6px; background: #fef2f2; color: #7f1d1d;">
+  <p style="margin: 0 0 0.5rem; font-size: 1.05rem; font-weight: 700;">⚠️ 当前评价：不推荐购买</p>
+  <p style="margin: 0;">由于该商家服务过于不稳定，且频繁切换线路，当前不推荐购买。下方原测评内容仅反映当时测试状态，不应作为当前购买决策依据。</p>
+</div>
+
 牛肉的德国鸡，移动/联通快乐鸡（延迟低，速度快），电信方向尚可。  
 国际线路一般般：Telxius（现在还有RETN，但是过段时间会换成Orange），但是考虑到他家特色出站流量按量计费，对少流量用户非常友好，大流量就不太划算了。  
 总体而言，推荐移动/联通用户选择，速度很稳，对于电信用户，不同区域差异较大，需谨慎选择。  
