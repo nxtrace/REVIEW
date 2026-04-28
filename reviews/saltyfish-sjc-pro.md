@@ -1,13 +1,13 @@
 ---
 layout: default
-title: "🇺🇸 咸鱼云 Saltyfish San Jose Premium 美国圣何塞 CN2 GIA VPS 测评"
-seo_keywords: "圣何塞VPS, SJC, 咸鱼云, Saltyfish, CN2 GIA, CTG GIA, snapstack, 美国VPS"
+title: "🇺🇸 咸鱼云 Saltyfish San Jose Premium 美国圣何塞 CN2 GIA CMIN2 VPS 测评"
+seo_keywords: "圣何塞VPS, SJC, 咸鱼云, Saltyfish, CN2 GIA, CTG GIA, CMIN2, snapstack, 美国VPS"
 redirect_from:
   - /reviews/saltyfish-sjc-pro.md
   - /REVIEW/reviews/saltyfish-sjc-pro.md
 ---
 
-# 🇺🇸 咸鱼云 Saltyfish San Jose Premium 美国圣何塞 CN2 GIA VPS 测评
+# 🇺🇸 咸鱼云 Saltyfish San Jose Premium 美国圣何塞 CN2 GIA CMIN2 VPS 测评
 
 <div class="back-home" style="margin: 12px 0 24px;">
   <a href="{{ '/' | relative_url }}" style="display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px; background: linear-gradient(135deg, #f8fafc 0%, #eef2f7 100%); border: 1px solid #e5e7eb; border-radius: 999px; color: #1f2937; text-decoration: none; font-size: 14px; font-weight: 600;">
@@ -50,12 +50,11 @@ redirect_from:
 ## 评
 
 咸鱼云美国圣何塞 CN2 GIA 小鸡，三网速度晚高峰都可以跑到800Mbps，  
-电信方向延迟低且稳定，适合电信用户选择，联通/移动用户因跨网可能有一定的波动，需谨慎考虑。  
+电信/移动方向延迟低且稳定，适合电信用户选择，联通用户因跨网可能有一定的波动，需谨慎考虑。  
 
-三网回程 CTG GIA (aka: CN2 GIA)  
-电信 CTG GIA 去程  
-联通 CUG VIP (aka: 9929) 去程  
-移动 CMIN2 去程  
+电信 CTG GIA (aka: CN2 GIA）回程 / CTG GIA 去程  
+联通 CTG GIA 回程 / CUG VIP (aka: 9929) 去程  
+移动 CMIN2 回程 / CMIN2 去程  
 
 ## 测
 
@@ -84,7 +83,7 @@ redirect_from:
 <summary>IPv4 回程 · ICMP</summary>
 
 <div align="center">
-  <img src="{{ '/assets/images/saltyfish-sjc-pro/IPv4 回程 · ICMP/2025-12-25 20.56.13.png' | relative_url }}" alt="IPv4 回程 ICMP 1" width="32%" />
+  <img src="{{ '/assets/images/saltyfish-sjc-pro/IPv4 回程 · ICMP/2026-04-28 20.10.53.png' | relative_url }}" alt="IPv4 回程 ICMP 1" width="32%" />
   <img src="{{ '/assets/images/saltyfish-sjc-pro/IPv4 回程 · ICMP/2025-12-25 20.56.14.png' | relative_url }}" alt="IPv4 回程 ICMP 2" width="32%" />
   <img src="{{ '/assets/images/saltyfish-sjc-pro/IPv4 回程 · ICMP/2025-12-25 20.56.15.png' | relative_url }}" alt="IPv4 回程 ICMP 3" width="32%" />
 </div>
@@ -95,7 +94,7 @@ redirect_from:
 <summary>IPv4 回程 · TCP</summary>
 
 <div align="center">
-  <img src="{{ '/assets/images/saltyfish-sjc-pro/IPv4 回程 · TCP/2025-12-25 21.01.40.png' | relative_url }}" alt="IPv4 回程 TCP 1" width="32%" />
+  <img src="{{ '/assets/images/saltyfish-sjc-pro/IPv4 回程 · TCP/2026-04-28 20.12.19.png' | relative_url }}" alt="IPv4 回程 TCP 1" width="32%" />
   <img src="{{ '/assets/images/saltyfish-sjc-pro/IPv4 回程 · TCP/2025-12-25 21.01.42.png' | relative_url }}" alt="IPv4 回程 TCP 2" width="32%" />
   <img src="{{ '/assets/images/saltyfish-sjc-pro/IPv4 回程 · TCP/2025-12-25 21.01.43.png' | relative_url }}" alt="IPv4 回程 TCP 3" width="32%" />
 </div>

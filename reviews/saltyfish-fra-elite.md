@@ -1,13 +1,13 @@
 ---
 layout: default
-title: "🇩🇪 咸鱼云 Saltyfish Frankfurt Elite 德国法兰克福 9929 VPS 测评"
+title: "🇩🇪 咸鱼云 Saltyfish Frankfurt Elite 德国法兰克福 9929 CMIN2 VPS 测评"
 seo_keywords: "法兰克福VPS, FRA, 咸鱼云, Saltyfish, snapstack, 9929, CUG Premium, CMIN2, CUG VIP, 德国VPS"
 redirect_from:
   - /reviews/saltyfish-fra-elite.md
   - /REVIEW/reviews/saltyfish-fra-elite.md
 ---
 
-# 🇩🇪 咸鱼云 Saltyfish Frankfurt Elite 德国法兰克福 9929 VPS 测评
+# 🇩🇪 咸鱼云 Saltyfish Frankfurt Elite 德国法兰克福 9929 CMIN2 VPS 测评
 
 <div class="back-home" style="margin: 12px 0 24px;">
   <a href="{{ '/' | relative_url }}" style="display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px; background: linear-gradient(135deg, #f8fafc 0%, #eef2f7 100%); border: 1px solid #e5e7eb; border-radius: 999px; color: #1f2937; text-decoration: none; font-size: 14px; font-weight: 600;">
@@ -41,9 +41,9 @@ redirect_from:
 
 | 套餐 | vCPU | 内存 | SSD | 流量 | 端口 | 月付 |
 |---|---:|---:|---:|---:|---:|---:|
-| fra.e1.mini | 1 | 1 GB | 15 GB | 1000 GB | 500 Mbps | ¥52.50 |
-| fra.e1.micro | 1 | 2 GB | 20 GB | 1800 GB | 500 Mbps | ¥101.50 |
-| fra.e1.medium | 2 | 4 GB | 40 GB | 4000 GB | 500 Mbps | ¥203.00 |
+| fra.e1.mini | 1 | 1 GB | 15 GB | 1000 GB | 2.5 Gbps | ¥52.50 |
+| fra.e1.micro | 1 | 2 GB | 20 GB | 1800 GB | 2.5 Gbps | ¥101.50 |
+| fra.e1.medium | 2 | 4 GB | 40 GB | 4000 GB | 2.5 Gbps | ¥203.00 |
 
 </details>
 

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "🇺🇸 咸鱼云 Saltyfish San Jose Elite 美国圣何塞 9929 VPS 测评"
-seo_keywords: "圣何塞VPS, SJC, 咸鱼云, Saltyfish, 9929, CUG VIP, CUG Premium, snapstack, 美国VPS"
+title: "🇺🇸 咸鱼云 Saltyfish San Jose Elite 美国圣何塞 9929 CMIN2 VPS 测评"
+seo_keywords: "圣何塞VPS, SJC, 咸鱼云, Saltyfish, 9929, CUG VIP, CUG Premium, CMIN2, snapstack, 美国VPS"
 redirect_from:
   - /reviews/saltyfish-sjc-elite.md
   - /REVIEW/reviews/saltyfish-sjc-elite.md
@@ -50,12 +50,11 @@ redirect_from:
 ## 评
 
 咸鱼云美国圣何塞 9929 小鸡，三网速度晚高峰都可以跑到800Mbps，  
-联通方向延迟低且稳定，适合联通用户选择，电信/移动用户因跨网可能有一定的波动，需谨慎考虑。  
+联通/移动方向延迟低且稳定，适合联通用户选择，电信用户因跨网可能有一定的波动，需谨慎考虑。  
 
-三网回程 CUG VIP (aka: 9929)
-电信 CTG GIA (aka: CN2 GIA) 去程  
-联通 CUG VIP 去程  
-移动 CMIN2 去程
+电信 CUG VIP (aka: 9929) 回程 / CTG GIA (aka: CN2 GIA) 去程  
+联通 CUG VIP 回程 / CUG VIP 去程  
+移动 CMIN2 回程 / CMIN2 去程
 
 ## 测
 
@@ -84,7 +83,7 @@ redirect_from:
 <summary>IPv4 回程 · ICMP</summary>
 
 <div align="center">
-  <img src="{{ '/assets/images/saltyfish-sjc-elite/IPv4 回程 · ICMP/2025-12-25 20.56.43.png' | relative_url }}" alt="IPv4 回程 ICMP 1" width="32%" />
+  <img src="{{ '/assets/images/saltyfish-sjc-elite/IPv4 回程 · ICMP/2026-04-28 20.13.14.png' | relative_url }}" alt="IPv4 回程 ICMP 1" width="32%" />
   <img src="{{ '/assets/images/saltyfish-sjc-elite/IPv4 回程 · ICMP/2025-12-25 20.56.45.png' | relative_url }}" alt="IPv4 回程 ICMP 2" width="32%" />
   <img src="{{ '/assets/images/saltyfish-sjc-elite/IPv4 回程 · ICMP/2025-12-25 20.56.46.png' | relative_url }}" alt="IPv4 回程 ICMP 3" width="32%" />
 </div>
@@ -95,7 +94,7 @@ redirect_from:
 <summary>IPv4 回程 · TCP</summary>
 
 <div align="center">
-  <img src="{{ '/assets/images/saltyfish-sjc-elite/IPv4 回程 · TCP/2025-12-25 21.01.05.png' | relative_url }}" alt="IPv4 回程 TCP 1" width="32%" />
+  <img src="{{ '/assets/images/saltyfish-sjc-elite/IPv4 回程 · TCP/2026-04-28 20.14.50.png' | relative_url }}" alt="IPv4 回程 TCP 1" width="32%" />
   <img src="{{ '/assets/images/saltyfish-sjc-elite/IPv4 回程 · TCP/2025-12-25 21.01.07.png' | relative_url }}" alt="IPv4 回程 TCP 2" width="32%" />
   <img src="{{ '/assets/images/saltyfish-sjc-elite/IPv4 回程 · TCP/2025-12-25 21.01.08.png' | relative_url }}" alt="IPv4 回程 TCP 3" width="32%" />
 </div>
