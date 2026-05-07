@@ -62,6 +62,7 @@ redirect_from:
 电信 / 联通 CTG GIA 去程  
 移动 CMI 去程  
 IPv6 有三网优化（163 + CMI 可用性尚可）  
+PS: 由于目前部分段受到DDOS，移动/联通去程有降级  
 
 ## 测
 
