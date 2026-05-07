@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "🇭🇰 DMIT.HKG.Pro 香港 CN2 VPS 测评"
-seo_keywords: "DMIT 香港, DMIT HKG, DMIT.HKG.Pro, CN2, CMIN2, 9929, 香港VPS, HK, EPYC"
+seo_keywords: "DMIT 香港, DMIT HKG, DMIT, CN2, 香港VPS, EPYC, HK"
 redirect_from:
   - /reviews/dmit-hkg-pro.md
   - /REVIEW/reviews/dmit-hkg-pro.md
