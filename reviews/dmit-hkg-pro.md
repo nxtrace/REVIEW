@@ -1,0 +1,249 @@
+---
+layout: default
+title: "🇭🇰 DMIT.HKG.Pro 香港 CN2 VPS 测评"
+seo_keywords: "DMIT 香港, DMIT HKG, DMIT.HKG.Pro, CN2, CMIN2, 9929, 香港VPS, HK, EPYC"
+redirect_from:
+  - /reviews/dmit-hkg-pro.md
+  - /REVIEW/reviews/dmit-hkg-pro.md
+---
+
+# 🇭🇰 DMIT.HKG.Pro 香港 CN2 VPS 测评
+
+<div class="back-home" style="margin: 12px 0 24px;">
+  <a href="{{ '/' | relative_url }}" style="display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px; background: linear-gradient(135deg, #f8fafc 0%, #eef2f7 100%); border: 1px solid #e5e7eb; border-radius: 999px; color: #1f2937; text-decoration: none; font-size: 14px; font-weight: 600;">
+    <span style="font-size: 16px;">←</span>
+    <span>返回主页</span>
+  </a>
+</div>
+
+<div class="toc-container" markdown="1">
+
+## 目录
+{: .no_toc }
+
+* TOC
+{:toc}
+
+</div>
+
+## 买
+
+### 购买链接
+
+- [**官方购买入口**](https://www.dmit.io/cart.php?region=hong-kong&generation=as3&network=premium&aff=3487)
+
+### 规格对照
+
+<details markdown="1">
+<summary>HKG.AS3.Pro（Premium Routing Profile）</summary>
+
+| 套餐 | vCPU | 内存 | SSD | 流量（双向） | 端口 | 月付 |
+|---|---:|---:|---:|---:|---:|---:|
+| HKG.AS3.Pro.TINY | 1 vCore | 1.0 GB | 20 GB SSD | 500 GB | 1 Gbps | $39.90 |
+| HKG.AS3.Pro.STARTER | 1 vCore | 2.0 GB | 40 GB SSD | 1000 GB | 1 Gbps | $79.90 |
+| HKG.AS3.Pro.MINI | 2 vCores | 2.0 GB | 60 GB SSD | 1500 GB | 1 Gbps | $119.90 |
+| HKG.AS3.Pro.MICRO | 4 vCores | 4.0 GB | 80 GB SSD | 2000 GB | 1 Gbps | $159.90 |
+| HKG.AS3.Pro.MEDIUM | 4 vCores | 8.0 GB | 160 GB SSD | 2500 GB | 1 Gbps | $179.90 |
+| HKG.AS3.Pro.LARGE | 8 vCores | 16.0 GB | 320 GB SSD | 3000 GB | 1 Gbps | $239.90 |
+| HKG.AS3.Pro.GIANT | 8 vCores | 24.0 GB | 640 GB SSD | 6000 GB | 1 Gbps | $499.90 |
+
+> 说明：HKG.AS3.Pro 为 Premium Routing Profile；每个套餐包含 `1 IPv4` 与 `1 IPv6 /64`，支持 DDoS Protect（Standard）与自定义 RAM/SSD；流量双向计费，超额后暂停。
+
+</details>
+
+## 评
+
+对于电信用户算是香港 CN2 产品中体验比较稳定的一档，商家信誉及机器稳定性也都很好。
+
+用电信宽带且预算充足的用户可以考虑这款产品（单线程可稳定跑800Mbps以上），联通/移动宽带用户需关注所在地区跨网拥堵和监控波动情况（联通可跑400Mbps左右，移动晚高峰只有hy2类协议可跑）。
+
+**电信用户优先考虑**，北京45ms / 上海31ms / 广州12ms，晚高峰单线程也有较好表现。<br>
+**联通/移动用户慎重选择**，建议先看实时监控确认自己地区的延迟和丢包情况。
+
+三网 CTG GIA(aka CN2 GIA)回程
+电信 / 联通 CTG GIA 去程
+移动 CMI 去程
+IPv6 有三网优化（163 + CMI 可用性尚可）
+
+## 测
+
+### 路由表现
+
+<details markdown="1">
+<summary>线路概览</summary>
+
+**IPv4 路由图**
+![ipv4-radar]({{ '/assets/images/dmit-hkg-pro/4-radar.png' | relative_url }})
+
+**IPv6 路由图**
+![ipv6-radar]({{ '/assets/images/dmit-hkg-pro/6-radar.png' | relative_url }})
+
+</details>
+
+<details markdown="1">
+<summary>IPv4 去程</summary>
+
+<div align="center">
+  <img src="{{ '/assets/images/dmit-hkg-pro/IPv4去程/2026-05-07 08.52.59.png' | relative_url }}" alt="IPv4 去程路由 1" width="32%" />
+  <img src="{{ '/assets/images/dmit-hkg-pro/IPv4去程/2026-05-07 08.53.00.png' | relative_url }}" alt="IPv4 去程路由 2" width="32%" />
+  <img src="{{ '/assets/images/dmit-hkg-pro/IPv4去程/2026-05-07 08.53.01.png' | relative_url }}" alt="IPv4 去程路由 3" width="32%" />
+</div>
+
+</details>
+
+<details markdown="1">
+<summary>IPv4 回程 · ICMP</summary>
+
+<div align="center">
+  <img src="{{ '/assets/images/dmit-hkg-pro/IPv4 回程 · ICMP/2026-05-07 08.48.07.png' | relative_url }}" alt="IPv4 回程 ICMP 1" width="32%" />
+  <img src="{{ '/assets/images/dmit-hkg-pro/IPv4 回程 · ICMP/2026-05-07 08.48.09.png' | relative_url }}" alt="IPv4 回程 ICMP 2" width="32%" />
+  <img src="{{ '/assets/images/dmit-hkg-pro/IPv4 回程 · ICMP/2026-05-07 08.48.10.png' | relative_url }}" alt="IPv4 回程 ICMP 3" width="32%" />
+</div>
+
+</details>
+
+<details markdown="1">
+<summary>IPv4 回程 · TCP</summary>
+
+<div align="center">
+  <img src="{{ '/assets/images/dmit-hkg-pro/IPv4 回程 · TCP/2026-05-07 08.48.31.png' | relative_url }}" alt="IPv4 回程 TCP 1" width="32%" />
+  <img src="{{ '/assets/images/dmit-hkg-pro/IPv4 回程 · TCP/2026-05-07 08.48.33.png' | relative_url }}" alt="IPv4 回程 TCP 2" width="32%" />
+  <img src="{{ '/assets/images/dmit-hkg-pro/IPv4 回程 · TCP/2026-05-07 08.48.34.png' | relative_url }}" alt="IPv4 回程 TCP 3" width="32%" />
+</div>
+
+</details>
+
+<details markdown="1">
+<summary>IPv6 去程</summary>
+
+<div align="center">
+  <img src="{{ '/assets/images/dmit-hkg-pro/IPv6去程/2026-05-07 08.53.43.png' | relative_url }}" alt="IPv6 去程路由 1" width="32%" />
+  <img src="{{ '/assets/images/dmit-hkg-pro/IPv6去程/2026-05-07 08.53.44.png' | relative_url }}" alt="IPv6 去程路由 2" width="32%" />
+  <img src="{{ '/assets/images/dmit-hkg-pro/IPv6去程/2026-05-07 08.53.44 2.png' | relative_url }}" alt="IPv6 去程路由 3" width="32%" />
+</div>
+
+</details>
+
+<details markdown="1">
+<summary>IPv6 回程 · ICMP</summary>
+
+<div align="center">
+  <img src="{{ '/assets/images/dmit-hkg-pro/IPv6 回程 · ICMP/2026-05-07 08.50.23.png' | relative_url }}" alt="IPv6 回程 ICMP 1" width="32%" />
+  <img src="{{ '/assets/images/dmit-hkg-pro/IPv6 回程 · ICMP/2026-05-07 08.50.24.png' | relative_url }}" alt="IPv6 回程 ICMP 2" width="32%" />
+  <img src="{{ '/assets/images/dmit-hkg-pro/IPv6 回程 · ICMP/2026-05-07 08.50.25.png' | relative_url }}" alt="IPv6 回程 ICMP 3" width="32%" />
+</div>
+
+</details>
+
+<details markdown="1">
+<summary>IPv6 回程 · TCP</summary>
+
+<div align="center">
+  <img src="{{ '/assets/images/dmit-hkg-pro/IPv6 回程 · TCP/2026-05-07 08.51.21.png' | relative_url }}" alt="IPv6 回程 TCP 1" width="32%" />
+  <img src="{{ '/assets/images/dmit-hkg-pro/IPv6 回程 · TCP/2026-05-07 08.51.22.png' | relative_url }}" alt="IPv6 回程 TCP 2" width="32%" />
+  <img src="{{ '/assets/images/dmit-hkg-pro/IPv6 回程 · TCP/2026-05-07 08.51.27.png' | relative_url }}" alt="IPv6 回程 TCP 3" width="32%" />
+</div>
+
+</details>
+
+### 实时监控
+- **实时三网 ICMP**：<https://ping.nxtrace.org/goto/aflapllp4d4hsa>
+- **实时三网 TCP**：<https://ping.nxtrace.org/goto/eflapm56juo00c>
+- **Looking Glass**：<https://lg.dmit.sh/?server=hkg-pro>
+- **北京三网延迟监控截图**：
+  <details markdown="1">
+  <summary>展开查看</summary>
+
+  ![北京三网延迟监控截图]({{ '/assets/images/dmit-hkg-pro/北京三网延迟监控截图（近七天）.png' | relative_url }})
+
+  </details>
+
+### ITDOG 多地延迟测试
+
+<details markdown="1">
+<summary>展开查看</summary>
+
+**白天**
+![ITDOG 多地延迟测试 · 白天]({{ '/assets/images/dmit-hkg-pro/多地Ping值测试/多地Ping值测试_白天.png' | relative_url }})
+
+**晚高峰**
+![ITDOG 多地延迟测试 · 晚高峰]({{ '/assets/images/dmit-hkg-pro/多地Ping值测试/多地Ping值测试_晚高峰.png' | relative_url }})
+
+</details>
+
+### 北京四网代理单线程测速
+
+<details markdown="1">
+<summary>北京移动晚高峰</summary>
+
+![北京移动晚高峰]({{ '/assets/images/dmit-hkg-pro/北京四网代理单线程测速/北京移动晚高峰.jpg' | relative_url }})
+
+</details>
+
+<details markdown="1">
+<summary>北京移动白天</summary>
+
+![北京移动白天]({{ '/assets/images/dmit-hkg-pro/北京四网代理单线程测速/北京移动白天.jpg' | relative_url }})
+
+</details>
+
+<details markdown="1">
+<summary>北京联通晚高峰</summary>
+
+![北京联通晚高峰]({{ '/assets/images/dmit-hkg-pro/北京四网代理单线程测速/北京联通晚高峰.jpg' | relative_url }})
+
+</details>
+
+<details markdown="1">
+<summary>北京联通白天</summary>
+
+![北京联通白天]({{ '/assets/images/dmit-hkg-pro/北京四网代理单线程测速/北京联通白天.jpg' | relative_url }})
+
+</details>
+
+<details markdown="1">
+<summary>北京网通晚高峰</summary>
+
+![北京网通晚高峰]({{ '/assets/images/dmit-hkg-pro/北京四网代理单线程测速/北京网通晚高峰.jpg' | relative_url }})
+
+</details>
+
+<details markdown="1">
+<summary>北京网通白天</summary>
+
+![北京网通白天]({{ '/assets/images/dmit-hkg-pro/北京四网代理单线程测速/北京网通白天.jpg' | relative_url }})
+
+</details>
+
+<details markdown="1">
+<summary>北京电信晚高峰</summary>
+
+![北京电信晚高峰]({{ '/assets/images/dmit-hkg-pro/北京四网代理单线程测速/北京电信晚高峰.jpg' | relative_url }})
+
+</details>
+
+<details markdown="1">
+<summary>北京电信白天</summary>
+
+![北京电信白天]({{ '/assets/images/dmit-hkg-pro/北京四网代理单线程测速/北京电信白天.jpg' | relative_url }})
+
+</details>
+
+### 机器性能跑分
+
+<details markdown="1">
+<summary>综合性能跑分（YABS·GB5）</summary>
+
+![综合性能跑分]({{ '/assets/images/dmit-hkg-pro/gb5.png' | relative_url }})
+
+</details>
+
+### IP 解锁
+
+<details markdown="1">
+<summary>流媒体 / 平台解锁记录</summary>
+
+![IPv4 解锁情况]({{ '/assets/images/dmit-hkg-pro/解锁情况/4.png' | relative_url }})
+![IPv6 解锁情况]({{ '/assets/images/dmit-hkg-pro/解锁情况/6.png' | relative_url }})
+
+</details>
