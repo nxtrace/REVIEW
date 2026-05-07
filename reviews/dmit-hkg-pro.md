@@ -47,7 +47,7 @@ redirect_from:
 | HKG.AS3.Pro.LARGE | 8 vCores | 16.0 GB | 320 GB SSD | 3000 GB | 1 Gbps | $239.90 |
 | HKG.AS3.Pro.GIANT | 8 vCores | 24.0 GB | 640 GB SSD | 6000 GB | 1 Gbps | $499.90 |
 
-> 说明：HKG.AS3.Pro 为 Premium Routing Profile；每个套餐包含 `1 IPv4` 与 `1 IPv6 /64`，支持 DDoS Protect（Standard）与自定义 RAM/SSD；流量双向计费，超额后暂停。
+> 说明：每个套餐包含 `1 IPv4` 与 `1 IPv6` /64，支持 DDoS Protect（Standard）与自定义 RAM/SSD。
 
 </details>
 
