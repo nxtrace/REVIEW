@@ -136,6 +136,19 @@ redirect_from:
 
   </details>
 
+### ITDOG 多地延迟测试
+
+<details markdown="1">
+<summary>展开查看</summary>
+
+**白天**
+![ITDOG 多地延迟测试 · 白天]({{ '/assets/images/misaka-hkg-opt/多地Ping值测试/misaka-hkg-opt_多地Ping值测试_白天.png' | relative_url }})
+
+**晚高峰**
+![ITDOG 多地延迟测试 · 晚高峰]({{ '/assets/images/misaka-hkg-opt/多地Ping值测试/Misaka.HKG.Opt 多地Ping值测试_晚高峰.png' | relative_url }})
+
+</details>
+
 ### 北京四网代理单线程测速
 
 <details markdown="1">
