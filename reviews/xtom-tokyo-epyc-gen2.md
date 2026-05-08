@@ -143,6 +143,7 @@ redirect_from:
 ### 实时监控
 - **实时三网 ICMP**：<https://ping.nxtrace.org/goto/WJYlkcMvR>
 - **实时三网 TCP**：<https://ping.nxtrace.org/goto/tX7uk5MDg>
+- **Looking Glass**：<https://tok-premium.lg.xtom.com>
 - **北京三网延迟监控截图**：
   <details markdown="1">
   <summary>展开查看</summary>
