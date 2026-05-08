@@ -58,6 +58,7 @@
 <details open markdown="1">
 <summary>HighEndNetwork</summary>
 
+- [🇹🇼 HighEndNetwork TPE-Home Broadband 台湾台北 HiNet 家宽 VPS 测评](https://review.nxtrace.org/reviews/highendnetwork-tpe-home-broadband/)
 - [🇸🇬 HighEndNetwork SIN-Standard 新加坡 Singtel VPS 测评](https://review.nxtrace.org/reviews/highendnetwork-sin-standard/)
 
 </details>
