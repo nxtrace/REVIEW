@@ -109,6 +109,22 @@ DMIT 高性能建站/落地小鸡，性能/稳定性/国际互联优异，大带
 ### 实时监控
 - **官方 Looking Glass**：<https://lg.dmit.sh/?server=lax-t1>
 
+### CDN 测速
+
+<details markdown="1">
+<summary>Apple CDN</summary>
+
+![Apple CDN 测速]({{ '/assets/images/dmit-lax-t1/CDN测速/2026-05-08 20.55.14.png' | relative_url }})
+
+</details>
+
+<details markdown="1">
+<summary>Cloudflare CDN</summary>
+
+![Cloudflare CDN 测速]({{ '/assets/images/dmit-lax-t1/CDN测速/2026-05-08 20.55.15.png' | relative_url }})
+
+</details>
+
 ### 机器性能跑分
 
 <details markdown="1">
