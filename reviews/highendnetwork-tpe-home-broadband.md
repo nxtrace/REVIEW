@@ -67,6 +67,39 @@ IP 质量很好，毕竟真 HiNet：IP检测显示台北、原生 IP、家宽属
 
 </details>
 
+<details markdown="1">
+<summary>IPv4 去程</summary>
+
+<div align="center">
+  <img src="{{ '/assets/images/highendnetwork-tpe-home-broadband/IPv4去程/2026-05-08 22.38.25.png' | relative_url }}" alt="IPv4 去程路由 1" width="32%" />
+  <img src="{{ '/assets/images/highendnetwork-tpe-home-broadband/IPv4去程/2026-05-08 22.38.27.png' | relative_url }}" alt="IPv4 去程路由 2" width="32%" />
+  <img src="{{ '/assets/images/highendnetwork-tpe-home-broadband/IPv4去程/2026-05-08 22.38.29.png' | relative_url }}" alt="IPv4 去程路由 3" width="32%" />
+</div>
+
+</details>
+
+<details markdown="1">
+<summary>IPv4 回程 · ICMP</summary>
+
+<div align="center">
+  <img src="{{ '/assets/images/highendnetwork-tpe-home-broadband/IPv4 回程 · ICMP/2026-05-08 22.31.11.png' | relative_url }}" alt="IPv4 回程 ICMP 1" width="32%" />
+  <img src="{{ '/assets/images/highendnetwork-tpe-home-broadband/IPv4 回程 · ICMP/2026-05-08 22.31.12.png' | relative_url }}" alt="IPv4 回程 ICMP 2" width="32%" />
+  <img src="{{ '/assets/images/highendnetwork-tpe-home-broadband/IPv4 回程 · ICMP/2026-05-08 22.31.13.png' | relative_url }}" alt="IPv4 回程 ICMP 3" width="32%" />
+</div>
+
+</details>
+
+<details markdown="1">
+<summary>IPv4 回程 · TCP</summary>
+
+<div align="center">
+  <img src="{{ '/assets/images/highendnetwork-tpe-home-broadband/IPv4 回程 · TCP/2026-05-08 22.31.35.png' | relative_url }}" alt="IPv4 回程 TCP 1" width="32%" />
+  <img src="{{ '/assets/images/highendnetwork-tpe-home-broadband/IPv4 回程 · TCP/2026-05-08 22.31.36.png' | relative_url }}" alt="IPv4 回程 TCP 2" width="32%" />
+  <img src="{{ '/assets/images/highendnetwork-tpe-home-broadband/IPv4 回程 · TCP/2026-05-08 22.31.37.png' | relative_url }}" alt="IPv4 回程 TCP 3" width="32%" />
+</div>
+
+</details>
+
 ### ITDOG 多地延迟测试
 
 <details markdown="1">
