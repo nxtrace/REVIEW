@@ -236,6 +236,22 @@ IPv6 双程三网优化（CMIN2+CUG VIP 回程），已是市面上可提供的�
 
 </details>
 
+### CDN 测速
+
+<details markdown="1">
+<summary>Apple CDN</summary>
+
+![Apple CDN 测速]({{ '/assets/images/dmit-lax-pro/CDN测速/截屏2026-05-08 下午2.29.39.png' | relative_url }})
+
+</details>
+
+<details markdown="1">
+<summary>Cloudflare CDN</summary>
+
+![Cloudflare CDN 测速]({{ '/assets/images/dmit-lax-pro/CDN测速/截屏2026-05-08 下午2.29.47.png' | relative_url }})
+
+</details>
+
 ### 机器性能跑分
 
 <details markdown="1">

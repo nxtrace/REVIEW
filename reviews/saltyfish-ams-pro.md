@@ -173,6 +173,22 @@ redirect_from:
 
 </details>
 
+### CDN 测速
+
+<details markdown="1">
+<summary>Apple CDN</summary>
+
+![Apple CDN 测速]({{ '/assets/images/saltyfish-ams-pro/CDN测速/截屏2026-05-08 下午2.53.46.png' | relative_url }})
+
+</details>
+
+<details markdown="1">
+<summary>Cloudflare CDN</summary>
+
+![Cloudflare CDN 测速]({{ '/assets/images/saltyfish-ams-pro/CDN测速/截屏2026-05-08 下午2.53.58.png' | relative_url }})
+
+</details>
+
 ### 机器性能跑分
 
 <details markdown="1">
