@@ -104,7 +104,6 @@ redirect_from:
 ### 实时监控
 - **实时三网 ICMP**：<https://ping.nxtrace.org/goto/NmbPownHR>
 - **实时三网 TCP**：<https://ping.nxtrace.org/goto/ZzuEownNg>
-- **实时 MTR 监控**：<https://ping.nxtrace.org/goto/TwHr-tnvg>
 - **官方 Looking Glass**：<https://lg.saltyfish.io/?router=sjc-premium>
 - **北京三网延迟监控截图**：
   <details markdown="1">
