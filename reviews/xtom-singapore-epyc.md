@@ -44,6 +44,8 @@ redirect_from:
 | Singapore EPYC Enterprise | 4 Cores | 8 GB | 120 GB | 4 TB | 1.5 Gbps | €169.95 |
 | Singapore EPYC Elite | 8 Cores | 16 GB | 240 GB | 8 TB | 2 Gbps | €329.95 |
 
+> 1 IPv4 + 1 IPv6 + 2 backups
+
 </details>
 
 ## 评

@@ -34,8 +34,6 @@ redirect_from:
 
 ### 规格对照
 
-> China Mainland Optimized by China Telecom CN2 GIA.
-
 <details markdown="1">
 <summary>Frankfurt VPS - Premium Network</summary>
 
@@ -44,6 +42,8 @@ redirect_from:
 | fra.p1.mini | 1 | 1 GB | 15 GB | 1000 GB | 2.5 Gbps | ¥54.60 |
 | fra.p1.micro | 1 | 2 GB | 20 GB | 2000 GB | 2.5 Gbps | ¥105.00 |
 | fra.p1.medium | 2 | 4 GB | 40 GB | 4000 GB | 2.5 Gbps | ¥210.00 |
+
+> China Mainland Optimized by China Telecom CN2 GIA.
 
 </details>
 

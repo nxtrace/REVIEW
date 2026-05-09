@@ -34,8 +34,6 @@ redirect_from:
 
 ### 规格对照
 
-> China Mainland Optimized by China Unicom AS10099 (9929) Premium.
-
 <details markdown="1">
 <summary>San Jose VPS - Elite Network</summary>
 
@@ -44,6 +42,8 @@ redirect_from:
 | sjc.e1.mini | 1 | 1 GB | 10 GB | 1200 GB | 1 Gbps | ¥45.50 |
 | sjc.e1.micro | 1 | 2 GB | 15 GB | 2400 GB | 1 Gbps | ¥94.50 |
 | sjc.e1.medium | 2 | 4 GB | 30 GB | 4000 GB | 1 Gbps | ¥203.00 |
+
+> China Mainland Optimized by China Unicom AS10099 (9929) Premium.
 
 </details>
 

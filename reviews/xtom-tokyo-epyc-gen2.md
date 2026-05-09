@@ -44,6 +44,8 @@ redirect_from:
 | Tokyo EPYC Fleet Gen 2 | 4 Cores | 16 GB | 120 GB | 4 TB | 2 Gbps | €191.95 |
 | Tokyo EPYC Formula Gen 2 | 8 Cores | 32 GB | 240 GB | 8 TB | 2.5 Gbps | €383.95 |
 
+> 1 IPv4 + 1 IPv6 + 2 backups
+
 </details>
 
 ## 评

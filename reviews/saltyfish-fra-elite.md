@@ -34,8 +34,6 @@ redirect_from:
 
 ### 规格对照
 
-> China Mainland Optimized by China Unicom AS10099 (9929) Premium
-
 <details markdown="1">
 <summary>Frankfurt VPS - Elite Network</summary>
 
@@ -44,6 +42,8 @@ redirect_from:
 | fra.e1.mini | 1 | 1 GB | 15 GB | 1000 GB | 2.5 Gbps | ¥52.50 |
 | fra.e1.micro | 1 | 2 GB | 20 GB | 1800 GB | 2.5 Gbps | ¥101.50 |
 | fra.e1.medium | 2 | 4 GB | 40 GB | 4000 GB | 2.5 Gbps | ¥203.00 |
+
+> China Mainland Optimized by China Unicom AS10099 (9929) Premium
 
 </details>
 

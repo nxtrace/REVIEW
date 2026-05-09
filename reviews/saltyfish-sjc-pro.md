@@ -34,8 +34,6 @@ redirect_from:
 
 ### 规格对照
 
-> China Mainland Optimized by China Telecom CN2 GIA.
-
 <details markdown="1">
 <summary>San Jose VPS - Premium Network</summary>
 
@@ -44,6 +42,8 @@ redirect_from:
 | sjc.p1.mini | 1 | 1 GB | 10 GB | 1000 GB | 1 Gbps | ¥47.60 |
 | sjc.p1.micro | 1 | 2 GB | 15 GB | 2000 GB | 1 Gbps | ¥98.00 |
 | sjc.p1.medium | 2 | 4 GB | 30 GB | 4000 GB | 1 Gbps | ¥196.00 |
+
+> China Mainland Optimized by China Telecom CN2 GIA.
 
 </details>
 

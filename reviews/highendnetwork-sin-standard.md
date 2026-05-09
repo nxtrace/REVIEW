@@ -43,6 +43,9 @@ redirect_from:
 | SIN.Standard.Mini | 1 vCore | 1 GB | 10 GB | 2048 GB | 1 Gbps（shared） | $20 / 月（$1 setup） |
 | SIN.Standard.Special | 1 vCore | 1 GB | 10 GB | 500 GB | 100 Mbps（shared） | $45 / 年 |
 
+> Direct routing to Mainland China is not guaranteed.  
+Streaming media unblocking is available on a best-effort basis.
+
 </details>
 
 ## 评

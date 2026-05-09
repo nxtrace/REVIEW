@@ -34,8 +34,6 @@ redirect_from:
 
 ### 规格对照
 
-> China Mainland Optimized by China Telecom CN2 GIA.
-
 <details markdown="1">
 <summary>Amsterdam VPS - Premium Network</summary>
 
@@ -44,6 +42,8 @@ redirect_from:
 | ams.p1.mini | 1 | 1 GB | 10 GB | 1000 GB | 2.5 Gbps | ¥121.80 / 季 |
 | ams.p1.micro | 1 | 2 GB | 15 GB | 2000 GB | 2.5 Gbps | ¥82.60 / 月 |
 | ams.p1.medium | 2 | 4 GB | 30 GB | 4000 GB | 2.5 Gbps | ¥165.20 / 月 |
+
+> China Mainland Optimized by China Telecom CN2 GIA.
 
 </details>
 

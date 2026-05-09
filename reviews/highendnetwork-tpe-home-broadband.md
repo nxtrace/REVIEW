@@ -43,9 +43,9 @@ redirect_from:
 | HiNet.Oolong | 1 vCore | 1 GB | 10 GB | Unlimited Traffic | 500 Mbps（shared） | $35 / 月（$1 setup） |
 | HiNet.Jasmine | 2 vCore | 2 GB | 20 GB | Unlimited Traffic | 1 Gbps（shared） | $65 / 月 |
 
-</details>
-
 > Home broadband, no SLA guarantee, best-effort basis.
+
+</details>
 
 ## 评
 
