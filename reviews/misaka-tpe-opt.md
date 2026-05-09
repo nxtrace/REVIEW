@@ -50,9 +50,9 @@ redirect_from:
 | S3P2-8C24G | 8 | 24 GiB | 160 GiB | 16.8 TiB | $504 |
 | S3P2-16C32G | 16 | 32 GiB | 240 GiB | 22.4 TiB | $672 |
 
-</details>
-
 > 说明：规格表仅供对照，库存状态以 Misaka 控制台为准。
+
+</details>
 
 ## 评
 

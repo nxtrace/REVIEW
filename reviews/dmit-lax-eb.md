@@ -34,7 +34,7 @@ redirect_from:
 
 ### 规格对照
 
-- 硬件有 AN4 / AN5 两档，性能差异较大（见下方跑分）。
+> 硬件有 AN4 / AN5 两档，性能差异较大（见下方跑分）。
 
 <details markdown="1">
 <summary>LAX.AN5.EB（Eyeball Routing Profile）</summary>

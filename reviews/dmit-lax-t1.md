@@ -30,9 +30,10 @@ redirect_from:
 
 ### 购买链接
 
-> 该系列流量均为单向计费
+> 该系列流量均为单向计费  
+硬件有 AN4 / AN5 两档，性能差异较大（见下方跑分）。
 
-<details open markdown="1">
+<details>
 <summary>AN5 · VOLUME 系列（流量额度多，CPU：AMD EPYC 9005）</summary>
 
 <div class="spec-table" markdown="1">
@@ -50,7 +51,7 @@ redirect_from:
 
 </details>
 
-<details open markdown="1">
+<details>
 <summary>AN5 · GENERAL 系列（硬件规格高，CPU：AMD EPYC 9005）</summary>
 
 <div class="spec-table" markdown="1">
@@ -67,7 +68,7 @@ redirect_from:
 
 </details>
 
-<details open markdown="1">
+<details>
 <summary>AN4 · 入门款（性能稍弱/便宜，CPU：AMD EPYC 9004）</summary>
 
 <div class="spec-table" markdown="1">
@@ -83,8 +84,6 @@ redirect_from:
 </div>
 
 </details>
-
-- 硬件有 AN4 / AN5 两档，性能差异较大（见下方跑分）。
 
 ## 评
 
