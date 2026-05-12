@@ -113,9 +113,9 @@ redirect_from:
 <summary>IPv6 去程</summary>
 
 <div align="center">
-  <img src="{{ '/assets/images/xtom-tokyo-epyc-gen2/IPv6去程/IMAGE 2025-12-14 16:15:39.jpg' | relative_url }}" alt="IPv6 去程路由 1" width="32%" />
-  <img src="{{ '/assets/images/xtom-tokyo-epyc-gen2/IPv6去程/IMAGE 2025-12-14 16:15:40.jpg' | relative_url }}" alt="IPv6 去程路由 2" width="32%" />
-  <img src="{{ '/assets/images/xtom-tokyo-epyc-gen2/IPv6去程/IMAGE 2025-12-14 16:15:41.jpg' | relative_url }}" alt="IPv6 去程路由 3" width="32%" />
+  <img src="{{ '/assets/images/xtom-tokyo-epyc-gen2/IPv6去程/2026-05-12 08.18.51.jpg' | relative_url }}" alt="IPv6 去程路由 1" width="32%" />
+  <img src="{{ '/assets/images/xtom-tokyo-epyc-gen2/IPv6去程/2026-05-12 08.18.52.jpg' | relative_url }}" alt="IPv6 去程路由 2" width="32%" />
+  <img src="{{ '/assets/images/xtom-tokyo-epyc-gen2/IPv6去程/2026-05-12 08.18.53.jpg' | relative_url }}" alt="IPv6 去程路由 3" width="32%" />
 </div>
 
 </details>
