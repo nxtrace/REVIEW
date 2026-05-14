@@ -30,7 +30,7 @@ redirect_from:
 
 ### 购买信息
 
-- [**官方购买入口**](https://vps.hosting/?affid=2152&oid=36)
+- [**官方购买入口**](https://vps.hosting/?affid=2152&oid=45)
 
 ### 规格对照
 
