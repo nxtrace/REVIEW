@@ -1,13 +1,13 @@
 ---
 layout: default
-title: "🇯🇵 V.PS Performance Tokyo Gen2 日本东京 CN2/9929 VPS 测评"
-seo_keywords: "V.PS Tokyo Performance KVM VPS Gen 2, V.PS Tokyo EPYC Gen 2 Explorer, xtom, sa.net, Riven Cloud, GreenCloud, 绿云, CN2, 9929, 东京VPS, 日本VPS, EPYC, JP"
+title: "🇯🇵 V.PS Performance Tokyo Gen2 日本东京 CN2/9929/CMIN2 VPS 测评"
+seo_keywords: "V.PS Tokyo Performance KVM VPS Gen 2, V.PS Tokyo EPYC Gen 2 Explorer, xtom, sa.net, Riven Cloud, GreenCloud, 绿云, CN2, 9929, CMIN2, 东京VPS, 日本VPS, EPYC, JP"
 redirect_from:
   - /reviews/xtom-tokyo-epyc-gen2.md
   - /REVIEW/reviews/xtom-tokyo-epyc-gen2.md
 ---
 
-# 🇯🇵 V.PS Performance Tokyo Gen2 日本东京 CN2/9929 VPS 测评
+# 🇯🇵 V.PS Performance Tokyo Gen2 日本东京 CN2/9929/CMIN2 VPS 测评
 
 <div class="back-home" style="margin: 12px 0 24px;">
   <a href="{{ '/' | relative_url }}" style="display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px; background: linear-gradient(135deg, #f8fafc 0%, #eef2f7 100%); border: 1px solid #e5e7eb; border-radius: 999px; color: #1f2937; text-decoration: none; font-size: 14px; font-weight: 600;">
@@ -50,15 +50,12 @@ redirect_from:
 
 ## 评
 
-算是靠谱的商家里少数卖同时带9929和CN2线路的日本小鸡了，东西确实贵，但也确实值这个价，商家也没有什么线路掺水的黑历史，富哥可以考虑一下  
-**电信联通用户速度还是比较稳定**的跑到 700Mbps 以上  
-**移动用户慎重选择**  
+算是靠谱的商家里少数卖同时带CN2/9929/CMIN2线路的日本小鸡了，东西确实贵，但也确实值这个价，商家也没有什么线路掺水的黑历史，富哥可以考虑一下  
+**电信联通移动三网用户速度都很稳定**，均可跑到单线程 500Mbps 以上  
 
-电信 / 移动 CTG GIA(aka CN2 GIA) 回程  
-联通 CUG VIP(aka 9929) 回程  
-电信 CTG GIA 去程  
-联通 CUG VIP 去程  
-移动 CMI 去程  
+电信 CTG GIA(aka CN2 GIA) 去程/回程  
+联通 CUG VIP(aka 9929) 去程/回程  
+移动 CMIN2 去程/回程  
 另 IPv6 有三网优化但是就电信方向能用（163）  
 
 ## 测
@@ -81,7 +78,7 @@ redirect_from:
 
 <div align="center">
   <img src="{{ '/assets/images/xtom-tokyo-epyc-gen2/IPv4去程/IMAGE 2025-12-14 16:03:14.jpg' | relative_url }}" alt="IPv4 去程路由 1" width="32%" />
-  <img src="{{ '/assets/images/xtom-tokyo-epyc-gen2/IPv4去程/IMAGE 2025-12-14 16:03:18.jpg' | relative_url }}" alt="IPv4 去程路由 2" width="32%" />
+  <img src="{{ '/assets/images/xtom-tokyo-epyc-gen2/IPv4去程/2026-05-21 15.44.49.png' | relative_url }}" alt="IPv4 去程路由 2" width="32%" />
   <img src="{{ '/assets/images/xtom-tokyo-epyc-gen2/IPv4去程/IMAGE 2025-12-14 16:03:20.jpg' | relative_url }}" alt="IPv4 去程路由 3" width="32%" />
 </div>
 
@@ -93,7 +90,7 @@ redirect_from:
 <div align="center">
   <img src="{{ '/assets/images/xtom-tokyo-epyc-gen2/IPv4 回程 · ICMP/IMAGE 2025-12-14 16:03:46.jpg' | relative_url }}" alt="IPv4 回程 ICMP 1" width="32%" />
   <img src="{{ '/assets/images/xtom-tokyo-epyc-gen2/IPv4 回程 · ICMP/IMAGE 2025-12-14 16:03:48.jpg' | relative_url }}" alt="IPv4 回程 ICMP 2" width="32%" />
-  <img src="{{ '/assets/images/xtom-tokyo-epyc-gen2/IPv4 回程 · ICMP/IMAGE 2025-12-14 16:03:49.jpg' | relative_url }}" alt="IPv4 回程 ICMP 3" width="32%" />
+  <img src="{{ '/assets/images/xtom-tokyo-epyc-gen2/IPv4 回程 · ICMP/2026-05-21 15.42.02.png' | relative_url }}" alt="IPv4 回程 ICMP 3" width="32%" />
 </div>
 
 </details>
@@ -104,7 +101,7 @@ redirect_from:
 <div align="center">
   <img src="{{ '/assets/images/xtom-tokyo-epyc-gen2/IPv4 回程 · TCP/IMAGE 2025-12-14 16:03:38.jpg' | relative_url }}" alt="IPv4 回程 TCP 1" width="32%" />
   <img src="{{ '/assets/images/xtom-tokyo-epyc-gen2/IPv4 回程 · TCP/IMAGE 2025-12-14 16:03:39.jpg' | relative_url }}" alt="IPv4 回程 TCP 2" width="32%" />
-  <img src="{{ '/assets/images/xtom-tokyo-epyc-gen2/IPv4 回程 · TCP/IMAGE 2025-12-14 16:03:40.jpg' | relative_url }}" alt="IPv4 回程 TCP 3" width="32%" />
+  <img src="{{ '/assets/images/xtom-tokyo-epyc-gen2/IPv4 回程 · TCP/2026-05-21 15.43.58.png' | relative_url }}" alt="IPv4 回程 TCP 3" width="32%" />
 </div>
 
 </details>
@@ -172,14 +169,14 @@ redirect_from:
 <details markdown="1">
 <summary>北京移动晚高峰</summary>
 
-![北京移动晚高峰]({{ '/assets/images/xtom-tokyo-epyc-gen2/北京四网代理单线程测速/北京移动晚高峰.jpg' | relative_url }})
+![北京移动晚高峰]({{ '/assets/images/xtom-tokyo-epyc-gen2/北京四网代理单线程测速/北京移动晚高峰.png' | relative_url }})
 
 </details>
 
 <details markdown="1">
 <summary>北京移动白天</summary>
 
-![北京移动白天]({{ '/assets/images/xtom-tokyo-epyc-gen2/北京四网代理单线程测速/北京移动白天.jpg' | relative_url }})
+![北京移动白天]({{ '/assets/images/xtom-tokyo-epyc-gen2/北京四网代理单线程测速/北京移动白天.png' | relative_url }})
 
 </details>
 
