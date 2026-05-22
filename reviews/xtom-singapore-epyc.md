@@ -1,13 +1,13 @@
 ---
 layout: default
-title: "🇸🇬 V.PS Performance Singapore 新加坡 CN2/9929 VPS 测评"
-seo_keywords: "V.PS Singapore Performance KVM VPS, V.PS Singapore EPYC Explorer, xtom, sa.net, Riven Cloud, CN2, 9929, 新加坡VPS, EPYC, SG"
+title: "🇸🇬 V.PS Performance Singapore 新加坡 CN2/9929/CMIN2 VPS 测评"
+seo_keywords: "V.PS Singapore Performance KVM VPS, V.PS Singapore EPYC Explorer, xtom, sa.net, Riven Cloud, CN2, 9929, CMIN2, 新加坡VPS, EPYC, SG"
 redirect_from:
   - /reviews/xtom-singapore-epyc.md
   - /REVIEW/reviews/xtom-singapore-epyc.md
 ---
 
-# 🇸🇬 V.PS Performance Singapore 新加坡 CN2/9929 VPS 测评
+# 🇸🇬 V.PS Performance Singapore 新加坡 CN2/9929/CMIN2 VPS 测评
 
 <div class="back-home" style="margin: 12px 0 24px;">
   <a href="{{ '/' | relative_url }}" style="display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px; background: linear-gradient(135deg, #f8fafc 0%, #eef2f7 100%); border: 1px solid #e5e7eb; border-radius: 999px; color: #1f2937; text-decoration: none; font-size: 14px; font-weight: 600;">
@@ -50,16 +50,12 @@ redirect_from:
 
 ## 评
 
-市场上少见的新加坡CN2/9929小鸡，电信/联通用户非常快乐，考虑到他家线路也没啥掺水黑历史以及产品价格，更推荐电信宽带的富哥购买  
-**电信用户速度还是比较稳定**的跑到 600Mbps 以上  
-**联通用户也尚可**可以跑到 400Mbps 以上  
-**移动用户慎重选择**  
+市场上少见的新加坡CN2/9929/CMIN2三网优化小鸡，考虑到他家线路也没啥掺水黑历史以及产品价格，推荐追求极致体验的富哥购买  
+**三网用户速度还是比较稳定**的，单线程可稳定跑到 500Mbps左右  
 
-电信 / 移动 CTG GIA(aka CN2 GIA) 回程  
-联通 CUG VIP(aka 9929) 回程  
-电信 CTG GIA 去程  
-联通 CUG VIP 去程  
-移动 CMI 去程  
+电信 CTG GIA(aka CN2 GIA) 去程/回程  
+联通 CUG VIP(aka 9929) 去程/回程  
+移动 CMIN2 去程/回程  
 另 IPv6 有三网优化但是就电信方向能用（163）  
 
 ## 测
@@ -82,7 +78,7 @@ redirect_from:
 
 <div align="center">
   <img src="{{ '/assets/images/xtom-singapore-epyc/IPv4去程/2026-01-19 13.14.38.png' | relative_url }}" alt="IPv4 去程路由 1" width="32%" />
-  <img src="{{ '/assets/images/xtom-singapore-epyc/IPv4去程/IMAGE 2025-12-14 17:54:35.jpg' | relative_url }}" alt="IPv4 去程路由 2" width="32%" />
+  <img src="{{ '/assets/images/xtom-singapore-epyc/IPv4去程/2026-05-22 13.59.51.png' | relative_url }}" alt="IPv4 去程路由 2" width="32%" />
   <img src="{{ '/assets/images/xtom-singapore-epyc/IPv4去程/IMAGE 2025-12-14 17:54:37.jpg' | relative_url }}" alt="IPv4 去程路由 3" width="32%" />
 </div>
 
@@ -94,7 +90,7 @@ redirect_from:
 <div align="center">
   <img src="{{ '/assets/images/xtom-singapore-epyc/IPv4 回程 · ICMP/IMAGE 2025-12-14 17:54:55.jpg' | relative_url }}" alt="IPv4 回程 ICMP 1" width="32%" />
   <img src="{{ '/assets/images/xtom-singapore-epyc/IPv4 回程 · ICMP/2026-01-19 13.16.47.png' | relative_url }}" alt="IPv4 回程 ICMP 2" width="32%" />
-  <img src="{{ '/assets/images/xtom-singapore-epyc/IPv4 回程 · ICMP/IMAGE 2025-12-14 17:54:58.jpg' | relative_url }}" alt="IPv4 回程 ICMP 3" width="32%" />
+  <img src="{{ '/assets/images/xtom-singapore-epyc/IPv4 回程 · ICMP/2026-05-22 14.01.21.png' | relative_url }}" alt="IPv4 回程 ICMP 3" width="32%" />
 </div>
 
 </details>
@@ -105,7 +101,7 @@ redirect_from:
 <div align="center">
   <img src="{{ '/assets/images/xtom-singapore-epyc/IPv4 回程 · TCP/IMAGE 2025-12-14 17:54:47.jpg' | relative_url }}" alt="IPv4 回程 TCP 1" width="32%" />
   <img src="{{ '/assets/images/xtom-singapore-epyc/IPv4 回程 · TCP/2026-01-19 13.17.28.png' | relative_url }}" alt="IPv4 回程 TCP 2" width="32%" />
-  <img src="{{ '/assets/images/xtom-singapore-epyc/IPv4 回程 · TCP/IMAGE 2025-12-14 17:54:50.jpg' | relative_url }}" alt="IPv4 回程 TCP 3" width="32%" />
+  <img src="{{ '/assets/images/xtom-singapore-epyc/IPv4 回程 · TCP/2026-05-22 14.01.48.png' | relative_url }}" alt="IPv4 回程 TCP 3" width="32%" />
 </div>
 
 </details>
@@ -180,7 +176,7 @@ redirect_from:
 <details markdown="1">
 <summary>北京移动白天</summary>
 
-![北京移动白天]({{ '/assets/images/xtom-singapore-epyc/北京四网代理单线程测速/北京移动白天.jpg' | relative_url }})
+![北京移动白天]({{ '/assets/images/xtom-singapore-epyc/北京四网代理单线程测速/北京移动白天.png' | relative_url }})
 
 </details>
 
