@@ -169,7 +169,7 @@ redirect_from:
 <details markdown="1">
 <summary>北京移动晚高峰</summary>
 
-![北京移动晚高峰]({{ '/assets/images/xtom-singapore-epyc/北京四网代理单线程测速/北京移动晚高峰.jpg' | relative_url }})
+![北京移动晚高峰]({{ '/assets/images/xtom-singapore-epyc/北京四网代理单线程测速/北京移动晚高峰.png' | relative_url }})
 
 </details>
 
