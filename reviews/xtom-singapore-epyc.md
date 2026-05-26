@@ -56,7 +56,9 @@ redirect_from:
 电信 CTG GIA(aka CN2 GIA) 去程/回程  
 联通 CUG VIP(aka 9929) 去程/回程  
 移动 CMIN2 去程/回程  
-另 IPv6 有三网优化但是就电信方向能用（163）  
+另 IPv6 有三网优化  
+移动方向不错有CMIN2  
+电信/联通方向跑163凑活用  
 
 ## 测
 
@@ -123,7 +125,7 @@ redirect_from:
 <div align="center">
   <img src="{{ '/assets/images/xtom-singapore-epyc/IPv6 回程 · ICMP/IMAGE 2025-12-14 17:55:28.jpg' | relative_url }}" alt="IPv6 回程 ICMP 1" width="32%" />
   <img src="{{ '/assets/images/xtom-singapore-epyc/IPv6 回程 · ICMP/IMAGE 2025-12-14 17:55:30.jpg' | relative_url }}" alt="IPv6 回程 ICMP 2" width="32%" />
-  <img src="{{ '/assets/images/xtom-singapore-epyc/IPv6 回程 · ICMP/IMAGE 2025-12-14 17:55:31.jpg' | relative_url }}" alt="IPv6 回程 ICMP 3" width="32%" />
+  <img src="{{ '/assets/images/xtom-singapore-epyc/IPv6 回程 · ICMP/北京移动.png' | relative_url }}" alt="IPv6 回程 ICMP 3" width="32%" />
 </div>
 
 </details>
@@ -134,7 +136,7 @@ redirect_from:
 <div align="center">
   <img src="{{ '/assets/images/xtom-singapore-epyc/IPv6 回程 · TCP/IMAGE 2025-12-14 17:55:09.jpg' | relative_url }}" alt="IPv6 回程 TCP 1" width="32%" />
   <img src="{{ '/assets/images/xtom-singapore-epyc/IPv6 回程 · TCP/IMAGE 2025-12-14 17:55:10.jpg' | relative_url }}" alt="IPv6 回程 TCP 2" width="32%" />
-  <img src="{{ '/assets/images/xtom-singapore-epyc/IPv6 回程 · TCP/IMAGE 2025-12-14 17:55:11.jpg' | relative_url }}" alt="IPv6 回程 TCP 3" width="32%" />
+  <img src="{{ '/assets/images/xtom-singapore-epyc/IPv6 回程 · TCP/北京移动.png' | relative_url }}" alt="IPv6 回程 TCP 3" width="32%" />
 </div>
 
 </details>

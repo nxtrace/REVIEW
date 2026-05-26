@@ -56,7 +56,9 @@ redirect_from:
 电信 CTG GIA(aka CN2 GIA) 去程/回程  
 联通 CUG VIP(aka 9929) 去程/回程  
 移动 CMIN2 去程/回程  
-另 IPv6 有三网优化但是就电信方向能用（163）  
+另 IPv6 有三网优化  
+移动方向不错有CMIN2  
+电信/联通方向跑163凑活用  
 
 ## 测
 
@@ -123,7 +125,7 @@ redirect_from:
 <div align="center">
   <img src="{{ '/assets/images/xtom-tokyo-epyc-gen2/IPv6 回程 · ICMP/IMAGE 2025-12-14 16:16:11.jpg' | relative_url }}" alt="IPv6 回程 ICMP 1" width="32%" />
   <img src="{{ '/assets/images/xtom-tokyo-epyc-gen2/IPv6 回程 · ICMP/IMAGE 2025-12-14 16:16:12.jpg' | relative_url }}" alt="IPv6 回程 ICMP 2" width="32%" />
-  <img src="{{ '/assets/images/xtom-tokyo-epyc-gen2/IPv6 回程 · ICMP/IMAGE 2025-12-14 16:16:14.jpg' | relative_url }}" alt="IPv6 回程 ICMP 3" width="32%" />
+  <img src="{{ '/assets/images/xtom-tokyo-epyc-gen2/IPv6 回程 · ICMP/北京移动.png' | relative_url }}" alt="IPv6 回程 ICMP 3" width="32%" />
 </div>
 
 </details>
@@ -134,7 +136,7 @@ redirect_from:
 <div align="center">
   <img src="{{ '/assets/images/xtom-tokyo-epyc-gen2/IPv6 回程 · TCP/IMAGE 2025-12-14 16:15:56.jpg' | relative_url }}" alt="IPv6 回程 TCP 1" width="32%" />
   <img src="{{ '/assets/images/xtom-tokyo-epyc-gen2/IPv6 回程 · TCP/IMAGE 2025-12-14 16:15:58.jpg' | relative_url }}" alt="IPv6 回程 TCP 2" width="32%" />
-  <img src="{{ '/assets/images/xtom-tokyo-epyc-gen2/IPv6 回程 · TCP/IMAGE 2025-12-14 16:15:59.jpg' | relative_url }}" alt="IPv6 回程 TCP 3" width="32%" />
+  <img src="{{ '/assets/images/xtom-tokyo-epyc-gen2/IPv6 回程 · TCP/北京移动.png' | relative_url }}" alt="IPv6 回程 TCP 3" width="32%" />
 </div>
 
 </details>
