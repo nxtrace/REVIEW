@@ -112,9 +112,9 @@ redirect_from:
 <summary>IPv6 去程</summary>
 
 <div align="center">
-  <img src="{{ '/assets/images/xtom-tokyo-epyc-gen2/IPv6去程/2026-05-12 08.18.51.jpg' | relative_url }}" alt="IPv6 去程路由 1" width="32%" />
-  <img src="{{ '/assets/images/xtom-tokyo-epyc-gen2/IPv6去程/2026-05-12 08.18.52.jpg' | relative_url }}" alt="IPv6 去程路由 2" width="32%" />
-  <img src="{{ '/assets/images/xtom-tokyo-epyc-gen2/IPv6去程/2026-05-12 08.18.53.jpg' | relative_url }}" alt="IPv6 去程路由 3" width="32%" />
+  <img src="{{ '/assets/images/xtom-tokyo-epyc-gen2/IPv6去程/北京电信.jpg' | relative_url }}" alt="北京电信" width="32%" />
+  <img src="{{ '/assets/images/xtom-tokyo-epyc-gen2/IPv6去程/北京联通.jpg' | relative_url }}" alt="北京联通" width="32%" />
+  <img src="{{ '/assets/images/xtom-tokyo-epyc-gen2/IPv6去程/北京移动.jpg' | relative_url }}" alt="北京移动" width="32%" />
 </div>
 
 </details>
