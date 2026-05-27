@@ -113,8 +113,8 @@ redirect_from:
 
 <div align="center">
   <img src="{{ '/assets/images/xtom-singapore-epyc/IPv6去程/IMAGE 2025-12-14 17:55:15.jpg' | relative_url }}" alt="IPv6 去程路由 1" width="32%" />
-  <img src="{{ '/assets/images/xtom-singapore-epyc/IPv6去程/IMAGE 2025-12-14 17:55:17.jpg' | relative_url }}" alt="IPv6 去程路由 2" width="32%" />
   <img src="{{ '/assets/images/xtom-singapore-epyc/IPv6去程/IMAGE 2025-12-14 17:55:18.jpg' | relative_url }}" alt="IPv6 去程路由 3" width="32%" />
+  <img src="{{ '/assets/images/xtom-singapore-epyc/IPv6去程/北京移动.png' | relative_url }}" alt="IPv6 去程路由 2" width="32%" />
 </div>
 
 </details>
