@@ -85,7 +85,7 @@ PS: 由于目前部分段受到DDOS，移动/联通去程有降级
 <div align="center">
   <img src="{{ '/assets/images/dmit-hkg-pro/IPv4去程/2026-05-07 08.52.59.png' | relative_url }}" alt="IPv4 去程路由 1" width="32%" />
   <img src="{{ '/assets/images/dmit-hkg-pro/IPv4去程/2026-05-07 08.53.00.png' | relative_url }}" alt="IPv4 去程路由 2" width="32%" />
-  <img src="{{ '/assets/images/dmit-hkg-pro/IPv4去程/2026-05-07 08.53.01.png' | relative_url }}" alt="IPv4 去程路由 3" width="32%" />
+  <img src="{{ '/assets/images/dmit-hkg-pro/IPv4去程/北京移动.png' | relative_url }}" alt="IPv4 去程路由 3" width="32%" />
 </div>
 
 </details>
