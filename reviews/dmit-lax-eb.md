@@ -138,7 +138,7 @@ IPv6 双程三网优化（CMIN2+CUG VIP 回程），已是市面上可提供的�
 
 <div align="center">
   <img src="{{ '/assets/images/dmit-lax-eb/IPv6去程/2025-12-17 11.27.19.png' | relative_url }}" alt="IPv6 去程路由 1" width="32%" />
-  <img src="{{ '/assets/images/dmit-lax-eb/IPv6去程/2025-12-17 11.27.21.png' | relative_url }}" alt="IPv6 去程路由 2" width="32%" />
+  <img src="{{ '/assets/images/dmit-lax-eb/IPv6去程/北京联通.png' | relative_url }}" alt="IPv6 去程路由 2" width="32%" />
   <img src="{{ '/assets/images/dmit-lax-eb/IPv6去程/2025-12-17 11.27.22.png' | relative_url }}" alt="IPv6 去程路由 3" width="32%" />
 </div>
 
