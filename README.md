@@ -1,11 +1,11 @@
 # nanase's REVIEW
 
 这是一个专注于云服务器测评的网站，不定时更新。  
-与此同时，我还维护了一个 PING 站（[ping.nxtrace.org](https://ping.nxtrace.org)），提供了很多商家线路的网络历史监控数据。  
 与我联系（意见/投稿）：[t.me/nanaselog](https://t.me/nanaselog)  
 
 ## 网络工具
 - [GlobalTrace](https://review.nxtrace.org/globaltrace/)：浏览器里的全球路由追踪工具，可从不同国家、城市、ASN 或 network 发起 trace，适合排查 VPS、CDN、Anycast 和跨境访问路径。也可以直接 [打开工具](https://lg.nxtrace.org/)。
+- [PING 站](https://ping.nxtrace.org/)：提供商家线路的网络历史监控数据。
 
 ## 现有评测
 <details open markdown="1">
