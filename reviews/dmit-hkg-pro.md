@@ -249,7 +249,7 @@ PS: 由于目前部分段受到DDOS，移动/联通去程有降级
 ### 机器性能跑分
 
 <details markdown="1">
-<summary>AS3 综合性能跑分（YABS·GB5）</summary>
+<summary>AS3 综合性能跑分（YABS·GB6）</summary>
 
 ![综合性能跑分]({{ '/assets/images/dmit-hkg-pro/综合性能跑分·AS3.png' | relative_url }})
 
