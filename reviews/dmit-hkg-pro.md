@@ -30,22 +30,24 @@ redirect_from:
 
 ### 购买链接
 
-- [**官方购买入口**](https://www.dmit.io/cart.php?region=hong-kong&generation=as3&network=premium&aff=3487)
+- [**官方购买入口**](https://www.dmit.io/cart.php?region=hong-kong&generation=an5&network=premium&aff=3487)
 
 ### 规格对照
 
+> 硬件有 AS3 / AN5 两档，性能差异较大（见下方跑分）。
+
 <details markdown="1">
-<summary>HKG.AS3.Pro（Premium Routing Profile）</summary>
+<summary>HKG.AN5.Pro（Premium Routing Profile）</summary>
 
 | 套餐 | vCPU | 内存 | SSD | 流量（双向） | 端口 | 月付 |
 |---|---:|---:|---:|---:|---:|---:|
-| HKG.AS3.Pro.TINY | 1 vCore | 1.0 GB | 20 GB SSD | 500 GB | 1 Gbps | $39.90 |
-| HKG.AS3.Pro.STARTER | 1 vCore | 2.0 GB | 40 GB SSD | 1000 GB | 1 Gbps | $79.90 |
-| HKG.AS3.Pro.MINI | 2 vCores | 2.0 GB | 60 GB SSD | 1500 GB | 1 Gbps | $119.90 |
-| HKG.AS3.Pro.MICRO | 4 vCores | 4.0 GB | 80 GB SSD | 2000 GB | 1 Gbps | $159.90 |
-| HKG.AS3.Pro.MEDIUM | 4 vCores | 8.0 GB | 160 GB SSD | 2500 GB | 1 Gbps | $179.90 |
-| HKG.AS3.Pro.LARGE | 8 vCores | 16.0 GB | 320 GB SSD | 3000 GB | 1 Gbps | $239.90 |
-| HKG.AS3.Pro.GIANT | 8 vCores | 24.0 GB | 640 GB SSD | 6000 GB | 1 Gbps | $499.90 |
+| HKG.AN5.Pro.TINY | 1 vCore | 1.0 GB | 20 GB SSD | 500 GB | 1 Gbps | $39.90 |
+| HKG.AN5.Pro.STARTER | 1 vCore | 2.0 GB | 40 GB SSD | 1000 GB | 1 Gbps | $79.90 |
+| HKG.AN5.Pro.MINI | 2 vCores | 2.0 GB | 60 GB SSD | 1500 GB | 1 Gbps | $119.90 |
+| HKG.AN5.Pro.MICRO | 4 vCores | 4.0 GB | 80 GB SSD | 2000 GB | 1 Gbps | $159.90 |
+| HKG.AN5.Pro.MEDIUM | 4 vCores | 8.0 GB | 160 GB SSD | 2500 GB | 1 Gbps | $179.90 |
+| HKG.AN5.Pro.LARGE | 8 vCores | 16.0 GB | 320 GB SSD | 3000 GB | 1 Gbps | $239.90 |
+| HKG.AN5.Pro.GIANT | 8 vCores | 24.0 GB | 640 GB SSD | 6000 GB | 1 Gbps | $499.90 |
 
 > 说明：每个套餐包含 `1 IPv4` 与 `1 IPv6` /64，支持 DDoS Protect（Standard）与自定义 RAM/SSD。
 
@@ -247,9 +249,16 @@ PS: 由于目前部分段受到DDOS，移动/联通去程有降级
 ### 机器性能跑分
 
 <details markdown="1">
-<summary>综合性能跑分（YABS·GB5）</summary>
+<summary>AS3 综合性能跑分（YABS·GB5）</summary>
 
-![综合性能跑分]({{ '/assets/images/dmit-hkg-pro/gb5.png' | relative_url }})
+![综合性能跑分]({{ '/assets/images/dmit-hkg-pro/综合性能跑分·AS3.png' | relative_url }})
+
+</details>
+
+<details markdown="1">
+<summary>AN5 综合性能跑分（YABS·GB6）</summary>
+
+![综合性能跑分·AN5]({{ '/assets/images/dmit-hkg-pro/综合性能跑分·AN5.png' | relative_url }})
 
 </details>
 
