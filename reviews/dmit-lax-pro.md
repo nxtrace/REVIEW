@@ -34,23 +34,21 @@ redirect_from:
 
 ### 规格对照
 
-> 硬件有 AN4 / AN5 两档，性能差异较大（见下方跑分）。
+> 硬件有 AS3 / AN4 / AN5 三档，性能差异较大（见下方跑分）。
 
 <details markdown="1">
-<summary>LAX.AN5.Pro（Premium Routing Profile）</summary>
+<summary>LAX.AS3.Pro（Premium Routing Profile）</summary>
 
 | 套餐 | vCPU | 内存 | SSD | 流量（双向） | 端口 | 价格（月付折算） |
 |---|---:|---:|---:|---:|---:|---:|
-| LAX.AN5.Pro.TINY | 1 | 2 GB | 20 GB | 1000 GB | 1 Gbps | $12.66（原价 $37.99 / 季付） |
-| LAX.AN5.Pro.POCKET | 2 | 2 GB | 40 GB | 1500 GB | 4 Gbps | $18.90（原价 $56.70 / 季付） |
-| LAX.AN5.Pro.STARTER | 2 | 2 GB | 80 GB | 3000 GB | 10 Gbps | $38.90 |
-| LAX.AN5.Pro.MINI | 4 | 4 GB | 80 GB | 5000 GB | 10 Gbps | $76.90 |
-| LAX.AN5.Pro.MICRO | 4 | 4 GB | 160 GB | 7000 GB | 10 Gbps | $99.90 |
-| LAX.AN5.Pro.MEDIUM | 6 | 8 GB | 160 GB | 14000 GB | 10 Gbps | $219.90 |
-| LAX.AN5.Pro.LARGE | 8 | 16 GB | 320 GB | 25000 GB | 10 Gbps | $459.90（原价 $2759.40 / 半年付） |
-| LAX.AN5.Pro.GIANT | 12 | 24 GB | 640 GB | 50000 GB | 10 Gbps | $839.90 |
+| LAX.AS3.Pro.TINY | 1 | 2 GB | 20 GB | 1000 GB | 1 Gbps | $10.90 |
+| LAX.AS3.Pro.POCKET | 2 | 2 GB | 40 GB | 1500 GB | 4 Gbps | $16.90 |
+| LAX.AS3.Pro.STARTER | 2 | 2 GB | 80 GB | 3000 GB | 10 Gbps | $34.90 |
+| LAX.AS3.Pro.MINI | 4 | 4 GB | 80 GB | 5000 GB | 10 Gbps | $62.90 |
+| LAX.AS3.Pro.MICRO | 4 | 4 GB | 160 GB | 7000 GB | 10 Gbps | $87.90 |
+| LAX.AS3.Pro.MEDIUM | 6 | 8 GB | 160 GB | 14000 GB | 10 Gbps | $199.90 |
 
-> 说明：套餐含 `IPv6 /64`；TINY、POCKET、STARTER、MINI、MICRO 为 `1 IPv4`，MEDIUM/LARGE 为 `2 IPv4`，GIANT 为 `3 IPv4`；均含 DDoS Protect（Standard）；超额后不限量限速为 TINY/POCKET/STARTER 4 Mbps、MINI/MICRO 8 Mbps、MEDIUM/LARGE/GIANT 10 Mbps。
+> 说明：套餐含 `IPv6 /64`；TINY、POCKET、STARTER、MINI、MICRO 为 `1 IPv4`，MEDIUM 为 `2 IPv4`；均含 DDoS Protect（Standard）；超额后不限量限速为 TINY/POCKET/STARTER 4 Mbps、MINI/MICRO 8 Mbps、MEDIUM 10 Mbps。
 
 </details>
 
@@ -59,16 +57,28 @@ redirect_from:
 
 | 套餐 | vCPU | 内存 | SSD | 流量（双向） | 端口 | 价格（月付折算） |
 |---|---:|---:|---:|---:|---:|---:|
-| LAX.AN4.Pro.TINY | 1 | 2 GB | 20 GB | 1000 GB | 1 Gbps | $8.15（原价 $48.88 / 半年付） |
-| LAX.AN4.Pro.POCKET | 2 | 2 GB | 40 GB | 1500 GB | 4 Gbps | $14.90（原价 $44.70 / 季付） |
-| LAX.AN4.Pro.STARTER | 2 | 2 GB | 80 GB | 3000 GB | 10 Gbps | $29.90 |
-| LAX.AN4.Pro.MINI | 4 | 4 GB | 80 GB | 5000 GB | 10 Gbps | $58.88 |
-| LAX.AN4.Pro.MICRO | 4 | 4 GB | 160 GB | 7000 GB | 10 Gbps | $74.99 |
-| LAX.AN4.Pro.MEDIUM | 6 | 8 GB | 160 GB | 14000 GB | 10 Gbps | $168.88 |
-| LAX.AN4.Pro.LARGE | 8 | 16 GB | 320 GB | 25000 GB | 10 Gbps | $338.88 |
-| LAX.AN4.Pro.GIANT | 12 | 24 GB | 640 GB | 50000 GB | 10 Gbps | $619.99 |
+| LAX.AN4.Pro.MINI | 4 | 4 GB | 80 GB | 5000 GB | 10 Gbps | $72.90 |
+| LAX.AN4.Pro.MICRO | 4 | 4 GB | 160 GB | 7000 GB | 10 Gbps | $102.90 |
+| LAX.AN4.Pro.MEDIUM | 6 | 8 GB | 160 GB | 14000 GB | 10 Gbps | $239.90 |
+| LAX.AN4.Pro.LARGE | 8 | 16 GB | 320 GB | 25000 GB | 10 Gbps | $459.90 |
+| LAX.AN4.Pro.GIANT | 12 | 24 GB | 640 GB | 50000 GB | 10 Gbps | $929.90 |
 
-> 说明：套餐含 `IPv6 /64`；TINY、POCKET、STARTER、MINI、MICRO 为 `1 IPv4`，MEDIUM/LARGE 为 `2 IPv4`，GIANT 为 `3 IPv4`；均含 DDoS Protect（Standard）；超额后不限量限速为 TINY/POCKET/STARTER 4 Mbps、MINI/MICRO 8 Mbps、MEDIUM/LARGE/GIANT 10 Mbps。
+> 说明：套餐含 `IPv6 /64`；MINI、MICRO 为 `1 IPv4`，MEDIUM/LARGE 为 `2 IPv4`，GIANT 为 `3 IPv4`；均含 DDoS Protect（Standard）；超额后不限量限速为 MINI/MICRO 8 Mbps、MEDIUM/LARGE/GIANT 10 Mbps。
+
+</details>
+
+<details markdown="1">
+<summary>LAX.AN5.Pro（Premium Routing Profile）</summary>
+
+| 套餐 | vCPU | 内存 | SSD | 流量（双向） | 端口 | 价格（月付折算） |
+|---|---:|---:|---:|---:|---:|---:|
+| LAX.AN5.Pro.MINI | 4 | 4 GB | 80 GB | 5000 GB | 10 Gbps | $79.90 |
+| LAX.AN5.Pro.MICRO | 4 | 4 GB | 160 GB | 7000 GB | 10 Gbps | $110.90 |
+| LAX.AN5.Pro.MEDIUM | 6 | 8 GB | 160 GB | 14000 GB | 10 Gbps | $289.90 |
+| LAX.AN5.Pro.LARGE | 8 | 16 GB | 320 GB | 25000 GB | 10 Gbps | $499.90 |
+| LAX.AN5.Pro.GIANT | 12 | 24 GB | 640 GB | 50000 GB | 10 Gbps | $1009.90 |
+
+> 说明：套餐含 `IPv6 /64`；MINI、MICRO 为 `1 IPv4`，MEDIUM/LARGE 为 `2 IPv4`，GIANT 为 `3 IPv4`；均含 DDoS Protect（Standard）；超额后不限量限速为 MINI/MICRO 8 Mbps、MEDIUM/LARGE/GIANT 10 Mbps。
 
 </details>
 
@@ -266,6 +276,13 @@ IPv6 双程三网优化（CMIN2+CUG VIP 回程），已是市面上可提供的�
 </details>
 
 ### 机器性能跑分
+
+<details markdown="1">
+<summary>AS3 综合性能跑分（YABS·GB6）</summary>
+
+![综合性能跑分·AS3]({{ '/assets/images/dmit-lax-pro/综合性能跑分·AS3.png' | relative_url }})
+
+</details>
 
 <details markdown="1">
 <summary>AN4 综合性能跑分（YABS·GB6）</summary>
