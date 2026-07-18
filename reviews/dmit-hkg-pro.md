@@ -149,7 +149,7 @@ PS: 由于目前部分段受到DDOS，移动/联通去程有降级
 
 ### 实时监控
 - **实时三网 ICMP**：<https://ping.nxtrace.org/goto/aflapllp4d4hsa>
-- **实时三网 TCP**：<https://ping.nxtrace.org/goto/eflapm56juo00c>
+- **实时三网 TCP**：<https://ping.nxtrace.org/goto/dfsgqwidvcsu8b>
 - **Looking Glass**：<https://lg.dmit.sh/?server=hkg-pro>
 - **北京三网延迟监控截图**：
   <details markdown="1">
