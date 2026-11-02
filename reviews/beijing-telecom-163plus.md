@@ -6,15 +6,41 @@ seo_keywords: "北京电信, 163Plus, 国际加速, C–I, 晚高峰, MTR, iperf
 
 # 北京电信国际访问加速服务办理体验与实测
 
+<style>
+.telecom163-table {
+  max-width: 100%;
+  overflow-x: auto;
+  margin: 1rem 0 1.25rem;
+  border: 1px solid var(--separator, #dde4ea);
+  border-radius: 14px;
+}
+.telecom163-table table {
+  display: table;
+  width: 100%;
+  min-width: 34rem;
+  max-width: none;
+  margin: 0;
+  border-radius: 0;
+}
+img.telecom163-tariff {
+  display: block;
+  width: auto;
+  max-width: min(100%, 440px);
+  max-height: 65vh;
+  height: auto;
+  margin: 1rem auto;
+}
+</style>
+
 晚高峰访问海外节点，开通北京电信“家庭宽带国际加速服务”（俗称 163Plus）能带来多大改善？本次实测在北京时间 21–23 点对比两条配置相同的家宽，涵盖六组空载 MTR 路由追踪与四组采用 BBR 的单连接 iperf3 反向下载测试。**163Plus 在四条测试路径上的单连接平均下载速率均显著提升，六组 MTR 末跳丢包率均降至 0%–0.6%。各路径的表现仍有差异：末跳 RTT 波动增大，部分节点出现吞吐骤降或密集重传。**
 
 ## 一、业务内容与开通后的变化
 
-- **资费：**30 元/月，首月按天折算，限 200M 及以上 FTTH 家庭宽带办理。
-- **办理与退订：**可通过 10000 号或线下渠道办理，订购后立即生效；可通过营业厅或 10000 号退订，次月生效。
-- **有效期：**24 个月。到期前 30 日双方均未提出异议，每次自动续展 24 个月；无在网要求，无违约责任。
+- **资费**：30 元/月，首月按天折算，限 200M 及以上 FTTH 家庭宽带办理。
+- **办理与退订**：可通过 10000 号或线下渠道办理，订购后立即生效；可通过营业厅或 10000 号退订，次月生效。
+- **有效期**：24 个月。到期前 30 日双方均未提出异议，每次自动续展 24 个月；无在网要求，无违约责任。
 
-![家庭宽带国际加速服务官方资费介绍](/assets/images/beijing-telecom-163plus/official-service.jpg)
+<img class="telecom163-tariff" src="/assets/images/beijing-telecom-163plus/official-service.jpg" alt="家庭宽带国际加速服务官方资费介绍">
 
 *图 1：北京电信“家庭宽带国际加速服务”官方资费说明（方案编号：25BJ100098）*
 
@@ -38,6 +64,8 @@ C–I 段（国内核心层至国际出口层）拥塞是普通 163 家宽晚高
 iperf3 -t 15 -R -c <测试服务器>
 ```
 
+<div class="telecom163-table" markdown="1">
+
 | 本文标签 | 实际测试起点与路径 | iperf3 |
 |---|---|---|
 | FRA 163 · AWS FRA | AWS FRA → FRA 接入 163 | 有 |
@@ -46,6 +74,8 @@ iperf3 -t 15 -R -c <测试服务器>
 | FRA Cogent · AWS SIN | AWS SIN → Cogent（经 FRA）→ 163 | 未测 |
 | FRA 163 · AWS LHR | AWS LHR → FRA 接入 163 | 未测 |
 | LAX Arelion | LAX 节点 → Arelion → 163 | 有 |
+
+</div>
 
 表中按**流量进入 163 骨干网前的接入点与上游运营商**命名标签，例如 AWS 新加坡样本经 Cogent 绕行法兰克福接入 163，故标记为 `FRA Cogent · AWS SIN`。
 
@@ -103,6 +133,8 @@ xTom 第 2 跳分别为 `a1.cr01.fra01.xtom.de` 和 `a1.cr02.fra01.xtom.de`。�
 
 ### 六组末跳对照
 
+<div class="telecom163-table" markdown="1">
+
 | 路径 | 线路 | Loss% | Snt | Avg / ms | StDev / ms |
 |---|---|---|---|---|---|
 | FRA 163 · AWS FRA | 163Plus 家宽 | 0.0% | 608 | 191.7 | 76.5 |
@@ -118,11 +150,15 @@ xTom 第 2 跳分别为 `a1.cr01.fra01.xtom.de` 和 `a1.cr02.fra01.xtom.de`。�
 | LAX Arelion | 163Plus 家宽 | 0.0% | 2221 | 182.3 | 46.6 |
 | LAX Arelion | 普通家宽 | 15.3% | 2220 | 167.1 | 0.3 |
 
+</div>
+
 以 AWS FRA 为例，两条线路各发送 608 次探测。普通家宽末跳丢包率为 9.9%，成功返回的样本平均 RTT 为 150.3 ms，StDev 仅 0.2 ms。163Plus 末跳丢包率为 0.0%，但 RTT 分布在 132.6–539.5 ms 之间，StDev 达 76.5 ms。其余五组趋势相同。六组汇总，普通家宽末跳丢包率为 **9.9%–15.3%**，StDev 为 **0.2–2.1 ms**；163Plus 有四组末跳丢包清零，其余两组为 **0.2% 和 0.6%**，六组 StDev 均升至 **27.2–76.5 ms** 范围内。
 
 这种“高丢包、低抖动”与“低丢包、高抖动”的反差，符合两类流量在晚高峰拥塞点受到不同队列处理的特征。普通家宽若触发硬限速（Policing）或尾部丢包（Tail Drop），超限或遇到队满的探测包会被直接丢弃，不计入 RTT 统计。成功返回的探测包若未经历深队列等待，StDev 就会很低。163Plus 若获得更高的调度优先级或更深的队列缓冲（Buffer），原本会被丢弃的包便有机会等到转发。这能减少末跳丢包，也会让排队较久的响应进入 RTT 统计。各次探测的排队时延（Queuing Delay）相差越大，StDev 就越高。
 
 ## 五、iperf3：四条路径的单连接下载
+
+<div class="telecom163-table" markdown="1">
 
 | 路径 | 普通 / Mbps | 163Plus / Mbps | 普通 Retr | 163Plus Retr |
 |---|---|---|---|---|
@@ -130,6 +166,8 @@ xTom 第 2 跳分别为 `a1.cr01.fra01.xtom.de` 和 `a1.cr02.fra01.xtom.de`。�
 | FRA 163 · AWS FRA | 0.415 | 78.6 | 50 | 1,815 |
 | LAX Arelion | 0.205 | 138 | 49 | 417 |
 | FRA TATA | 61.5 | 233 | 10,228 | 41,909 |
+
+</div>
 
 ### LAX 163：AWS PDX 起点
 
