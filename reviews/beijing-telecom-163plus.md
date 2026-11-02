@@ -22,6 +22,9 @@ seo_keywords: "北京电信, 163Plus, 国际加速, C–I, 晚高峰, MTR, iperf
   margin: 0;
   border-radius: 0;
 }
+.main-content:has(.telecom163-tariff) :is(h2, h3) {
+  scroll-margin-top: 5rem;
+}
 img.telecom163-tariff {
   display: block;
   width: auto;
