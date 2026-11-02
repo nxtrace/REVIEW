@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "不换路由只提优先级？北京电信家庭宽带国际加速服务（163Plus）晚高峰双线对照实测"
-seo_keywords: "北京电信, 163Plus, 国际加速, C–I, 晚高峰, MTR, iperf3"
+seo_keywords: "北京电信, 163Plus, 国际访问加速服务, 家庭宽带国际加速服务, 国际加速, C–I, 晚高峰, MTR, iperf3"
 ---
 
 # 不换路由只提优先级？北京电信家庭宽带国际加速服务（163Plus）晚高峰双线对照实测
