@@ -1,2 +1,8 @@
 .DS_Store
 .playwright-mcp/
+
+# Local source transcriptions and superseded review drafts
+/outputs/mtr-text/
+/outputs/163plus-review/评测.md
+/outputs/163plus-review/预览.html
+/outputs/北京电信163Plus测评-发布包.zip

@@ -1,0 +1,198 @@
+公开脱敏版 iperf3 原始记录
+
+家庭对端地址已替换为线路标识；数据与原日志相同。
+
+AWS PDX(LAX 163)
+Accepted connection from 【163Plus 家宽】, port 1522
+[  5] local 172.26.12.11 port 5201 connected to 【163Plus 家宽】 port 1523
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  1.38 MBytes  11.5 Mbits/sec    0    450 KBytes
+[  5]   1.00-2.00   sec  12.8 MBytes   107 Mbits/sec    0   6.50 MBytes
+[  5]   2.00-3.00   sec  13.9 MBytes   116 Mbits/sec    0   6.50 MBytes
+[  5]   3.00-4.00   sec  16.5 MBytes   138 Mbits/sec    0   6.50 MBytes
+[  5]   4.00-5.00   sec  13.9 MBytes   116 Mbits/sec    0   6.50 MBytes
+[  5]   5.00-6.00   sec  15.4 MBytes   129 Mbits/sec    0   6.50 MBytes
+[  5]   6.00-7.00   sec  13.2 MBytes   111 Mbits/sec    0   6.50 MBytes
+[  5]   7.00-8.00   sec  15.4 MBytes   129 Mbits/sec    0   6.50 MBytes
+[  5]   8.00-9.00   sec  14.6 MBytes   123 Mbits/sec    0   6.50 MBytes
+[  5]   9.00-10.00  sec  15.6 MBytes   131 Mbits/sec    0   6.50 MBytes
+[  5]  10.00-11.00  sec  14.9 MBytes   125 Mbits/sec    0   6.50 MBytes
+[  5]  11.00-12.00  sec  13.8 MBytes   115 Mbits/sec    0   6.50 MBytes
+[  5]  12.00-13.00  sec  13.9 MBytes   116 Mbits/sec    0   6.50 MBytes
+[  5]  13.00-14.00  sec  14.1 MBytes   118 Mbits/sec    0   6.50 MBytes
+[  5]  14.00-15.00  sec  14.0 MBytes   117 Mbits/sec    0   6.50 MBytes
+[  5]  15.00-15.18  sec  2.75 MBytes   131 Mbits/sec    0   6.50 MBytes
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-15.18  sec   206 MBytes   114 Mbits/sec    0            sender
+-----------------------------------------------------------
+Server listening on 5201 (test #2)
+-----------------------------------------------------------
+Accepted connection from 【普通家宽】, port 33356
+[  5] local 172.26.12.11 port 5201 connected to 【普通家宽】 port 33360
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  0.00 Bytes  0.00 bits/sec   11   9.84 KBytes
+[  5]   1.00-2.00   sec  0.00 Bytes  0.00 bits/sec    4   5.62 KBytes
+[  5]   2.00-3.00   sec   128 KBytes  1.05 Mbits/sec    2   4.22 KBytes
+[  5]   3.00-4.00   sec  0.00 Bytes  0.00 bits/sec    3   5.62 KBytes
+[  5]   4.00-5.00   sec  0.00 Bytes  0.00 bits/sec    3   2.81 KBytes
+[  5]   5.00-6.00   sec  0.00 Bytes  0.00 bits/sec    1   5.62 KBytes
+[  5]   6.00-7.00   sec  0.00 Bytes  0.00 bits/sec    2   1.41 KBytes
+[  5]   7.00-8.00   sec  0.00 Bytes  0.00 bits/sec    1   2.81 KBytes
+[  5]   8.00-9.00   sec  0.00 Bytes  0.00 bits/sec    2   2.81 KBytes
+[  5]   9.00-10.00  sec   128 KBytes  1.05 Mbits/sec    2   4.22 KBytes
+[  5]  10.00-11.00  sec  0.00 Bytes  0.00 bits/sec    1   2.81 KBytes
+[  5]  11.00-12.00  sec  0.00 Bytes  0.00 bits/sec    2   1.41 KBytes
+[  5]  12.00-13.00  sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes
+[  5]  13.00-14.00  sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes
+[  5]  14.00-15.00  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes
+[  5]  15.00-15.18  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-15.18  sec   256 KBytes   138 Kbits/sec   36            sender
+
+AWS FRA(FRA 163)
+Accepted connection from 【163Plus 家宽】, port 1472
+[  5] local 172.26.14.138 port 5201 connected to 【163Plus 家宽】 port 1474
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  1.50 MBytes  12.6 Mbits/sec    0    501 KBytes
+[  5]   1.00-2.00   sec  11.9 MBytes  99.6 Mbits/sec    0   2.44 MBytes
+[  5]   2.00-3.00   sec  16.8 MBytes   141 Mbits/sec    0   3.17 MBytes
+[  5]   3.00-4.00   sec  17.9 MBytes   150 Mbits/sec    0   3.18 MBytes
+[  5]   4.00-5.00   sec  18.2 MBytes   153 Mbits/sec    0   3.18 MBytes
+[  5]   5.00-6.00   sec  18.9 MBytes   158 Mbits/sec    0   3.18 MBytes
+[  5]   6.00-7.00   sec  18.5 MBytes   155 Mbits/sec    0   3.18 MBytes
+[  5]   7.00-8.00   sec  20.2 MBytes   170 Mbits/sec    0   3.18 MBytes
+[  5]   8.00-9.00   sec  4.25 MBytes  35.7 Mbits/sec    2   1.41 KBytes
+[  5]   9.00-10.00  sec  0.00 Bytes  0.00 bits/sec   37   18.3 KBytes
+[  5]  10.00-11.00  sec  0.00 Bytes  0.00 bits/sec  184   56.2 KBytes
+[  5]  11.00-12.00  sec  1.12 MBytes  9.44 Mbits/sec  450    132 KBytes
+[  5]  12.00-13.00  sec  1.25 MBytes  10.5 Mbits/sec  634    107 KBytes
+[  5]  13.00-14.00  sec  0.00 Bytes  0.00 bits/sec  453    105 KBytes
+[  5]  14.00-15.00  sec  9.50 MBytes  79.7 Mbits/sec   55   2.42 MBytes
+[  5]  15.00-15.15  sec  2.00 MBytes   113 Mbits/sec    0   2.45 MBytes
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-15.15  sec   142 MBytes  78.6 Mbits/sec  1815            sender
+-----------------------------------------------------------
+Server listening on 5201 (test #2)
+-----------------------------------------------------------
+Accepted connection from 【普通家宽】, port 50690
+[  5] local 172.26.14.138 port 5201 connected to 【普通家宽】 port 50696
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec   256 KBytes  2.09 Mbits/sec    7   5.62 KBytes
+[  5]   1.00-2.00   sec   128 KBytes  1.05 Mbits/sec    4   14.1 KBytes
+[  5]   2.00-3.00   sec  0.00 Bytes  0.00 bits/sec   11   4.22 KBytes
+[  5]   3.00-4.00   sec  0.00 Bytes  0.00 bits/sec    0   7.03 KBytes
+[  5]   4.00-5.00   sec  0.00 Bytes  0.00 bits/sec    0   11.2 KBytes
+[  5]   5.00-6.00   sec   128 KBytes  1.05 Mbits/sec    4   7.03 KBytes
+[  5]   6.00-7.00   sec  0.00 Bytes  0.00 bits/sec    2   4.22 KBytes
+[  5]   7.00-8.00   sec  0.00 Bytes  0.00 bits/sec    2   4.22 KBytes
+[  5]   8.00-9.00   sec  0.00 Bytes  0.00 bits/sec    2   4.22 KBytes
+[  5]   9.00-10.00  sec   128 KBytes  1.05 Mbits/sec    2   2.81 KBytes
+[  5]  10.00-11.00  sec  0.00 Bytes  0.00 bits/sec    3   7.03 KBytes
+[  5]  11.00-12.00  sec  0.00 Bytes  0.00 bits/sec    3   7.03 KBytes
+[  5]  12.00-13.00  sec  0.00 Bytes  0.00 bits/sec    0   9.84 KBytes
+[  5]  13.00-14.00  sec   128 KBytes  1.05 Mbits/sec    5   8.44 KBytes
+[  5]  14.00-15.00  sec  0.00 Bytes  0.00 bits/sec    5   4.22 KBytes
+[  5]  15.00-15.15  sec  0.00 Bytes  0.00 bits/sec    0   5.62 KBytes
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-15.15  sec   768 KBytes   415 Kbits/sec   50            sender
+
+LAX Arelion
+Accepted connection from 【普通家宽】, port 44198
+[  5] local 174.136.204.72 port 5201 connected to 【普通家宽】 port 44202
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec   128 KBytes  1.05 Mbits/sec    8   12.7 KBytes
+[  5]   1.00-2.00   sec  0.00 Bytes  0.00 bits/sec    9   5.62 KBytes
+[  5]   2.00-3.00   sec   128 KBytes  1.05 Mbits/sec    1   7.03 KBytes
+[  5]   3.00-4.00   sec  0.00 Bytes  0.00 bits/sec    4   2.81 KBytes
+[  5]   4.00-5.00   sec  0.00 Bytes  0.00 bits/sec    1   5.62 KBytes
+[  5]   5.00-6.00   sec  0.00 Bytes  0.00 bits/sec    2   2.81 KBytes
+[  5]   6.00-7.00   sec  0.00 Bytes  0.00 bits/sec    2   5.62 KBytes
+[  5]   7.00-8.00   sec  0.00 Bytes  0.00 bits/sec    4   2.81 KBytes
+[  5]   8.00-9.00   sec  0.00 Bytes  0.00 bits/sec    3   2.81 KBytes
+[  5]   9.00-10.00  sec  0.00 Bytes  0.00 bits/sec    2   2.81 KBytes
+[  5]  10.00-11.00  sec  0.00 Bytes  0.00 bits/sec    3   2.81 KBytes
+[  5]  11.00-12.00  sec  0.00 Bytes  0.00 bits/sec    2   5.62 KBytes
+[  5]  12.00-13.00  sec  0.00 Bytes  0.00 bits/sec    2   1.41 KBytes
+[  5]  13.00-14.00  sec   128 KBytes  1.05 Mbits/sec    4   2.81 KBytes
+[  5]  14.00-15.00  sec  0.00 Bytes  0.00 bits/sec    2   2.81 KBytes
+[  5]  15.00-15.37  sec  0.00 Bytes  0.00 bits/sec    0   4.22 KBytes
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-15.37  sec   384 KBytes   205 Kbits/sec   49            sender
+-----------------------------------------------------------
+Accepted connection from 【163Plus 家宽】, port 1519
+[  5] local 174.136.204.72 port 5201 connected to 【163Plus 家宽】 port 1521
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  3.62 MBytes  30.4 Mbits/sec    0    908 KBytes
+[  5]   1.00-2.00   sec  13.9 MBytes   116 Mbits/sec    0   7.88 MBytes
+[  5]   2.00-3.00   sec  19.5 MBytes   164 Mbits/sec    0   7.95 MBytes
+[  5]   3.00-4.00   sec  16.5 MBytes   138 Mbits/sec    0   7.95 MBytes
+[  5]   4.00-5.00   sec  16.8 MBytes   140 Mbits/sec    0   7.95 MBytes
+[  5]   5.00-6.00   sec  18.1 MBytes   152 Mbits/sec  153   5.59 MBytes
+[  5]   6.00-7.00   sec  19.2 MBytes   161 Mbits/sec    0   5.59 MBytes
+[  5]   7.00-8.00   sec  16.8 MBytes   141 Mbits/sec    0   5.59 MBytes
+[  5]   8.00-9.00   sec  16.6 MBytes   139 Mbits/sec    0   5.59 MBytes
+[  5]   9.00-10.00  sec  19.5 MBytes   163 Mbits/sec    0   5.59 MBytes
+[  5]  10.00-11.00  sec  16.8 MBytes   141 Mbits/sec    0   5.59 MBytes
+[  5]  11.00-12.00  sec  16.4 MBytes   137 Mbits/sec  264   3.91 MBytes
+[  5]  12.00-13.00  sec  19.4 MBytes   163 Mbits/sec    0   3.91 MBytes
+[  5]  13.00-14.00  sec  16.8 MBytes   140 Mbits/sec    0   3.91 MBytes
+[  5]  14.00-15.00  sec  16.6 MBytes   140 Mbits/sec    0   3.91 MBytes
+[  5]  15.00-15.16  sec  2.75 MBytes   145 Mbits/sec    0   3.91 MBytes
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-15.16  sec   249 MBytes   138 Mbits/sec  417            sender
+-----------------------------------------------------------
+
+FRA TATA
+Accepted connection from 【普通家宽】, port 58848
+[  5] local 45.147.50.23 port 5201 connected to 【普通家宽】 port 58864
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec   896 KBytes  7.33 Mbits/sec    8   78.8 KBytes
+[  5]   1.00-2.00   sec   512 KBytes  4.20 Mbits/sec   28    305 KBytes
+[  5]   2.00-3.00   sec  4.50 MBytes  37.7 Mbits/sec  121   1.45 MBytes
+[  5]   3.00-4.00   sec  20.4 MBytes   171 Mbits/sec  559   7.42 MBytes
+[  5]   4.00-5.00   sec  10.0 MBytes  83.9 Mbits/sec  1000   8.25 MBytes
+[  5]   5.00-6.00   sec  10.4 MBytes  87.1 Mbits/sec  1200   8.21 MBytes
+[  5]   6.00-7.00   sec  10.4 MBytes  87.0 Mbits/sec  914   6.52 MBytes
+[  5]   7.00-8.00   sec  0.00 Bytes  0.00 bits/sec  654   6.53 MBytes
+[  5]   8.00-9.00   sec  10.9 MBytes  91.1 Mbits/sec  803   6.54 MBytes
+[  5]   9.00-10.00  sec  10.6 MBytes  89.1 Mbits/sec  836   6.42 MBytes
+[  5]  10.00-11.00  sec  0.00 Bytes  0.00 bits/sec  749   6.70 MBytes
+[  5]  11.00-12.00  sec  14.1 MBytes   119 Mbits/sec  509   4.38 MBytes
+[  5]  12.00-13.00  sec  0.00 Bytes  0.00 bits/sec  632   5.62 KBytes
+[  5]  13.00-14.00  sec  11.1 MBytes  93.3 Mbits/sec  791   6.80 MBytes
+[  5]  14.00-15.00  sec  12.1 MBytes   102 Mbits/sec  491   5.89 MBytes
+[  5]  15.00-15.80  sec  0.00 Bytes  0.00 bits/sec  933   6.03 MBytes
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-15.80  sec   116 MBytes  61.5 Mbits/sec  10228            sender
+-----------------------------------------------------------
+Server listening on 5201 (test #4)
+-----------------------------------------------------------
+Accepted connection from 【163Plus 家宽】, port 2303
+[  5] local 45.147.50.23 port 5201 connected to 【163Plus 家宽】 port 2304
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  2.00 MBytes  16.8 Mbits/sec    0    403 KBytes
+[  5]   1.00-2.00   sec  49.6 MBytes   416 Mbits/sec    0   22.1 MBytes
+[  5]   2.00-3.00   sec  20.1 MBytes   169 Mbits/sec  10973   11.6 MBytes
+[  5]   3.00-4.00   sec  31.5 MBytes   264 Mbits/sec  2023   1.87 MBytes
+[  5]   4.00-5.00   sec  31.5 MBytes   264 Mbits/sec  8305   19.1 MBytes
+[  5]   5.00-6.00   sec  20.4 MBytes   171 Mbits/sec  8253   7.29 MBytes
+[  5]   6.00-7.00   sec  30.5 MBytes   256 Mbits/sec  2176   8.76 MBytes
+[  5]   7.00-8.00   sec  20.5 MBytes   172 Mbits/sec    0   8.77 MBytes
+[  5]   8.00-9.00   sec  30.4 MBytes   255 Mbits/sec    0   8.71 MBytes
+[  5]   9.00-10.00  sec  30.8 MBytes   258 Mbits/sec    0   8.87 MBytes
+[  5]  10.00-11.00  sec  30.6 MBytes   257 Mbits/sec    0   8.81 MBytes
+[  5]  11.00-12.00  sec  20.4 MBytes   171 Mbits/sec    0   8.72 MBytes
+[  5]  12.00-13.00  sec  30.5 MBytes   256 Mbits/sec    0   8.71 MBytes
+[  5]  13.00-14.00  sec  41.4 MBytes   347 Mbits/sec    0   19.0 MBytes
+[  5]  14.00-15.00  sec  29.9 MBytes   251 Mbits/sec  5275   5.09 MBytes
+[  5]  15.00-15.19  sec  1.88 MBytes  82.6 Mbits/sec  4904   10.5 MBytes
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-15.19  sec   422 MBytes   233 Mbits/sec  41909            sender
