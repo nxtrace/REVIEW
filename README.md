@@ -1,9 +1,10 @@
 # nanase's REVIEW
 
 这是一个专注于云服务器测评的网站，不定时更新。  
-与我联系（意见/投稿）：[t.me/nanaselog](https://t.me/nanaselog)  
+与我联系（意见/投稿）：[t.me/nanaselog](https://t.me/nanaselog)
 
 ## 网络工具
+
 - [GlobalTrace](https://review.nxtrace.org/globaltrace/)：浏览器里的全球路由追踪工具，可从不同国家、城市、ASN 或 network 发起 trace，适合排查 VPS、CDN、Anycast 和跨境访问路径。也可以直接 [打开工具](https://lg.nxtrace.org/)。
 - [PING 站](https://ping.nxtrace.org/)：提供商家线路的网络历史监控数据。
 
@@ -82,6 +83,7 @@
 </details>
 
 ## 友情链接
+
 - GayHub：[gubo.org](https://www.gubo.org)
 - LowendAFF：[lowendaff.com](https://lowendaff.com)
 - 老咸鱼：[bug.cy](https://www.bug.cy)

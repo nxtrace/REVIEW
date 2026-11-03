@@ -19,10 +19,11 @@ redirect_from:
 <div class="toc-container" markdown="1">
 
 ## 目录
+
 {: .no_toc }
 
-* TOC
-{:toc}
+- TOC
+  {:toc}
 
 </div>
 
@@ -35,13 +36,13 @@ redirect_from:
 ### 规格对照
 
 <details markdown="1">
-<summary>TPE-Home Broadband</summary>
+<summary>TPE-Home Broadband · HiNet</summary>
 
-| 套餐 | vCPU | 内存 | SSD | 流量 | 端口 | 计费 |
-|---|---:|---:|---:|---:|---:|---|
-| HiNet.Mini | 1 vCore | 1 GB | 10 GB | 2000 GB（出站） | 500 Mbps（shared） | $20 / 月（$1 setup） |
-| HiNet.Oolong | 1 vCore | 1 GB | 10 GB | Unlimited Traffic | 500 Mbps（shared） | $35 / 月（$1 setup） |
-| HiNet.Jasmine | 2 vCore | 2 GB | 20 GB | Unlimited Traffic | 1 Gbps（shared） | $65 / 月 |
+| 套餐          |    vCPU | 内存 |   SSD |              流量 |               端口 | 计费                 |
+| ------------- | ------: | ---: | ----: | ----------------: | -----------------: | -------------------- |
+| HiNet.Mini    | 1 vCore | 1 GB | 10 GB |   2000 GB（出站） | 500 Mbps（shared） | $20 / 月（$1 setup） |
+| HiNet.Oolong  | 1 vCore | 1 GB | 10 GB | Unlimited Traffic | 500 Mbps（shared） | $35 / 月（$1 setup） |
+| HiNet.Jasmine | 2 vCore | 2 GB | 20 GB | Unlimited Traffic |   1 Gbps（shared） | $65 / 月             |
 
 > Home broadband, no SLA guarantee, best-effort basis.
 
@@ -52,8 +53,8 @@ redirect_from:
 Jam 的台湾 HiNet 家宽机器，核心价值是 AS3462 / HiNet 原生家宽环境，不是稳定中国优化线路，  
 IP 质量很好，毕竟真 HiNet：IP检测显示台北、原生 IP、家宽属性，TikTok / Disney+ / Netflix / YouTube / ChatGPT 等均为台湾解锁。  
 网络速度也处于正常 HiNet 家宽水平，上传下载都在500Mbps以上没问题。  
-本产品适合流媒体、落地用途，不建议当作稳定回国优化线路买，机器性能尚可，EPYC Milan，磁盘 IO 偏弱。  
-（进[tg群](https://t.me/fuckbjunicom)购买，有神秘 Special Offer）  
+本产品适合流媒体、落地用途，不建议当作稳定回国优化线路买，机器性能尚可，磁盘 IO 偏弱。  
+（进[tg群](https://t.me/fuckbjunicom)购买，有神秘 Special Offer）
 
 ## 测
 
