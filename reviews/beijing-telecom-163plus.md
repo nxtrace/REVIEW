@@ -35,9 +35,11 @@ img.telecom163-tariff {
 }
 </style>
 
-晚高峰访问海外节点，开通北京电信“家庭宽带国际加速服务”（俗称 163Plus）能带来多大改善？本次实测在北京时间 21–23 点对比两条配置相同的家宽，涵盖六组空载 MTR 路由追踪与四组采用 BBR 的单连接 iperf3 反向下载测试。**163Plus 在四条测试路径上的单连接平均下载速率均显著提升，六组 MTR 末跳丢包率均降至 0%–0.6%。各路径的表现仍有差异：末跳 RTT 波动增大，部分节点出现吞吐骤降或密集重传。**
+晚高峰访问海外节点，开通北京电信“家庭宽带国际加速服务”（俗称 163Plus）能带来多大改善？本次实测在北京时间 21–23 点对比两条配置相同的家宽，涵盖六组空载 MTR 路由追踪与四组采用 BBR 的单连接 iperf3 反向下载测试。**实测显示，163Plus 在四条测试路径上的单连接平均下载速率均显著提升，六组 MTR 末跳丢包率均降至 0%–0.6%；但代价与局限也同样清晰：末跳排队抖动（StDev）明显放大，且受制于海外接入段质量，部分路径仍会出现短时断流或高频重传。**
 
 ## 一、业务内容与开通后的变化
+
+北京电信“家庭宽带国际加速服务”（方案编号：**25BJ100098**）的官方资费与规则如下：
 
 - **资费**：30 元/月，首月按天折算，限 200M 及以上 FTTH 家庭宽带办理。
 - **办理与退订**：可通过 10000 号或线下渠道办理，订购后立即生效；可通过营业厅或 10000 号退订，次月生效。
@@ -57,7 +59,7 @@ img.telecom163-tariff {
 
 *图 2：海外下载方向上的 C–I 段*
 
-C–I 段（国内核心层至国际出口层）拥塞是普通 163 家宽晚高峰访问海外的主要瓶颈之一。163Plus 的核心机制是在不改变原有 AS4134 骨干路由的前提下，通过 QoS 提高用户流量在 C–I 段拥塞时的转发优先级与队列待遇。不过，海外流量进入国内前还需经过国际接入层（F）与国际交换层（X/S）。如果瓶颈出在海外上游互联端口（Peering/Transit）或海外 PoP 接入段（X–F），仅靠提升国内 C–I 段的转发优先级并不能拓宽海外侧的可用带宽，也不能改变跨境绕行路径。
+C–I 段拥塞是普通 163 家宽晚高峰访问海外的主要瓶颈之一。163Plus 的核心机制是在不改变原有 AS4134 骨干路由的前提下，通过 QoS 提高用户流量在 C–I 段拥塞时的转发优先级与队列待遇。不过，海外流量进入国内前还需经过国际接入层（F）与国际交换层（X/S）。如果瓶颈出在海外上游互联端口（Peering/Transit）或海外 PoP 接入段（X–F），仅靠提升国内 C–I 段的转发优先级并不能拓宽海外侧的可用带宽，也不能改变跨境绕行路径。
 
 ## 三、测试方法与路径
 
@@ -71,12 +73,12 @@ iperf3 -t 15 -R -c <测试服务器>
 
 | 本文标签 | 实际测试起点与路径 | iperf3 |
 |---|---|---|
-| FRA 163 · AWS FRA | AWS FRA → FRA 接入 163 | 有 |
-| FRA TATA | FRA 节点 → TATA → 163 | 有 |
 | LAX 163 · AWS PDX | AWS PDX → LAX 接入 163 | 有 |
-| FRA Cogent · AWS SIN | AWS SIN → Cogent（经 FRA）→ 163 | 未测 |
-| FRA 163 · AWS LHR | AWS LHR → FRA 接入 163 | 未测 |
+| FRA 163 · AWS FRA | AWS FRA → FRA 接入 163 | 有 |
 | LAX Arelion | LAX 节点 → Arelion → 163 | 有 |
+| FRA TATA | FRA 节点 → TATA → 163 | 有 |
+| FRA 163 · AWS LHR | AWS LHR → FRA 接入 163 | 未测 |
+| FRA Cogent · AWS SIN | AWS SIN → Cogent（经 FRA）→ 163 | 未测 |
 
 </div>
 
@@ -84,55 +86,43 @@ iperf3 -t 15 -R -c <测试服务器>
 
 ## 四、MTR：六组回程路由与逐跳表现
 
-### FRA 163 · AWS FRA
-
-[![FRA 163 · AWS FRA MTR 逐跳对照](/assets/images/beijing-telecom-163plus/mtr-fra-aws.png)](/assets/images/beijing-telecom-163plus/mtr-fra-aws.png)
-
-*图 3：FRA 163 · AWS FRA 回程 MTR，左侧为 163Plus 家宽，右侧为普通家宽。*
-
-两侧第 3 跳同为 AS4134 的 `81.173.22.57`。第 4 跳开始分开，163Plus 经 `202.97.83.161`，普通家宽经 `202.97.58.53`。两侧第 7 跳均进入 AS4847。163Plus 侧的 `219.141.152.62` 显示 99.8% 响应丢包，第 8 跳未响应，第 9 跳目标却是 0.0%。普通家宽侧第 8、9 跳仍有北京网内节点响应，第 10 跳未响应，第 11 跳到达目标，末跳丢包率为 9.9%。
-
-### FRA TATA
-
-[![FRA TATA MTR 逐跳对照](/assets/images/beijing-telecom-163plus/mtr-fra-tata.png)](/assets/images/beijing-telecom-163plus/mtr-fra-tata.png)
-
-*图 4：FRA TATA 回程 MTR，左侧为 163Plus 家宽，右侧为普通家宽。*
-
-xTom 第 2 跳分别为 `a1.cr01.fra01.xtom.de` 和 `a1.cr02.fra01.xtom.de`。两侧随后经过相同的 TATA（AS6453）ecore2、qcore2 节点，第 5 跳均由 `81.173.21.33` 响应。第 6 跳再次分开，分别为 `110.94.123.2` 和 `110.94.123.98`。进入北京 AS4847 后，163Plus 经 `106.37.255.118`、`36.112.226.157`，第 12 跳到达目标；普通家宽经 `106.37.254.102`、`1.203.89.153` 和 `36.112.226.174`，第 14 跳到达目标。
+以下六组回程 MTR 截图中，左侧均为 163Plus 家宽，右侧为普通家宽。各组两条线路使用相同的海外上游和电信国际接入方向，部分具体接口存在分流。国内骨干与北京城域网（AS4847）中出现的不同接口 IP，可由 ECMP 等多路径转发机制解释。163Plus 在六组记录中均比普通家宽少 1–3 跳到达目标。开通后的 CGNAT 改变了末端接入形态，但具体跳数差异仍需结合局端拓扑判断。
 
 ### LAX 163 · AWS PDX
 
 [![LAX 163 · AWS PDX MTR 逐跳对照](/assets/images/beijing-telecom-163plus/mtr-lax-pdx.png)](/assets/images/beijing-telecom-163plus/mtr-lax-pdx.png)
 
-*图 5：LAX 163 · AWS PDX 回程 MTR，左侧为 163Plus 家宽，右侧为普通家宽。*
+两条线路在洛杉矶同经 `218.30.53.149` 与 `202.97.43.109` 入网。第 4 跳近 68% 的响应丢包未延续至后续节点，符合骨干路由器控制面 ICMP 限速的特征。真正拉开差距的是末跳：普通家宽丢包率达 **13.3%**，163Plus 仅为 **0.2%**。
 
-两条路径连续经过第 3 跳 `218.30.53.149` 和第 4 跳 `202.97.43.109`。第 4 跳的响应丢包率分别为 68.9% 和 67.8%，到第 5 跳已分别降至 1.2% 和 0.0%。163Plus 在第 8 跳到达目标，末跳丢包率为 0.2%；普通家宽在第 11 跳到达，末跳为 13.3%。第 4 跳近七成的响应丢包未延续至后续节点，符合骨干路由器控制面 ICMP 限速的特征。真正拉开差距的是进入国内段后的表现。
+### FRA 163 · AWS FRA
 
-### FRA Cogent · AWS SIN
+[![FRA 163 · AWS FRA MTR 逐跳对照](/assets/images/beijing-telecom-163plus/mtr-fra-aws.png)](/assets/images/beijing-telecom-163plus/mtr-fra-aws.png)
 
-[![FRA Cogent · AWS SIN MTR 逐跳对照](/assets/images/beijing-telecom-163plus/mtr-fra-cogent.png)](/assets/images/beijing-telecom-163plus/mtr-fra-cogent.png)
-
-*图 6：FRA Cogent · AWS SIN 回程 MTR，左侧为 163Plus 家宽，右侧为普通家宽。*
-
-起点在 AWS 新加坡。第 4–8 跳的 Cogent 主机名依次出现 `sin01 → mrs02 → par01 → fra05`，其中 `fra05` 连续出现两跳，对应新加坡经马赛、巴黎到法兰克福的方向。两侧第 4–9 跳完全相同，第 9 跳为 AS174 的 `149.11.228.55`，第 10 跳也都经过 `110.94.123.2`。到第 11 跳才出现不同的 AS4134 节点，分别为 `202.97.99.157` 与 `202.97.83.161`。这组按接入 163 前的上游标为 FRA Cogent；后段分别在第 15、17 跳到达目标。
-
-普通家宽末跳丢包率为 **14.9%**（平均 RTT **200.4 ms**），163Plus 降至 **0.6%**（平均 RTT **211.7 ms**）。由于两条线路共用同一套 163 路由体系，新加坡流量均需绕行法兰克福接入电信；163Plus 压低了晚高峰丢包，但物理绕行带来的高基础时延依然存在。
-
-### FRA 163 · AWS LHR
-
-[![FRA 163 · AWS LHR MTR 逐跳对照](/assets/images/beijing-telecom-163plus/mtr-fra-lhr.png)](/assets/images/beijing-telecom-163plus/mtr-fra-lhr.png)
-
-*图 7：FRA 163 · AWS LHR 回程 MTR，左侧为 163Plus 家宽，右侧为普通家宽。*
-
-伦敦起点的两条路径同样在第 3 跳经过 `81.173.22.57`。与图 3 的法兰克福起点对照，四条记录在该节点重合。伦敦样本的第 4 跳分别为 `202.97.83.161` 和 `202.97.88.241`；其中 163Plus 一侧与法兰克福样本连续两跳相同。此后伦敦样本分别经 `202.97.54.53` 与 `202.97.54.65`，最终在第 9、10 跳到达目标。
+两侧在第 3 跳同经电信法兰克福节点 `81.173.22.57`（AS4134）入网，第 4 跳起分流，并于第 7 跳进入北京 AS4847。163Plus 第 7 跳的 99.8% 响应丢包同样未延续至末跳，符合控制面限速的特征。末跳丢包率为 **0.0%**，普通家宽为 **9.9%**。
 
 ### LAX Arelion
 
 [![LAX Arelion MTR 逐跳对照](/assets/images/beijing-telecom-163plus/mtr-lax-arelion.png)](/assets/images/beijing-telecom-163plus/mtr-lax-arelion.png)
 
-*图 8：LAX Arelion 回程 MTR，左侧为 163Plus 家宽，右侧为普通家宽。*
+两侧从 DMIT 网关出发后均经 Arelion（`twelve99.net`）在洛杉矶 `lax-b22` 汇合，并通过同一互联接口（`chinatelecom-ic-368151`）交接至电信 163。两侧各进行约 2,220 次探测，普通家宽末跳丢包率为 **15.3%**，163Plus 为 **0.0%**。
 
-两侧均从 DMIT 网关出发，经 `irb-75.er01.lax.DMIT.com` 进入 Arelion 的 `twelve99.net`。第 4 跳分别为 `lax-bb2` 和 `lax-bb1`，第 5 跳又在 `lax-b22` 汇合，第 6 跳同为 `chinatelecom-ic-368151.ip.twelve99-cust.net`。交接后，163Plus 经 `202.97.93.137`，普通家宽经 `202.97.41.49`，分别在第 12、14 跳到达目标。163Plus 侧首跳响应丢包达 99.7%，但 2,221 次末跳探测的丢包率为 0.0%。
+### FRA TATA
+
+[![FRA TATA MTR 逐跳对照](/assets/images/beijing-telecom-163plus/mtr-fra-tata.png)](/assets/images/beijing-telecom-163plus/mtr-fra-tata.png)
+
+两侧由 xTom 法兰克福出发，经相同的两跳 TATA（AS6453）核心节点后，在第 5 跳统一交接至电信 `81.173.21.33`。普通家宽末跳丢包率为 **13.0%**，163Plus 降至 **0.0%**。
+
+### FRA 163 · AWS LHR
+
+[![FRA 163 · AWS LHR MTR 逐跳对照](/assets/images/beijing-telecom-163plus/mtr-fra-lhr.png)](/assets/images/beijing-telecom-163plus/mtr-fra-lhr.png)
+
+伦敦样本在第 3 跳同样汇聚至法兰克福 `81.173.22.57` 接入 163，与 AWS FRA 样本重合。其中 163Plus 侧在第 3、4 跳与法兰克福样本走向一致。末跳丢包率由普通家宽的 **13.8%** 降至 **0.0%**。
+
+### FRA Cogent · AWS SIN
+
+[![FRA Cogent · AWS SIN MTR 逐跳对照](/assets/images/beijing-telecom-163plus/mtr-fra-cogent.png)](/assets/images/beijing-telecom-163plus/mtr-fra-cogent.png)
+
+起点为 AWS 新加坡，两侧第 4–10 跳完全重合：沿 Cogent（AS174）经马赛（`mrs02`）、巴黎（`par01`）绕行至法兰克福（`fra05`），在第 10 跳经 `110.94.123.2` 接入电信。由于共用同一套 163 路由体系，163Plus 虽然将晚高峰末跳丢包从 **14.9%** 压低至 **0.6%**，但无法改变新加坡绕行欧洲的物理路径，平均 RTT 依然高达 **211.7 ms**（普通家宽为 **200.4 ms**）。
 
 ### 六组末跳对照
 
@@ -140,22 +130,22 @@ xTom 第 2 跳分别为 `a1.cr01.fra01.xtom.de` 和 `a1.cr02.fra01.xtom.de`。�
 
 | 路径 | 线路 | Loss% | Snt | Avg / ms | StDev / ms |
 |---|---|---|---|---|---|
-| FRA 163 · AWS FRA | 163Plus 家宽 | 0.0% | 608 | 191.7 | 76.5 |
-| FRA 163 · AWS FRA | 普通家宽 | 9.9% | 608 | 150.3 | 0.2 |
-| FRA TATA | 163Plus 家宽 | 0.0% | 1631 | 161.7 | 33.4 |
-| FRA TATA | 普通家宽 | 13.0% | 1634 | 167.6 | 1.1 |
 | LAX 163 · AWS PDX | 163Plus 家宽 | 0.2% | 503 | 179.5 | 27.2 |
 | LAX 163 · AWS PDX | 普通家宽 | 13.3% | 503 | 181.2 | 0.4 |
-| FRA Cogent · AWS SIN | 163Plus 家宽 | 0.6% | 505 | 211.7 | 30.9 |
-| FRA Cogent · AWS SIN | 普通家宽 | 14.9% | 504 | 200.4 | 2.1 |
-| FRA 163 · AWS LHR | 163Plus 家宽 | 0.0% | 528 | 180.4 | 39.3 |
-| FRA 163 · AWS LHR | 普通家宽 | 13.8% | 529 | 166.4 | 0.7 |
+| FRA 163 · AWS FRA | 163Plus 家宽 | 0.0% | 608 | 191.7 | 76.5 |
+| FRA 163 · AWS FRA | 普通家宽 | 9.9% | 608 | 150.3 | 0.2 |
 | LAX Arelion | 163Plus 家宽 | 0.0% | 2221 | 182.3 | 46.6 |
 | LAX Arelion | 普通家宽 | 15.3% | 2220 | 167.1 | 0.3 |
+| FRA TATA | 163Plus 家宽 | 0.0% | 1631 | 161.7 | 33.4 |
+| FRA TATA | 普通家宽 | 13.0% | 1634 | 167.6 | 1.1 |
+| FRA 163 · AWS LHR | 163Plus 家宽 | 0.0% | 528 | 180.4 | 39.3 |
+| FRA 163 · AWS LHR | 普通家宽 | 13.8% | 529 | 166.4 | 0.7 |
+| FRA Cogent · AWS SIN | 163Plus 家宽 | 0.6% | 505 | 211.7 | 30.9 |
+| FRA Cogent · AWS SIN | 普通家宽 | 14.9% | 504 | 200.4 | 2.1 |
 
 </div>
 
-以 AWS FRA 为例，两条线路各发送 608 次探测。普通家宽末跳丢包率为 9.9%，成功返回的样本平均 RTT 为 150.3 ms，StDev 仅 0.2 ms。163Plus 末跳丢包率为 0.0%，但 RTT 分布在 132.6–539.5 ms 之间，StDev 达 76.5 ms。其余五组趋势相同。六组汇总，普通家宽末跳丢包率为 **9.9%–15.3%**，StDev 为 **0.2–2.1 ms**；163Plus 有四组末跳丢包清零，其余两组为 **0.2% 和 0.6%**，六组 StDev 均升至 **27.2–76.5 ms** 范围内。
+汇总六组末跳数据，两类流量呈现出鲜明的**“高丢包、低抖动”与“低丢包、高抖动”**反差：普通家宽末跳丢包率高达 **9.9%–15.3%**，但成功返回样本的 StDev 仅为 **0.2–2.1 ms**。163Plus 有四组末跳丢包清零（另两组仅 **0.2%** 和 **0.6%**），但六组 StDev 全部升至 **27.2–76.5 ms**。例如 AWS FRA 的单次探测最高 RTT 达 539.5 ms，拉高了整体均值与离散度。
 
 这种“高丢包、低抖动”与“低丢包、高抖动”的反差，符合两类流量在晚高峰拥塞点受到不同队列处理的特征。普通家宽若触发硬限速（Policing）或尾部丢包（Tail Drop），超限或遇到队满的探测包会被直接丢弃，不计入 RTT 统计。成功返回的探测包若未经历深队列等待，StDev 就会很低。163Plus 若获得更高的调度优先级或更深的队列缓冲（Buffer），原本会被丢弃的包便有机会等到转发。这能减少末跳丢包，也会让排队较久的响应进入 RTT 统计。各次探测的排队时延（Queuing Delay）相差越大，StDev 就越高。
 
@@ -172,11 +162,9 @@ xTom 第 2 跳分别为 `a1.cr01.fra01.xtom.de` 和 `a1.cr02.fra01.xtom.de`。�
 
 </div>
 
-### LAX 163：AWS PDX 起点
+### LAX 163 · AWS PDX
 
 ![AWS PDX 经 LAX 163 的逐区间发送速率与重传](/assets/images/beijing-telecom-163plus/01-iperf-lax-163.png)
-
-*图 9：LAX 163（AWS PDX）逐秒发送速率与重传对比*
 
 ```text
 【163Plus 家宽】
@@ -198,11 +186,9 @@ xTom 第 2 跳分别为 `a1.cr01.fra01.xtom.de` 和 `a1.cr02.fra01.xtom.de`。�
 
 普通家宽约 15 秒仅发送 256 KiB，分布在两个完整的一秒区间，每个区间 128 KiB。163Plus 在第一秒后维持 107–138 Mbps，全程零重传。两条线路平均速率分别为 **0.138 Mbps 和 114 Mbps**。从日志末列的拥塞窗口（Cwnd）看，163Plus 从第 2 秒起稳定在 6.50 MiB，普通家宽则反复重传，Cwnd 始终只有 1.41–9.84 KiB。
 
-### FRA 163：AWS FRA 起点
+### FRA 163 · AWS FRA
 
 ![AWS FRA 经 FRA 163 的逐区间发送速率与重传](/assets/images/beijing-telecom-163plus/02-iperf-fra-163.png)
-
-*图 10：FRA 163（AWS FRA）逐秒发送速率与重传对比*
 
 ```text
 【163Plus 家宽】
@@ -228,13 +214,11 @@ xTom 第 2 跳分别为 `a1.cr01.fra01.xtom.de` 和 `a1.cr02.fra01.xtom.de`。�
 [  5]   0.00-15.15  sec   768 KBytes   415 Kbits/sec   50            sender
 ```
 
-163Plus 全程均值 **78.6 Mbps**，但传输过程出现明显断档：2–8 秒维持在 141–170 Mbps，8–9 秒降至 35.7 Mbps（Cwnd 从 3.18 MiB 骤降至 1.41 KiB），随后连续两秒发送量为 0 Bytes。12–13 秒速率为 10.5 Mbps，单秒重传 634 次；14–15 秒回升至 79.7 Mbps。普通家宽全程平均 **0.415 Mbps**。
+163Plus 全程均值 **78.6 Mbps**（普通家宽仅 **0.415 Mbps**），但中途出现明显断流：第 2–8 秒速率维持在 141–170 Mbps，第 8–9 秒期间，`Cwnd` 从 `3.18 MiB` 骤降至 `1.41 KiB`（约 1 个 MSS），随后连续两秒发送量归零。窗口收缩到这一水平后，可维持的在途数据量极低，11–14 秒间仍伴随上千次重传缓慢恢复窗口。
 
 ### LAX Arelion
 
 ![LAX Arelion 的逐区间发送速率与重传](/assets/images/beijing-telecom-163plus/03-iperf-lax-arelion.png)
-
-*图 11：LAX Arelion 逐秒发送速率与重传对比*
 
 ```text
 【163Plus 家宽】
@@ -262,13 +246,11 @@ xTom 第 2 跳分别为 `a1.cr01.fra01.xtom.de` 和 `a1.cr02.fra01.xtom.de`。�
 [  5]   0.00-15.37  sec   384 KBytes   205 Kbits/sec   49            sender
 ```
 
-163Plus 的 417 次重传集中在两个区间：5–6 秒有 153 次，11–12 秒有 264 次。对应发送速率仍有 152 和 137 Mbps，两个区间均未出现发送停顿。163Plus 全程平均 **138 Mbps**，普通家宽 **0.205 Mbps**。
+163Plus 全程平均 **138 Mbps**（普通家宽 **0.205 Mbps**）。与 AWS FRA 不同的是，尽管 163Plus 在第 5–6 秒和 11–12 秒分别出现 153 次和 264 次重传，但 BBR 的 `Cwnd` 仅从 `7.95 MiB` 先后回调至 `5.59 MiB` 和 `3.91 MiB`。按该路径约 180 ms RTT 估算，维持 100 Mbps 吞吐所需的带宽时延积（BDP）约为 2.15 MiB，窗口仍高于这一水平。两个重传区间的速率分别为 152 和 137 Mbps，未出现发送停顿。
 
 ### FRA TATA
 
 ![FRA TATA 的逐区间发送速率与重传](/assets/images/beijing-telecom-163plus/04-iperf-fra-tata.png)
-
-*图 12：FRA TATA 逐秒发送速率与重传对比*
 
 ```text
 【163Plus 家宽】
